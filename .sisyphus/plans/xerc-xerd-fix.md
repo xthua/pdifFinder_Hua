@@ -1137,7 +1137,7 @@ Wave FINAL (Verification - After ALL tasks):
   - Files: `pdifFinder/pdifFinder.py`
   - Pre-commit: `python -m pytest tests/test_thread_safety.py`
 
-- [ ] 13. Implement whole plasmid scanning
+- [x] 13. Implement whole plasmid scanning
 
   **What to do**:
   - Modify algorithm to scan entire plasmid sequences instead of just feature-end fragments
@@ -1204,7 +1204,7 @@ Wave FINAL (Verification - After ALL tasks):
   - Files: `pdifFinder/pdifFinder.py`
   - Pre-commit: `python -m pytest tests/test_whole_plasmid.py`
 
-- [ ] 14. Optimize scanning algorithm for performance
+- [x] 14. Optimize scanning algorithm for performance
 
   **What to do**:
   - Implement performance optimizations (Boyer-Moore, sliding window optimizations)

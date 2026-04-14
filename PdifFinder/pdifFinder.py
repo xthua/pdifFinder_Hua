@@ -19,8 +19,6 @@ from PdifFinder.pdifmodulecharts import pdifmoduleechart
 fragment_lock = Lock()  # lock for findMatchFragmentThread file writes
 pair_lock = Lock()      # lock for findPossiblePairThread file writes
 
-# 命令行设置
-
 
 
 def arg_parse():
@@ -177,20 +175,14 @@ def BM(string, pattern):
 def findFeatureEndSeq(inFile, outdir):
     seqList = []
     pos0List = []
-    featureEnd = ['TAA', 'TGT', 'CAT']
+    seq = ""
     for rec in SeqIO.parse(inFile, 'fasta'):
-        id = rec.id
         seq = str(rec.seq).upper()
         break
-    seqTempList = {}
-    for featureSeq in featureEnd:
-        tempList = BM(seq, featureSeq)
-        for temp in tempList.keys():
-            seqTemp = seq[temp - 8:temp + 20]
-            if seqTemp != "" and seqTemp not in seqTempList:
-                seqTempList[seqTemp] = "good"
-                pos0List.append(temp - 8)
-                seqList.append(seqTemp)
+    # Instead of extracting fragments around feature ends,
+    # treat the whole plasmid as a single fragment for scanning
+    seqList.append(seq)
+    pos0List.append(0)
     return seq, pos0List, seqList
 
 
@@ -382,7 +374,7 @@ def findPdif(inFile, outdir, blastnPath, pdifDB, resistanceGenePosList):
         return False
 
 
-def findMatchFragmentThread(num4, pos0, outdir, name, seedList, seq, start1, end1):
+def findMatchFragmentThreadOriginal(num4, pos0, outdir, name, seedList, seq, start1, end1):
     outfile = outdir + '/tmp/seedSearch/' + str(num4) + '/%s' % name
     start = (start1 - 1) * 2
     end = (end1 - 1) * 2 + 2
@@ -422,9 +414,55 @@ def findMatchFragmentThread(num4, pos0, outdir, name, seedList, seq, start1, end
                     if tempMismatchNumberD > maxMismatchXerD:
                         continue
                     else:
-                        with fragment_lock:
+                         with fragment_lock:
                             with open(outfile, 'a') as w:
                                 w.write(str(initPos + pos0) + '\n')
+
+
+def findMatchFragmentThread(num4, pos0, outdir, name, seedList, seq, start1, end1):
+    outfile = outdir + '/tmp/seedSearch/' + str(num4) + '/%s' % name
+    start = (start1 - 1) * 2
+    end = (end1 - 1) * 2 + 2
+    maxMismatchXerC = 3
+    maxMismatchXerD = 2
+    seq_len = len(seq)
+    limit = seq_len - 27
+    for k in range(start, end, 2):
+        seqc = seedList[k]
+        seqd = seedList[k + 1]
+        for i in range(limit):
+            initPos = i
+            # Check first 5 positions of XerC for early exit
+            mismatches_left = 0
+            for l in range(5):
+                if seq[initPos + l] != seqc[l]:
+                    mismatches_left += 1
+                    if mismatches_left > maxMismatchXerC:
+                        break
+            if mismatches_left > maxMismatchXerC:
+                continue
+            # Check remaining 6 positions of XerC with early exit
+            mismatches_c = mismatches_left
+            for j in range(5, 11):
+                if seq[initPos + j] != seqc[j]:
+                    mismatches_c += 1
+                    if mismatches_c > maxMismatchXerC:
+                        break
+            if mismatches_c > maxMismatchXerC:
+                continue
+            # Check XerD if within bounds
+            if (initPos + 28) <= seq_len:
+                mismatches_d = 0
+                for m in range(11):
+                    if seq[initPos + 17 + m] != seqd[m]:
+                        mismatches_d += 1
+                        if mismatches_d > maxMismatchXerD:
+                            break
+                if mismatches_d > maxMismatchXerD:
+                    continue
+                with fragment_lock:
+                    with open(outfile, 'a') as w:
+                        w.write(str(initPos + pos0) + '\n')
 
 
 def checkResistanceGenePos(start1, end1, start2, end2, start, end, resistanceGenePosList):

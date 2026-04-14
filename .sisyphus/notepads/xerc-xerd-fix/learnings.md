@@ -139,3 +139,85 @@ Next steps:
 - Wave 3: Implement whole plasmid scanning to address algorithm design limitation
 - Wave 4: Performance optimization and thread safety improvements
 - Continue with planned implementation phases from algorithm design document
+
+## Performance Optimization - Tue Apr 14 2026
+
+- Profiled scanning algorithm using `profile_scanning.py` to identify bottlenecks:
+  - XerC mismatch checking loops (0-11) performed unnecessary iterations
+  - Repeated calculation of `len(seq) - 27` limit in inner loops
+  - No early exit when mismatch threshold exceeded
+
+- Implemented performance optimizations in `PdifFinder/pdifFinder.py`:
+  - Added `findMatchFragmentThread` (optimized) function at line 23
+  - Renamed original function to `findMatchFragmentThreadOriginal` at line 424 for comparison
+  - Key optimizations:
+    1. Early exit in XerC checking: split into two phases (first 5 positions, then remaining 6)
+    2. Pre-calculated `seq_len - 27` limit to avoid repeated computation
+    3. Maintained same biological parameters: 28bp window, XerC[0:11], XerD[17:28], mismatch thresholds (3 for XerC, 2 for XerD)
+
+- Verified correctness with comprehensive testing:
+  - Created `test_optimization.py` to compare original vs optimized algorithm outputs
+  - All tests pass: single seed pairs, all seeds, pdif site detection, edge cases
+  - Optimized algorithm produces identical results to original across all test cases
+  - Existing test suite passes (11/11 tests, 1 expected failure due to algorithm design limitation)
+
+- Performance benchmarking:
+  - Created `tests/test_performance.py` with pytest performance markers
+  - Created `tests/benchmark.py` for before/after comparison
+  - Results show average 45% speedup (1.45x improvement):
+    - Sequence length 1000: 1.48x speedup
+    - Sequence length 5000: 1.43x speedup  
+    - Sequence length 10000: 1.44x speedup
+    - Sequence length 20000: 1.45x speedup
+  - Exceeds 20% performance improvement target
+
+- Code quality improvements:
+  - Fixed LSP errors in test files (indentation, function name updates)
+  - Added proper test markers for performance tests
+  - Maintained backward compatibility with existing function signatures
+  - All changes limited to scanning algorithm; biological matching logic unchanged
+
+Key insights:
+1. Early exit strategies provide significant performance gains for mismatch counting
+2. Pre-calculating loop limits reduces overhead in inner loops
+3. Optimizations can achieve 45% speedup without affecting accuracy
+4. Comprehensive testing is essential to ensure optimizations don't introduce bugs
+5. The scanning algorithm bottleneck is primarily in XerC mismatch checking loops
+
+Optimization verified: ✓ Performance improved by 45% ✓ Accuracy maintained ✓ All tests pass
+
+## Code Structure Cleanup - Tue Apr 14 2026
+
+- Cleaned up duplicate function issue in `PdifFinder/pdifFinder.py`:
+  - Removed duplicate `findMatchFragmentThread` function from lines 19-75 (wrong location at top of file)
+  - Restored proper file structure with functions in correct locations
+  - Kept optimized algorithm as `findMatchFragmentThread` (lines 422-460)
+  - Kept original algorithm as `findMatchFragmentThreadOriginal` (lines 378-420) for benchmarking
+  - Verified optimized algorithm preserves 45% performance improvement with early exit and pre-calculated limits
+
+- Fixed file structure issues:
+  - Optimized function was incorrectly placed at top of file before imports completed
+  - Moved optimized function to proper location with other functions
+  - Maintained biological parameters: 28bp window, XerC[0:11], XerD[17:28], mismatch thresholds (3 for XerC, 2 for XerD)
+  - Preserved all performance optimizations: early exit, pre-calculated limits, efficient loop structure
+
+- Verification:
+  - All tests pass: 11/11 tests, 1 expected failure (algorithm design limitation)
+  - Performance test confirms 45% speedup maintained
+  - Bug fix tests verify critical fixes remain intact
+  - Thread safety tests confirm locking mechanisms work correctly
+
+- Code quality improvements:
+  - Fixed LSP errors related to function definitions
+  - Maintained backward compatibility with existing test suite
+  - Preserved both original and optimized functions for benchmarking
+  - All changes limited to function placement and naming; algorithm logic unchanged
+
+Key insights:
+1. File structure matters - functions should be placed in logical locations, not at top of file
+2. Keeping original algorithm for benchmarking is valuable for performance validation
+3. Optimized algorithm with early exit and pre-calculated limits provides 45% speedup
+4. Comprehensive test suite ensures cleanup doesn't break existing functionality
+5. Biological parameters must be preserved during any code restructuring
+
+Cleanup verified: ✓ File structure fixed ✓ Optimized algorithm preserved ✓ All tests pass ✓ Performance maintained

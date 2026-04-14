@@ -27,6 +27,33 @@
       "agent": "Sisyphus-Junior",
       "category": "deep",
       "updated_at": "2026-04-14T14:25:38.295Z"
+    },
+    "todo:13": {
+      "task_key": "todo:13",
+      "task_label": "13",
+      "task_title": "Implement whole plasmid scanning",
+      "session_id": "ses_273982610ffeRJXBgy4FJbqWUG",
+      "agent": "Sisyphus-Junior",
+      "category": "deep",
+      "updated_at": "2026-04-14T15:01:49.915Z"
+    },
+    "todo:14": {
+      "task_key": "todo:14",
+      "task_label": "14",
+      "task_title": "Optimize scanning algorithm for performance",
+      "session_id": "ses_27376832cffel1dlZYbHUi5Qm5",
+      "agent": "Sisyphus-Junior",
+      "category": "deep",
+      "updated_at": "2026-04-14T15:38:34.242Z"
+    },
+    "todo:15": {
+      "task_key": "todo:15",
+      "task_label": "15",
+      "task_title": "Add comprehensive test coverage",
+      "session_id": "ses_2735959cfffesi3gl0jc7z4vd4",
+      "agent": "Sisyphus-Junior",
+      "category": "quick",
+      "updated_at": "2026-04-14T15:49:20.706Z"
     }
   }
 }
