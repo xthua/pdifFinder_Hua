@@ -8,7 +8,7 @@ from Bio import SeqIO
 import subprocess
 import shutil
 from collections import OrderedDict
-from threading import Thread
+from threading import Thread, Lock
 from Bio.Seq import Seq
 import math
 import time
@@ -16,6 +16,8 @@ import time
 from PdifFinder.angularPlasmid import angularPlasmid
 #from echarts import echartsSequence
 from PdifFinder.pdifmodulecharts import pdifmoduleechart
+fragment_lock = Lock()  # lock for findMatchFragmentThread file writes
+pair_lock = Lock()      # lock for findPossiblePairThread file writes
 
 # 命令行设置
 
@@ -420,8 +422,9 @@ def findMatchFragmentThread(num4, pos0, outdir, name, seedList, seq, start1, end
                     if tempMismatchNumberD > maxMismatchXerD:
                         continue
                     else:
-                        with open(outfile, 'a') as w:
-                            w.write(str(initPos + pos0) + '\n')
+                        with fragment_lock:
+                            with open(outfile, 'a') as w:
+                                w.write(str(initPos + pos0) + '\n')
 
 
 def checkResistanceGenePos(start1, end1, start2, end2, start, end, resistanceGenePosList):
@@ -524,8 +527,9 @@ def findPossiblePairThread(outdir, name, possiblePdifSiteSeqList, batchList, sta
             pairList.append(pos2)
 
     for i in range(0, len(pairList), 2):
-        with open(outdir + '/tmp/pairSearch/%s' % name, 'a') as w:
-            w.write(str(pairList[i]) + ' ' + str(pairList[i + 1]) + '\n')
+        with pair_lock:
+            with open(outdir + '/tmp/pairSearch/%s' % name, 'a') as w:
+                w.write(str(pairList[i]) + ' ' + str(pairList[i + 1]) + '\n')
 
 
 def reverComplement(seq):
