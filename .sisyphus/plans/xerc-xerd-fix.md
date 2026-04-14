@@ -57,11 +57,11 @@ Fix the XerC/XerD annotation algorithm to correctly detect pdif sites throughout
 5. Updated documentation if needed
 
 ### Definition of Done
-- [ ] `pytest tests/` runs all tests successfully (100% pass)
-- [ ] Algorithm detects pdif sites at known positions in synthetic test sequences
-- [ ] Algorithm scans entire plasmid sequences (not just first position or feature ends)
-- [ ] All identified bugs (lines 393, 417, 474, etc.) are fixed
-- [ ] Code quality improvements applied (spelling, variable conflicts, redundancy)
+- [x] `pytest tests/` runs all tests successfully (100% pass)
+- [x] Algorithm detects pdif sites at known positions in synthetic test sequences
+- [x] Algorithm scans entire plasmid sequences (not just first position or feature ends)
+- [x] All identified bugs (lines 393, 417, 474, etc.) are fixed
+- [x] Code quality improvements applied (spelling, variable conflicts, redundancy)
 
 ### Must Have
 1. Fix critical bug: line 393 `for i in range(1):` → `for i in range(len(seq) - 27):`
@@ -1313,7 +1313,7 @@ Wave FINAL (Verification - After ALL tasks):
   **If TDD (tests enabled):**
   - [ ] Test coverage > 80% for modified `pdifFinder.py` functions
   - [ ] `python -m pytest tests/ --cov=pdifFinder --cov-report=term-missing` shows adequate coverage
-  - [ ] All tests pass
+- [x] All tests pass
 
   **QA Scenarios (MANDATORY - task is INCOMPLETE without these):**
 
@@ -1535,7 +1535,7 @@ Wave FINAL (Verification - After ALL tasks):
 
 > 4 review agents run in PARALLEL. ALL must APPROVE. Present consolidated results to user and get explicit "okay" before completing.
 
-- [ ] F1. **Plan Compliance Audit** — `oracle`
+- [x] F1. **Plan Compliance Audit** — `oracle`
   Read the plan end-to-end. For each "Must Have": verify implementation exists (read file, curl endpoint, run command). For each "Must NOT Have": search codebase for forbidden patterns — reject with file:line if found. Check evidence files exist in .sisyphus/evidence/. Compare deliverables against plan.
   Output: `Must Have [N/N] | Must NOT Have [N/N] | Tasks [N/N] | VERDICT: APPROVE/REJECT`
 
@@ -1578,9 +1578,9 @@ python tests/validate_scanning.py
 ```
 
 ### Final Checklist
-- [ ] All "Must Have" present
-- [ ] All "Must NOT Have" absent
-- [ ] All tests pass
-- [ ] Algorithm scans entire plasmids
-- [ ] Critical bugs fixed
-- [ ] Test framework established
+- [x] All "Must Have" present
+- [x] All "Must NOT Have" absent
+- [x] All tests pass
+- [x] Algorithm scans entire plasmids
+- [x] Critical bugs fixed
+- [x] Test framework established
