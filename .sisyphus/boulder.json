@@ -1,41 +1,23 @@
 {
   "active_plan": "/work/.sisyphus/plans/xerc-xerd-fix.md",
-  "started_at": "2026-04-14T11:36:45.422Z",
+  "started_at": "2026-04-14T13:15:32.299Z",
   "session_ids": [
-    "ses_2753cf248ffelk8FPtp9ItlNaq"
+    "ses_273ddfe9affefrFQWPl78g90Oa"
   ],
   "session_origins": {
-    "ses_2753cf248ffelk8FPtp9ItlNaq": "direct"
+    "ses_273ddfe9affefrFQWPl78g90Oa": "direct"
   },
   "plan_name": "xerc-xerd-fix",
   "agent": "atlas",
   "task_sessions": {
-    "todo:1": {
-      "task_key": "todo:1",
-      "task_label": "1",
-      "task_title": "Set up pytest test framework",
-      "session_id": "ses_274368ed2ffe9qaTeIZA0Tkua2",
+    "todo:7": {
+      "task_key": "todo:7",
+      "task_label": "7",
+      "task_title": "Fix critical bug (line 393 loop range)",
+      "session_id": "ses_273d9f96fffeYVKlQ19gIx2U4V",
       "agent": "Sisyphus-Junior",
-      "category": "quick",
-      "updated_at": "2026-04-14T11:42:07.826Z"
-    },
-    "todo:2": {
-      "task_key": "todo:2",
-      "task_label": "2",
-      "task_title": "Create synthetic test sequences",
-      "session_id": "ses_27430b162ffetzb7bpLveA1PD7",
-      "agent": "Sisyphus-Junior",
-      "category": "quick",
-      "updated_at": "2026-04-14T11:49:39.199Z"
-    },
-    "todo:3": {
-      "task_key": "todo:3",
-      "task_label": "3",
-      "task_title": "Create validation utilities",
-      "session_id": "ses_27428bd20ffejYDzH3nrAR6yQO",
-      "agent": "Sisyphus-Junior",
-      "category": "quick",
-      "updated_at": "2026-04-14T12:09:30.240Z"
+      "category": "deep",
+      "updated_at": "2026-04-14T13:49:55.886Z"
     }
   }
 }

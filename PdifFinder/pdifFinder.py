@@ -388,36 +388,36 @@ def findMatchFragmentThread(num4, pos0, outdir, name, seedList, seq, start1, end
         seqc = seedList[k]
         seqd = seedList[k + 1]
         posList = []
-        maxMistachXerC = 3
-        maxMistachXerD = 2
-        for i in range(1):
+        maxMismatchXerC = 3
+        maxMismatchXerD = 2
+        for i in range(len(seq) - 27):
             initPos = i
             endPos = i + 11
             tempSeqC = seq[initPos:endPos]
 
-            tempMistachNumberC = 0
-            tempMistachNumberD = 0
-            tempMistachNumberCLeft = 0
+            tempMismatchNumberC = 0
+            tempMismatchNumberD = 0
+            tempMismatchNumberCLeft = 0
             for l in range(5):
                 if tempSeqC[l] != seqc[l]:
-                    tempMistachNumberCLeft = tempMistachNumberCLeft + 1
-            if tempMistachNumberCLeft > maxMistachXerC:
-                tempMistachNumberC = -1
+                    tempMismatchNumberCLeft = tempMismatchNumberCLeft + 1
+            if tempMismatchNumberCLeft > maxMismatchXerC:
+                tempMismatchNumberC = -1
                 continue
             else:
                 for j in range(11):
                     if tempSeqC[j] != seqc[j]:
-                        tempMistachNumberC = tempMistachNumberC + 1
+                         tempMismatchNumberC = tempMismatchNumberC + 1
 
-            if tempMistachNumberC > maxMistachXerC:
+            if tempMismatchNumberC > maxMismatchXerC:
                 continue
             else:
                 if (endPos + 17) <= len(seq):
                     tempSeqD = seq[initPos + 17:endPos + 17]
-                    for k in range(11):
-                        if tempSeqD[k] != seqd[k]:
-                            tempMistachNumberD = tempMistachNumberD + 1
-                    if tempMistachNumberD > maxMistachXerD:
+                    for m in range(11):
+                         if tempSeqD[m] != seqd[m]:
+                            tempMismatchNumberD = tempMismatchNumberD + 1
+                    if tempMismatchNumberD > maxMismatchXerD:
                         continue
                     else:
                         with open(outfile, 'a') as w:
@@ -471,7 +471,7 @@ def findPossiblePair(possiblePdifSiteSeqList, outdir):
     if batchLength < batch:
         batch = batchLength
     batchNumber = math.floor(batchLength / batch)
-    restNumber = batchLength - 50 * batchNumber
+    restNumber = batchLength - batch * batchNumber
     threadList = []
     for i in range(1, batch + 1, 1):
         start = (i - 1) * batchNumber
@@ -500,8 +500,8 @@ def findPossiblePair(possiblePdifSiteSeqList, outdir):
 
 def findPossiblePairThread(outdir, name, possiblePdifSiteSeqList, batchList, start, end):
     pairList = []
-    maxMistachCD = 4
-    maxMistachDC = 6
+    maxMismatchCD = 4
+    maxMismatchDC = 6
     for i in range(start, end + 1):
 
         pos1 = int(batchList[i].split('-')[0])
@@ -514,12 +514,12 @@ def findPossiblePairThread(outdir, name, possiblePdifSiteSeqList, batchList, sta
         seqD2 = possiblePdifSiteSeqList[pos2].split('|')[1]
         misMatch1 = compareTwoSeq(reverCompleteSeqC1, seqD2)
         misMatch2 = compareTwoSeq(reverCompleteSeqD1, seqC2)
-        misMatch3 = compareTwoSeq(reverCompleteSeqD1, seqC2)
-        misMatch4 = compareTwoSeq(reverCompleteSeqC1, seqD2)
-        if misMatch1 <= maxMistachCD and misMatch2 <= maxMistachDC:
+
+
+        if misMatch1 <= maxMismatchCD and misMatch2 <= maxMismatchDC:
             pairList.append(pos1)
             pairList.append(pos2)
-        if misMatch3 <= maxMistachDC and misMatch4 <= maxMistachCD:
+        if misMatch2 <= maxMismatchCD and misMatch1 <= maxMismatchDC:
             pairList.append(pos1)
             pairList.append(pos2)
 
