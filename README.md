@@ -1,9 +1,8 @@
 # PdifFinder
-Author:     Shao Mengjie; Liang Qian
+Author:     Shao Mengjie; Liang Qian; Xiaoting Hua
 
-Email:      1437819081@qq.com; norah-liang@dmicrobe.com
+Email:      1437819081@qq.com; norah-liang@dmicrobe.com; xiaotinghua@zju.edu.cn
 
-Institute:  Hangzhou Digital-Micro Biotech Co.,Ltd
 
 This program is designed for annotation of antimicrobal resistance(AMR), pdif site and pdif-ARGs module in bacteria.
 
