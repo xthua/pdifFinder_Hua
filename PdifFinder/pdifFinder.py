@@ -209,6 +209,7 @@ def findPdif(inFile, outdir, blastnPath, pdifDB, resistanceGenePosList):
         seedList.append(XerD)
         seedList.append(XerC)
     posList = []
+    posOrientDict = {}
     possiblePdifSiteDict = OrderedDict()
     possiblePdifSiteSeqList = []
     seq, pos0List, seqList = findFeatureEndSeq(inFile, outdir)
@@ -240,6 +241,28 @@ def findPdif(inFile, outdir, blastnPath, pdifDB, resistanceGenePosList):
                 thread.start()
             for thread in threadList:
                 thread.join()
+        rev_seq = str(Seq(seq).reverse_complement())
+        rev_num4 = 1
+        rev_pos0 = 0
+        if not os.path.exists(outdir + '/tmp/seedSearch/' + str(rev_num4)):
+            os.mkdir(outdir + '/tmp/seedSearch/' + str(rev_num4))
+        rev_threadList = []
+        batch = 1
+        rev_seedListPairLength = int(len(seedList) / 2)
+        if rev_seedListPairLength < batch: batch = rev_seedListPairLength
+        rev_batchNumber = math.floor(rev_seedListPairLength / batch)
+        rev_restNumber = rev_seedListPairLength - rev_batchNumber * batch
+        for i in range(1, batch + 1, 1):
+            start = (i - 1) * rev_batchNumber + 1; end = start + rev_batchNumber - 1
+            p = Thread(target=findMatchFragmentThread, args=(rev_num4, rev_pos0, outdir, i, seedList, rev_seq, start, end,))
+            rev_threadList.append(p)
+        if rev_restNumber != 0:
+            p1 = Thread(target=findMatchFragmentThread, args=(rev_num4, rev_pos0, outdir, batch + 1, seedList, rev_seq, rev_seedListPairLength - rev_restNumber + 1, rev_seedListPairLength,))
+            rev_threadList.append(p1)
+        for thread in rev_threadList:
+            thread.start()
+        for thread in rev_threadList:
+            thread.join()
         for file in os.listdir(outdir + '/tmp/seedSearch/'):
             indir = outdir + '/tmp/seedSearch/' + file
             for file1 in os.listdir(indir):
@@ -249,21 +272,49 @@ def findPdif(inFile, outdir, blastnPath, pdifDB, resistanceGenePosList):
                 for line in lines:
                     line = line.strip()
                     if line:
-                        posList.append(int(line))
+                        parts = line.split('|')
+                        pos = int(parts[0])
+                        orient = parts[1] if len(parts) > 1 else None
+                        score = int(parts[2]) if len(parts) > 2 else 99
+                        if file != '0':
+                            pos = (len(seq) - pos - 28) % len(seq)
+                            if orient == 'CD': orient = 'DC'
+                            elif orient == 'DC': orient = 'CD'
+                        posList.append(pos)
+                        if orient and pos not in posOrientDict:
+                            posOrientDict[pos] = {}
+                        if orient:
+                            posOrientDict[pos][orient] = min(score, posOrientDict[pos].get(orient, 99))
                 f.close()
         if posList != []:
             with open(possiblePdifSiteOutfile, 'w') as w:
                 w.write('')
             i = 0
             newPosList = sorted(list(set(posList)))
+            mergedPosList = []
+            for pos in newPosList:
+                if mergedPosList and pos - mergedPosList[-1] <= 2:
+                    if pos in posOrientDict:
+                        old_score = min(posOrientDict[mergedPosList[-1]].values()) if mergedPosList[-1] in posOrientDict and posOrientDict[mergedPosList[-1]] else 99
+                        new_score = min(posOrientDict[pos].values()) if posOrientDict[pos] else 99
+                        if new_score < old_score:
+                            mergedPosList[-1] = pos
+                else:
+                    mergedPosList.append(pos)
+            newPosList = mergedPosList
             newPosList1 = []
             for pos in newPosList:
+                orientations = posOrientDict.get(pos, {})
+                if orientations:
+                    orient = min(orientations, key=orientations.get)
+                else:
+                    orient = 'CD'
                 seqC = seq[pos:pos + 11]
                 seqD = seq[pos + 17:pos + 28]
                 seqSpacer = seq[pos + 11:pos + 17]
-                seqCD = seqC + '|' + seqD
+                seqCD = seqC + '|' + seqD + '|' + seqSpacer
                 possiblePdifSiteSeqList.append(seqCD)
-                possiblePdifSiteDict[i] = str(pos + 1) + '|' + str(pos + 28) + '|' + seqC + '|' + seqD + '|' + seqSpacer
+                possiblePdifSiteDict[i] = str(pos + 1) + '|' + str(pos + 28) + '|' + seqC + '|' + seqD + '|' + seqSpacer + '|' + orient
                 i = i + 1
                 with open(possiblePdifSiteOutfile, 'a') as w:
                     w.write(str(pos + 1) + ' ' + str(pos + 28) + '\t' + seqC + '\t' + seqSpacer + '\t' + seqD + '\n')
@@ -334,7 +385,7 @@ def findPdif(inFile, outdir, blastnPath, pdifDB, resistanceGenePosList):
                 for l, data in enumerate(sorted(pdifSiteList)):
                     content = possiblePdifSiteDict[data]
                     contentText = '\t'.join(content.split('|')[:3]) + '\t' + content.split('|')[4] + '\t' + \
-                                  content.split('|')[3]
+                                  content.split('|')[3] + '\t' + content.split('|')[5]
 
                     pdifName = 'pdif%s' % (l + 1)
                     with open(pdifSiteOufile, 'a') as w:
@@ -416,7 +467,9 @@ def findMatchFragmentThreadOriginal(num4, pos0, outdir, name, seedList, seq, sta
                     else:
                          with fragment_lock:
                             with open(outfile, 'a') as w:
-                                w.write(str(initPos + pos0) + '\n')
+                                total_mm = mismatches_c + mismatches_d
+                                orientation = 'CD' if (k % 4 == 0) else 'DC'
+                                w.write(str(initPos + pos0) + '|' + orientation + '|' + str(total_mm) + '\n')
 
 
 def findMatchFragmentThread(num4, pos0, outdir, name, seedList, seq, start1, end1):
@@ -462,7 +515,9 @@ def findMatchFragmentThread(num4, pos0, outdir, name, seedList, seq, start1, end
                     continue
                 with fragment_lock:
                     with open(outfile, 'a') as w:
-                        w.write(str(initPos + pos0) + '\n')
+                        total_mm = mismatches_c + mismatches_d
+                        orientation = 'CD' if (k % 4 == 0) else 'DC'
+                        w.write(str(initPos + pos0) + '|' + orientation + '|' + str(total_mm) + '\n')
 
 
 def checkResistanceGenePos(start1, end1, start2, end2, start, end, resistanceGenePosList):
@@ -553,6 +608,11 @@ def findPossiblePairThread(outdir, name, possiblePdifSiteSeqList, batchList, sta
         reverCompleteSeqD1 = reverComplement(seqD1)
         seqC2 = possiblePdifSiteSeqList[pos2].split('|')[0]
         seqD2 = possiblePdifSiteSeqList[pos2].split('|')[1]
+        cr1 = possiblePdifSiteSeqList[pos1].split('|')[2] if len(possiblePdifSiteSeqList[pos1].split('|')) > 2 else ''
+        cr2 = possiblePdifSiteSeqList[pos2].split('|')[2] if len(possiblePdifSiteSeqList[pos2].split('|')) > 2 else ''
+        if cr1 and cr2:
+            cr_mm = sum(1 for j in range(min(len(cr1),len(cr2))) if cr1[j] != cr2[j])
+            if cr_mm > 1: continue
         misMatch1 = compareTwoSeq(reverCompleteSeqC1, seqD2)
         misMatch2 = compareTwoSeq(reverCompleteSeqD1, seqC2)
 
@@ -888,9 +948,9 @@ def changepdifname(inFile, outdir, scriptDir):
                     # pdifname1 = re.split('\t', pdifsitelist[0])[0]
                     pdifseq = pdifsitelist[3] + pdifsitelist[4] + pdifsitelist[5]
                     pdifseq2 = str()
-                    if pdifsitelist[6] == 'C|D':
+                    if pdifsitelist[7] == 'C|D':
                         pdifseq2 = pdifseq
-                    elif pdifsitelist[6] == 'D|C':
+                    elif pdifsitelist[7] == 'D|C':
                         pdifseq1 = Seq(pdifseq)
                         pdifseq2 = str(pdifseq1.reverse_complement())
                     flag = compare(pdifseq2, scriptDir)

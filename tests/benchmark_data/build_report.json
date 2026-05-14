@@ -1,0 +1,761 @@
+{
+  "build_date": "2026-05-13",
+  "pipeline": "build_seed_db.py",
+  "summary": {
+    "total_raw_sequences": 132,
+    "after_dedup": 53,
+    "after_parse_orient": 43,
+    "total_final_seeds": 46,
+    "total_groups": 14,
+    "total_consensus": 14,
+    "flipped_to_CD": 0
+  },
+  "sources": {
+    "NAR2025": {
+      "raw": 2
+    },
+    "Cameranesi2018": {
+      "raw": 17
+    },
+    "Blackwell2017": {
+      "raw": 8
+    },
+    "GenBank": {
+      "raw": 17
+    },
+    "SeedDB": {
+      "raw": 41
+    },
+    "LiteratureRef": {
+      "raw": 47
+    }
+  },
+  "final_source_breakdown": {
+    "NAR2025": 2,
+    "Cameranesi2018": 17,
+    "Blackwell2017": 6,
+    "LiteratureReference": 14,
+    "SeedDB": 4
+  },
+  "groups": [
+    {
+      "group_id": "group_01_CR_CAGCCA",
+      "consensus_name": "consensus_group_01_CR_CAGCCA",
+      "rep_cr": "CAGCCA",
+      "member_count": 7,
+      "consensus_28bp": "ATTTCGTATAACAGCCATTATGTTAAAT",
+      "conservation": [
+        0.571,
+        0.714,
+        1.0,
+        0.857,
+        0.857,
+        1.0,
+        0.714,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.714,
+        0.571,
+        0.857,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.857,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.714,
+        1.0
+      ],
+      "member_names": [
+        "xrs38_NAR2025",
+        "XerC/D_16_Cam2018",
+        "CP041590.1_91943_+_LitRef",
+        "XerC/D_3_Cam2018",
+        "XerC/D_4_Cam2018",
+        "XerC/D_6_Cam2018",
+        "CP024419.1_9070_+_LitRef"
+      ],
+      "member_sequences": [
+        "ACTTCGTATAATCGCCATTATGTTAAAT",
+        "ACTTCGCATAATCGCCATTATGTTAAAT",
+        "GTTTCGCATAACCGCCATTATGTTAAGT",
+        "ATTGTGTATAACAACCATTATGTTAAGT",
+        "ATTTCGTATAACAGCCATTATGTTAAAT",
+        "GTTTCGTATAACAGCCATTATCTTAAAT",
+        "GTTTCGTATAACAGCCATTATGTTAAAT"
+      ],
+      "crs_in_group": [
+        "CAACCA",
+        "CAGCCA",
+        "CCGCCA",
+        "TCGCCA"
+      ]
+    },
+    {
+      "group_id": "group_02_CR_GGTGTA",
+      "consensus_name": "consensus_group_02_CR_GGTGTA",
+      "rep_cr": "GGTGTA",
+      "member_count": 10,
+      "consensus_28bp": "ATTTCGTATAAGGTGTATTATGTTAATT",
+      "conservation": [
+        0.9,
+        0.7,
+        1.0,
+        0.9,
+        0.9,
+        1.0,
+        0.9,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.8,
+        1.0,
+        0.9,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.9,
+        0.9,
+        1.0
+      ],
+      "member_names": [
+        "xrs105_NAR2025",
+        "XerC/D_2_Cam2018",
+        "XerC/D_5_Cam2018",
+        "XerC/D_7_Cam2018",
+        "XerC/D_9_Cam2018",
+        "XerC/D_10_Cam2018",
+        "XerC/D_15_Cam2018",
+        "KY617771.1_3376_BH2017",
+        "XerC/D_17_Cam2018",
+        "TE_IN_B_contig_8_seedDB"
+      ],
+      "member_sequences": [
+        "ATTTCGTATAAGGTGTATTATGTTAAGT",
+        "ATTTCGCATAAGGTGTATTATGTTAATT",
+        "ATTTTGTATAAGGTGTATTATGTTAATT",
+        "ATTACGTATAAGGTGTATTATGTTAATT",
+        "ATTTCGTATAAGGTGTATTATGTTATTT",
+        "ACTTCGTATAAGGTGTATTATGTTAATT",
+        "CCTTCGTATAAGGTGTATTATGTTAATT",
+        "ATTTCGTATAAGGTGTATTATGTTAATT",
+        "ATTTCGTATAACGTGTATTATGTTAATT",
+        "AATTCGTATAACGCGTATTATGTTAATT"
+      ],
+      "crs_in_group": [
+        "CGCGTA",
+        "CGTGTA",
+        "GGTGTA"
+      ]
+    },
+    {
+      "group_id": "group_03_CR_GAGATT",
+      "consensus_name": "consensus_group_03_CR_GAGATT",
+      "rep_cr": "GAGATT",
+      "member_count": 5,
+      "consensus_28bp": "ATTTCGCATAAGAGATTTTATGTTAAAT",
+      "conservation": [
+        1.0,
+        0.6,
+        1.0,
+        0.8,
+        1.0,
+        0.8,
+        0.6,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.6,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.8,
+        1.0,
+        1.0,
+        0.8,
+        0.6
+      ],
+      "member_names": [
+        "XerC/D_1_Cam2018",
+        "XerC/D_12_Cam2018",
+        "XerC/D_13_Cam2018",
+        "XerC/D_8_Cam2018",
+        "MF399199.1_82248_+_LitRef"
+      ],
+      "member_sequences": [
+        "ACTGCGCATAAGAGATTTTATGTTAAAT",
+        "ATTTCGCATAAGAGATTTTATGTTAAAC",
+        "ATTTCGCATAAGAGATTTTATGTTAAAG",
+        "AATTCTTATAAGAAATTTTATGTGAATT",
+        "ATTTCGTATAAGAAATTTTATGTTAAAT"
+      ],
+      "crs_in_group": [
+        "GAAATT",
+        "GAGATT"
+      ]
+    },
+    {
+      "group_id": "group_04_CR_CGCCCA",
+      "consensus_name": "consensus_group_04_CR_CGCCCA",
+      "rep_cr": "CGCCCA",
+      "member_count": 3,
+      "consensus_28bp": "ATTTCGTATAACGCCCATTATGTTAAAT",
+      "conservation": [
+        0.667,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.667,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "member_names": [
+        "XerC/D_11_Cam2018",
+        "XerC/D_14_Cam2018",
+        "CP045109.1_5226_+_LitRef"
+      ],
+      "member_sequences": [
+        "GTTTCGTATAACGCCCATTATGTTAAAT",
+        "ATTTCGTATAACGCCCATTATGTTAAAT",
+        "ATTTCATATAACGCCCATTATGTTAAAT"
+      ],
+      "crs_in_group": [
+        "CGCCCA"
+      ]
+    },
+    {
+      "group_id": "group_05_CR_TGGCTG",
+      "consensus_name": "consensus_group_05_CR_TGGCTG",
+      "rep_cr": "TGGCTG",
+      "member_count": 3,
+      "consensus_28bp": "ATTTAACATAATGGCTGTTATACGAAAT",
+      "conservation": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.667,
+        1.0,
+        1.0,
+        1.0,
+        0.667,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.667,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.667,
+        0.667
+      ],
+      "member_names": [
+        "KY617771.1_5405_BH2017",
+        "KY617771.1_11110_BH2017",
+        "CP012955.1_6135_+_LitRef"
+      ],
+      "member_sequences": [
+        "ATTTAACATAATGGCTGTTATGCGAAAC",
+        "ATTTAACATAATGGCGGTTATACGAAGT",
+        "ATTTAACATAAGGGCTGTTATACGAAAT"
+      ],
+      "crs_in_group": [
+        "GGGCTG",
+        "TGGCGG",
+        "TGGCTG"
+      ]
+    },
+    {
+      "group_id": "group_06_CR_AATCTC",
+      "consensus_name": "consensus_group_06_CR_AATCTC",
+      "rep_cr": "AATCTC",
+      "member_count": 5,
+      "consensus_28bp": "ATTTAACATAAAATCTCTTATACGAAAT",
+      "conservation": [
+        0.8,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.8,
+        0.8,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.4,
+        0.6,
+        1.0,
+        0.8,
+        1.0,
+        0.4,
+        0.8
+      ],
+      "member_names": [
+        "KY617771.1_9112_BH2017",
+        "KY617771.1_15512_BH2017",
+        "CP045108.1_4973_+_LitRef",
+        "CP024419.1_23706_+_LitRef",
+        "CP012955.1_7625_+_LitRef"
+      ],
+      "member_sequences": [
+        "ATTTAACATAAAATTTCTTATGTGAAGT",
+        "ATTTAACATAAAATCTCTTATACGCAAT",
+        "CTTTAACATAAAATCTCTTATGAGAATT",
+        "ATTTAACATAAAATCTCTTATTCGAAAT",
+        "ATTTAACATAAAAACTCTTATACGAAGC"
+      ],
+      "crs_in_group": [
+        "AAACTC",
+        "AATCTC",
+        "AATTTC"
+      ]
+    },
+    {
+      "group_id": "group_07_CR_TACGTA",
+      "consensus_name": "consensus_group_07_CR_TACGTA",
+      "rep_cr": "TACGTA",
+      "member_count": 1,
+      "consensus_28bp": "AGTTCGTATAATACGTATCATATTAATT",
+      "conservation": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "member_names": [
+        "KY617771.1_9949_BH2017"
+      ],
+      "member_sequences": [
+        "AGTTCGTATAATACGTATCATATTAATT"
+      ],
+      "crs_in_group": [
+        "TACGTA"
+      ]
+    },
+    {
+      "group_id": "group_08_CR_ATTATG",
+      "consensus_name": "consensus_group_08_CR_ATTATG",
+      "rep_cr": "ATTATG",
+      "member_count": 1,
+      "consensus_28bp": "GTATAAGGTGTATTATGTTAATTTTAGA",
+      "conservation": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "member_names": [
+        "KR055667.1_6_+_LitRef"
+      ],
+      "member_sequences": [
+        "GTATAAGGTGTATTATGTTAATTTTAGA"
+      ],
+      "crs_in_group": [
+        "ATTATG"
+      ]
+    },
+    {
+      "group_id": "group_09_CR_TACACC",
+      "consensus_name": "consensus_group_09_CR_TACACC",
+      "rep_cr": "TACACC",
+      "member_count": 2,
+      "consensus_28bp": "AAATAACATAATACACCTTATGCGAAAT",
+      "conservation": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.5,
+        1.0
+      ],
+      "member_names": [
+        "CP045109.1_6809_+_LitRef",
+        "CP012956.1_29409_+_LitRef"
+      ],
+      "member_sequences": [
+        "AAATAACATAATACACCTTATGCGAAAT",
+        "AAATAACATAATACATCTTATGCGAAGT"
+      ],
+      "crs_in_group": [
+        "TACACC",
+        "TACATC"
+      ]
+    },
+    {
+      "group_id": "group_10_CR_TAAACG",
+      "consensus_name": "consensus_group_10_CR_TAAACG",
+      "rep_cr": "TAAACG",
+      "member_count": 1,
+      "consensus_28bp": "AATTAACATAATAAACGTTATATGAACT",
+      "conservation": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "member_names": [
+        "CP012956.1_32347_+_LitRef"
+      ],
+      "member_sequences": [
+        "AATTAACATAATAAACGTTATATGAACT"
+      ],
+      "crs_in_group": [
+        "TAAACG"
+      ]
+    },
+    {
+      "group_id": "group_11_CR_TGGATA",
+      "consensus_name": "consensus_group_11_CR_TGGATA",
+      "rep_cr": "TGGATA",
+      "member_count": 1,
+      "consensus_28bp": "ATTTAACATAATGGATATTATACGAAGT",
+      "conservation": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "member_names": [
+        "CP012955.1_4097_+_LitRef"
+      ],
+      "member_sequences": [
+        "ATTTAACATAATGGATATTATACGAAGT"
+      ],
+      "crs_in_group": [
+        "TGGATA"
+      ]
+    },
+    {
+      "group_id": "group_12_CR_TGGGCG",
+      "consensus_name": "consensus_group_12_CR_TGGGCG",
+      "rep_cr": "TGGGCG",
+      "member_count": 1,
+      "consensus_28bp": "AATTAACATAATGGGCGTTATACGAAAT",
+      "conservation": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "member_names": [
+        "CP041590.1_92585_+_LitRef"
+      ],
+      "member_sequences": [
+        "AATTAACATAATGGGCGTTATACGAAAT"
+      ],
+      "crs_in_group": [
+        "TGGGCG"
+      ]
+    },
+    {
+      "group_id": "group_13_CR_TAGAGC",
+      "consensus_name": "consensus_group_13_CR_TAGAGC",
+      "rep_cr": "TAGAGC",
+      "member_count": 2,
+      "consensus_28bp": "ATTTAACATAATAGAGCTTATACGAAAT",
+      "conservation": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.5,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "member_names": [
+        "pAB1H8_seedDB",
+        "TE_01Z_000_contig11_seedDB"
+      ],
+      "member_sequences": [
+        "ATTTAACATAATAGAGCTTATGCGAAAT",
+        "ATTTAACATAATAGAGCTTATACGAAAT"
+      ],
+      "crs_in_group": [
+        "TAGAGC"
+      ]
+    },
+    {
+      "group_id": "group_14_CR_CCTGCT",
+      "consensus_name": "consensus_group_14_CR_CCTGCT",
+      "rep_cr": "CCTGCT",
+      "member_count": 1,
+      "consensus_28bp": "AGTTGTAATAACCTGCTGTAGGTTAATT",
+      "conservation": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "member_names": [
+        "pDETAB2_seedDB"
+      ],
+      "member_sequences": [
+        "AGTTGTAATAACCTGCTGTAGGTTAATT"
+      ],
+      "crs_in_group": [
+        "CCTGCT"
+      ]
+    }
+  ],
+  "output_files": {
+    "cd_seeds": "/work/pdifFinder_Hua/PdifFinder/data/xer_seeds_v1.fa",
+    "dc_seeds": "/work/pdifFinder_Hua/PdifFinder/data/xer_seeds_v1.dc.fa",
+    "pwm": "/work/pdifFinder_Hua/PdifFinder/data/xer_seeds_v1.pwm.json",
+    "report": "/work/pdifFinder_Hua/tests/benchmark_data/build_report.json"
+  }
+}

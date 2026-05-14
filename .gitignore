@@ -62,3 +62,4 @@ Thumbs.db
 *.log
 *.out
 *.tmp
+.sisyphus/\n.opencode/\n__pycache__/\n.pytest_cache/\n*.pyc\n.DS_Store\n
