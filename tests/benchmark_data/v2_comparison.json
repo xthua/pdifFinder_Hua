@@ -1,0 +1,303 @@
+{
+  "comparison": [
+    {
+      "name": "pAb242_9",
+      "old_total": 12,
+      "old_cd": 6,
+      "old_dc": 6,
+      "old_dc_pct": 50.0,
+      "new_total": 763,
+      "new_cd": 378,
+      "new_dc": 385,
+      "new_dc_pct": 50.5,
+      "error": null
+    },
+    {
+      "name": "pAb242_12",
+      "old_total": 10,
+      "old_cd": 8,
+      "old_dc": 2,
+      "old_dc_pct": 20.0,
+      "new_total": 971,
+      "new_cd": 474,
+      "new_dc": 497,
+      "new_dc_pct": 51.2,
+      "error": null
+    },
+    {
+      "name": "pAb242_25",
+      "old_total": 17,
+      "old_cd": 11,
+      "old_dc": 6,
+      "old_dc_pct": 35.3,
+      "new_total": 1906,
+      "new_cd": 969,
+      "new_dc": 937,
+      "new_dc_pct": 49.2,
+      "error": null
+    },
+    {
+      "name": "p2ABAYE",
+      "old_total": 0,
+      "old_cd": 0,
+      "old_dc": 0,
+      "old_dc_pct": 0.0,
+      "new_total": 858,
+      "new_cd": 445,
+      "new_dc": 413,
+      "new_dc_pct": 48.1,
+      "error": null
+    },
+    {
+      "name": "p2AB5075",
+      "old_total": 0,
+      "old_cd": 0,
+      "old_dc": 0,
+      "old_dc_pct": 0.0,
+      "new_total": 785,
+      "new_cd": 409,
+      "new_dc": 376,
+      "new_dc_pct": 47.9,
+      "error": null
+    },
+    {
+      "name": "pABV01",
+      "old_total": 0,
+      "old_cd": 0,
+      "old_dc": 0,
+      "old_dc_pct": 0.0,
+      "new_total": 803,
+      "new_cd": 418,
+      "new_dc": 385,
+      "new_dc_pct": 47.9,
+      "error": null
+    }
+  ],
+  "v2_analysis": [
+    {
+      "name": "CP008708",
+      "seq_id": "CP008708.1",
+      "total": 785,
+      "cd": 409,
+      "dc": 376,
+      "dc_proportion": 47.9
+    },
+    {
+      "name": "CP012955_1",
+      "seq_id": "CP012955.1",
+      "total": 811,
+      "cd": 420,
+      "dc": 391,
+      "dc_proportion": 48.2
+    },
+    {
+      "name": "CP012956_1",
+      "seq_id": "CP012956.1",
+      "total": 2904,
+      "cd": 1431,
+      "dc": 1473,
+      "dc_proportion": 50.7
+    },
+    {
+      "name": "CP024419_1",
+      "seq_id": "CP024419.1",
+      "total": 2404,
+      "cd": 1230,
+      "dc": 1174,
+      "dc_proportion": 48.8
+    },
+    {
+      "name": "CP041590_1",
+      "seq_id": "CP041590.1",
+      "total": 8309,
+      "cd": 4116,
+      "dc": 4193,
+      "dc_proportion": 50.5
+    },
+    {
+      "name": "CP045108_1",
+      "seq_id": "CP045108.1",
+      "total": 732,
+      "cd": 366,
+      "dc": 366,
+      "dc_proportion": 50.0
+    },
+    {
+      "name": "CP045109_1",
+      "seq_id": "CP045109.1",
+      "total": 860,
+      "cd": 414,
+      "dc": 446,
+      "dc_proportion": 51.9
+    },
+    {
+      "name": "CU468232.1",
+      "seq_id": "CU468232.1",
+      "total": 2175,
+      "cd": 1085,
+      "dc": 1090,
+      "dc_proportion": 50.1
+    },
+    {
+      "name": "FM210331",
+      "seq_id": "FM210331.1",
+      "total": 803,
+      "cd": 418,
+      "dc": 385,
+      "dc_proportion": 47.9
+    },
+    {
+      "name": "JN616388.1",
+      "seq_id": "JN616388.1",
+      "total": 283,
+      "cd": 143,
+      "dc": 140,
+      "dc_proportion": 49.5
+    },
+    {
+      "name": "KR055667_1",
+      "seq_id": "KR055667.1",
+      "total": 868,
+      "cd": 424,
+      "dc": 444,
+      "dc_proportion": 51.2
+    },
+    {
+      "name": "KY617771.1",
+      "seq_id": "KY617771.1",
+      "total": 1414,
+      "cd": 722,
+      "dc": 692,
+      "dc_proportion": 48.9
+    },
+    {
+      "name": "KY617771_1",
+      "seq_id": "KY617771.1",
+      "total": 1414,
+      "cd": 722,
+      "dc": 692,
+      "dc_proportion": 48.9
+    },
+    {
+      "name": "KY984045.1",
+      "seq_id": "KY984045.1",
+      "total": 763,
+      "cd": 378,
+      "dc": 385,
+      "dc_proportion": 50.5
+    },
+    {
+      "name": "KY984045_1",
+      "seq_id": "KY984045.1",
+      "total": 763,
+      "cd": 378,
+      "dc": 385,
+      "dc_proportion": 50.5
+    },
+    {
+      "name": "KY984046.1",
+      "seq_id": "KY984046.1",
+      "total": 971,
+      "cd": 474,
+      "dc": 497,
+      "dc_proportion": 51.2
+    },
+    {
+      "name": "KY984046_1",
+      "seq_id": "KY984046.1",
+      "total": 971,
+      "cd": 474,
+      "dc": 497,
+      "dc_proportion": 51.2
+    },
+    {
+      "name": "KY984047.1",
+      "seq_id": "KY984047.1",
+      "total": 1906,
+      "cd": 969,
+      "dc": 937,
+      "dc_proportion": 49.2
+    },
+    {
+      "name": "KY984047_1",
+      "seq_id": "KY984047.1",
+      "total": 1906,
+      "cd": 969,
+      "dc": 937,
+      "dc_proportion": 49.2
+    },
+    {
+      "name": "MF399199_1",
+      "seq_id": "MF399199.1",
+      "total": 14239,
+      "cd": 7035,
+      "dc": 7204,
+      "dc_proportion": 50.6
+    },
+    {
+      "name": "NC_010402",
+      "seq_id": "NC_010402.1",
+      "total": 858,
+      "cd": 445,
+      "dc": 413,
+      "dc_proportion": 48.1
+    },
+    {
+      "name": "NZ_AFDB02000003.1",
+      "seq_id": "NZ_AFDB02000003.1",
+      "total": 2374,
+      "cd": 1202,
+      "dc": 1172,
+      "dc_proportion": 49.4
+    },
+    {
+      "name": "NZ_CP026126.1",
+      "seq_id": "NZ_CP026126.1",
+      "total": 1046,
+      "cd": 506,
+      "dc": 540,
+      "dc_proportion": 51.6
+    },
+    {
+      "name": "NZ_CP042559.1",
+      "seq_id": "NZ_CP042559.1",
+      "total": 772,
+      "cd": 387,
+      "dc": 385,
+      "dc_proportion": 49.9
+    },
+    {
+      "name": "NZ_CP058291.1",
+      "seq_id": "NZ_CP058291.1",
+      "total": 859,
+      "cd": 415,
+      "dc": 444,
+      "dc_proportion": 51.7
+    },
+    {
+      "name": "NZ_CP059303.1",
+      "seq_id": "NZ_CP059303.1",
+      "total": 944,
+      "cd": 469,
+      "dc": 475,
+      "dc_proportion": 50.3
+    },
+    {
+      "name": "NZ_CP114608.1",
+      "seq_id": "NZ_CP114608.1",
+      "total": 952,
+      "cd": 477,
+      "dc": 475,
+      "dc_proportion": 49.9
+    },
+    {
+      "name": "NZ_KM051986.1",
+      "seq_id": "NZ_KM051986.1",
+      "total": 843,
+      "cd": 435,
+      "dc": 408,
+      "dc_proportion": 48.4
+    }
+  ],
+  "total_plasmids_v2": 28
+}

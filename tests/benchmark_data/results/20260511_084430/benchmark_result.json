@@ -1,0 +1,1532 @@
+{
+  "mode": "full_pipeline",
+  "timestamp": "2026-05-11T08:45:50.556100",
+  "plasmid_filter": null,
+  "comparisons": [
+    {
+      "plasmid_accession": "CP012955.1",
+      "matched_pairs": [],
+      "missed_references": [
+        {
+          "plasmid_accession": "CP012955.1",
+          "pdif_start": 4097,
+          "pdif_end": 4124,
+          "pdif_sequence": "ATTTAACATAATGGATATTATACGAAGT",
+          "strand": "+",
+          "orientation": "",
+          "source_pmid": "36426893",
+          "source_description": "Shao C, Chen Y, Zhao Y, Wang Y, Song H, He M, Chen W, Xie Z, Qin S, Hua X. PdifFinder: a tool for identifying plasmid-borne dif sites and their cognate recombinases. Brief Bioinform. 2023;24(1):bbac521. DOI: 10.1093/bib/bbac521.",
+          "curator_notes": "Located via exact string match of pdif seed sequence (from redundant.seed.fa) in cached plasmid sequence. This pdif site is present in the pdifFinder seed database as accession CP012955.1.",
+          "curation_date": "2026-05-10"
+        }
+      ],
+      "unvalidated_detections": [],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "CP012955.1",
+      "matched_pairs": [],
+      "missed_references": [
+        {
+          "plasmid_accession": "CP012955.1",
+          "pdif_start": 6135,
+          "pdif_end": 6162,
+          "pdif_sequence": "ATTTAACATAAGGGCTGTTATACGAAAT",
+          "strand": "+",
+          "orientation": "",
+          "source_pmid": "36426893",
+          "source_description": "Shao C, Chen Y, Zhao Y, Wang Y, Song H, He M, Chen W, Xie Z, Qin S, Hua X. PdifFinder: a tool for identifying plasmid-borne dif sites and their cognate recombinases. Brief Bioinform. 2023;24(1):bbac521. DOI: 10.1093/bib/bbac521.",
+          "curator_notes": "Located via exact string match of pdif seed sequence (from redundant.seed.fa) in cached plasmid sequence. This pdif site is present in the pdifFinder seed database as accession CP012955.1.",
+          "curation_date": "2026-05-10"
+        }
+      ],
+      "unvalidated_detections": [],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "CP012955.1",
+      "matched_pairs": [],
+      "missed_references": [
+        {
+          "plasmid_accession": "CP012955.1",
+          "pdif_start": 7625,
+          "pdif_end": 7652,
+          "pdif_sequence": "ATTTAACATAAAAACTCTTATACGAAGC",
+          "strand": "+",
+          "orientation": "",
+          "source_pmid": "36426893",
+          "source_description": "Shao C, Chen Y, Zhao Y, Wang Y, Song H, He M, Chen W, Xie Z, Qin S, Hua X. PdifFinder: a tool for identifying plasmid-borne dif sites and their cognate recombinases. Brief Bioinform. 2023;24(1):bbac521. DOI: 10.1093/bib/bbac521.",
+          "curator_notes": "Located via exact string match of pdif seed sequence (from redundant.seed.fa) in cached plasmid sequence. This pdif site is present in the pdifFinder seed database as accession CP012955.1.",
+          "curation_date": "2026-05-10"
+        }
+      ],
+      "unvalidated_detections": [],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "CP012956.1",
+      "matched_pairs": [
+        {
+          "ref_index": 0,
+          "det_index": 0,
+          "ref_start": 29409,
+          "ref_end": 29436,
+          "det_start": 29409,
+          "det_end": 29436
+        }
+      ],
+      "missed_references": [],
+      "unvalidated_detections": [
+        {
+          "det_index": 1
+        }
+      ],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "CP012956.1",
+      "matched_pairs": [
+        {
+          "ref_index": 0,
+          "det_index": 1,
+          "ref_start": 31747,
+          "ref_end": 31774,
+          "det_start": 31747,
+          "det_end": 31774
+        }
+      ],
+      "missed_references": [],
+      "unvalidated_detections": [
+        {
+          "det_index": 0
+        }
+      ],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "CP012956.1",
+      "matched_pairs": [],
+      "missed_references": [
+        {
+          "plasmid_accession": "CP012956.1",
+          "pdif_start": 32347,
+          "pdif_end": 32374,
+          "pdif_sequence": "AATTAACATAATAAACGTTATATGAACT",
+          "strand": "+",
+          "orientation": "",
+          "source_pmid": "36426893",
+          "source_description": "Shao C, Chen Y, Zhao Y, Wang Y, Song H, He M, Chen W, Xie Z, Qin S, Hua X. PdifFinder: a tool for identifying plasmid-borne dif sites and their cognate recombinases. Brief Bioinform. 2023;24(1):bbac521. DOI: 10.1093/bib/bbac521.",
+          "curator_notes": "Located via exact string match of pdif seed sequence (from redundant.seed.fa) in cached plasmid sequence. This pdif site is present in the pdifFinder seed database as accession CP012956.1.",
+          "curation_date": "2026-05-10"
+        }
+      ],
+      "unvalidated_detections": [
+        {
+          "det_index": 0
+        },
+        {
+          "det_index": 1
+        }
+      ],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "CP024419.1",
+      "matched_pairs": [
+        {
+          "ref_index": 0,
+          "det_index": 3,
+          "ref_start": 9070,
+          "ref_end": 9097,
+          "det_start": 9070,
+          "det_end": 9097
+        }
+      ],
+      "missed_references": [],
+      "unvalidated_detections": [
+        {
+          "det_index": 0
+        },
+        {
+          "det_index": 1
+        },
+        {
+          "det_index": 2
+        },
+        {
+          "det_index": 4
+        },
+        {
+          "det_index": 5
+        },
+        {
+          "det_index": 6
+        },
+        {
+          "det_index": 7
+        }
+      ],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "CP024419.1",
+      "matched_pairs": [
+        {
+          "ref_index": 0,
+          "det_index": 4,
+          "ref_start": 23706,
+          "ref_end": 23733,
+          "det_start": 23706,
+          "det_end": 23733
+        }
+      ],
+      "missed_references": [],
+      "unvalidated_detections": [
+        {
+          "det_index": 0
+        },
+        {
+          "det_index": 1
+        },
+        {
+          "det_index": 2
+        },
+        {
+          "det_index": 3
+        },
+        {
+          "det_index": 5
+        },
+        {
+          "det_index": 6
+        },
+        {
+          "det_index": 7
+        }
+      ],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "CP041590.1",
+      "matched_pairs": [
+        {
+          "ref_index": 0,
+          "det_index": 0,
+          "ref_start": 82712,
+          "ref_end": 82739,
+          "det_start": 82712,
+          "det_end": 82739
+        }
+      ],
+      "missed_references": [],
+      "unvalidated_detections": [
+        {
+          "det_index": 1
+        },
+        {
+          "det_index": 2
+        },
+        {
+          "det_index": 3
+        },
+        {
+          "det_index": 4
+        },
+        {
+          "det_index": 5
+        }
+      ],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "CP041590.1",
+      "matched_pairs": [
+        {
+          "ref_index": 0,
+          "det_index": 2,
+          "ref_start": 91943,
+          "ref_end": 91970,
+          "det_start": 91943,
+          "det_end": 91970
+        }
+      ],
+      "missed_references": [],
+      "unvalidated_detections": [
+        {
+          "det_index": 0
+        },
+        {
+          "det_index": 1
+        },
+        {
+          "det_index": 3
+        },
+        {
+          "det_index": 4
+        },
+        {
+          "det_index": 5
+        }
+      ],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "CP041590.1",
+      "matched_pairs": [
+        {
+          "ref_index": 0,
+          "det_index": 3,
+          "ref_start": 92585,
+          "ref_end": 92612,
+          "det_start": 92585,
+          "det_end": 92612
+        }
+      ],
+      "missed_references": [],
+      "unvalidated_detections": [
+        {
+          "det_index": 0
+        },
+        {
+          "det_index": 1
+        },
+        {
+          "det_index": 2
+        },
+        {
+          "det_index": 4
+        },
+        {
+          "det_index": 5
+        }
+      ],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "CP045108.1",
+      "matched_pairs": [],
+      "missed_references": [
+        {
+          "plasmid_accession": "CP045108.1",
+          "pdif_start": 4973,
+          "pdif_end": 5000,
+          "pdif_sequence": "CTTTAACATAAAATCTCTTATGAGAATT",
+          "strand": "+",
+          "orientation": "",
+          "source_pmid": "36426893",
+          "source_description": "Shao C, Chen Y, Zhao Y, Wang Y, Song H, He M, Chen W, Xie Z, Qin S, Hua X. PdifFinder: a tool for identifying plasmid-borne dif sites and their cognate recombinases. Brief Bioinform. 2023;24(1):bbac521. DOI: 10.1093/bib/bbac521.",
+          "curator_notes": "Located via exact string match of pdif seed sequence (from redundant.seed.fa) in cached plasmid sequence. This pdif site is present in the pdifFinder seed database as accession CP045108.1.",
+          "curation_date": "2026-05-10"
+        }
+      ],
+      "unvalidated_detections": [],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "CP045109.1",
+      "matched_pairs": [],
+      "missed_references": [
+        {
+          "plasmid_accession": "CP045109.1",
+          "pdif_start": 5226,
+          "pdif_end": 5253,
+          "pdif_sequence": "ATTTCATATAACGCCCATTATGTTAAAT",
+          "strand": "+",
+          "orientation": "",
+          "source_pmid": "36426893",
+          "source_description": "Shao C, Chen Y, Zhao Y, Wang Y, Song H, He M, Chen W, Xie Z, Qin S, Hua X. PdifFinder: a tool for identifying plasmid-borne dif sites and their cognate recombinases. Brief Bioinform. 2023;24(1):bbac521. DOI: 10.1093/bib/bbac521.",
+          "curator_notes": "Located via exact string match of pdif seed sequence (from redundant.seed.fa) in cached plasmid sequence. This pdif site is present in the pdifFinder seed database as accession CP045109.1.",
+          "curation_date": "2026-05-10"
+        }
+      ],
+      "unvalidated_detections": [],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "CP045109.1",
+      "matched_pairs": [],
+      "missed_references": [
+        {
+          "plasmid_accession": "CP045109.1",
+          "pdif_start": 6809,
+          "pdif_end": 6836,
+          "pdif_sequence": "AAATAACATAATACACCTTATGCGAAAT",
+          "strand": "+",
+          "orientation": "",
+          "source_pmid": "36426893",
+          "source_description": "Shao C, Chen Y, Zhao Y, Wang Y, Song H, He M, Chen W, Xie Z, Qin S, Hua X. PdifFinder: a tool for identifying plasmid-borne dif sites and their cognate recombinases. Brief Bioinform. 2023;24(1):bbac521. DOI: 10.1093/bib/bbac521.",
+          "curator_notes": "Located via exact string match of pdif seed sequence (from redundant.seed.fa) in cached plasmid sequence. This pdif site is present in the pdifFinder seed database as accession CP045109.1.",
+          "curation_date": "2026-05-10"
+        }
+      ],
+      "unvalidated_detections": [],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "KR055667.1",
+      "matched_pairs": [
+        {
+          "ref_index": 0,
+          "det_index": 0,
+          "ref_start": 1,
+          "ref_end": 28,
+          "det_start": 1,
+          "det_end": 28
+        }
+      ],
+      "missed_references": [],
+      "unvalidated_detections": [
+        {
+          "det_index": 1
+        },
+        {
+          "det_index": 2
+        },
+        {
+          "det_index": 3
+        },
+        {
+          "det_index": 4
+        },
+        {
+          "det_index": 5
+        }
+      ],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "KR055667.1",
+      "matched_pairs": [],
+      "missed_references": [
+        {
+          "plasmid_accession": "KR055667.1",
+          "pdif_start": 6,
+          "pdif_end": 33,
+          "pdif_sequence": "GTATAAGGTGTATTATGTTAATTTTAGA",
+          "strand": "+",
+          "orientation": "",
+          "source_pmid": "36426893",
+          "source_description": "Shao C, Chen Y, Zhao Y, Wang Y, Song H, He M, Chen W, Xie Z, Qin S, Hua X. PdifFinder: a tool for identifying plasmid-borne dif sites and their cognate recombinases. Brief Bioinform. 2023;24(1):bbac521. DOI: 10.1093/bib/bbac521.",
+          "curator_notes": "Located via exact string match of pdif seed sequence (from redundant.seed.fa) in cached plasmid sequence. This pdif site is present in the pdifFinder seed database as accession KR055667.1.",
+          "curation_date": "2026-05-10"
+        }
+      ],
+      "unvalidated_detections": [
+        {
+          "det_index": 0
+        },
+        {
+          "det_index": 1
+        },
+        {
+          "det_index": 2
+        },
+        {
+          "det_index": 3
+        },
+        {
+          "det_index": 4
+        },
+        {
+          "det_index": 5
+        }
+      ],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "KR055667.1",
+      "matched_pairs": [],
+      "missed_references": [
+        {
+          "plasmid_accession": "KR055667.1",
+          "pdif_start": 4353,
+          "pdif_end": 4380,
+          "pdif_sequence": "GTATAAGGTGTATTATGTTAATTTTAGA",
+          "strand": "+",
+          "orientation": "",
+          "source_pmid": "36426893",
+          "source_description": "Shao C, Chen Y, Zhao Y, Wang Y, Song H, He M, Chen W, Xie Z, Qin S, Hua X. PdifFinder: a tool for identifying plasmid-borne dif sites and their cognate recombinases. Brief Bioinform. 2023;24(1):bbac521. DOI: 10.1093/bib/bbac521.",
+          "curator_notes": "Located via exact string match of pdif seed sequence (from redundant.seed.fa) in cached plasmid sequence. This pdif site is present in the pdifFinder seed database as accession KR055667.1.",
+          "curation_date": "2026-05-10"
+        }
+      ],
+      "unvalidated_detections": [
+        {
+          "det_index": 0
+        },
+        {
+          "det_index": 1
+        },
+        {
+          "det_index": 2
+        },
+        {
+          "det_index": 3
+        },
+        {
+          "det_index": 4
+        },
+        {
+          "det_index": 5
+        }
+      ],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "KY617771.1",
+      "matched_pairs": [
+        {
+          "ref_index": 0,
+          "det_index": 0,
+          "ref_start": 3376,
+          "ref_end": 3403,
+          "det_start": 3376,
+          "det_end": 3403
+        }
+      ],
+      "missed_references": [],
+      "unvalidated_detections": [
+        {
+          "det_index": 1
+        },
+        {
+          "det_index": 2
+        },
+        {
+          "det_index": 3
+        },
+        {
+          "det_index": 4
+        },
+        {
+          "det_index": 5
+        },
+        {
+          "det_index": 6
+        },
+        {
+          "det_index": 7
+        }
+      ],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "KY617771.1",
+      "matched_pairs": [
+        {
+          "ref_index": 0,
+          "det_index": 1,
+          "ref_start": 5405,
+          "ref_end": 5432,
+          "det_start": 5405,
+          "det_end": 5432
+        }
+      ],
+      "missed_references": [],
+      "unvalidated_detections": [
+        {
+          "det_index": 0
+        },
+        {
+          "det_index": 2
+        },
+        {
+          "det_index": 3
+        },
+        {
+          "det_index": 4
+        },
+        {
+          "det_index": 5
+        },
+        {
+          "det_index": 6
+        },
+        {
+          "det_index": 7
+        }
+      ],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "KY617771.1",
+      "matched_pairs": [
+        {
+          "ref_index": 0,
+          "det_index": 2,
+          "ref_start": 6134,
+          "ref_end": 6161,
+          "det_start": 6134,
+          "det_end": 6161
+        }
+      ],
+      "missed_references": [],
+      "unvalidated_detections": [
+        {
+          "det_index": 0
+        },
+        {
+          "det_index": 1
+        },
+        {
+          "det_index": 3
+        },
+        {
+          "det_index": 4
+        },
+        {
+          "det_index": 5
+        },
+        {
+          "det_index": 6
+        },
+        {
+          "det_index": 7
+        }
+      ],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "KY617771.1",
+      "matched_pairs": [
+        {
+          "ref_index": 0,
+          "det_index": 3,
+          "ref_start": 9112,
+          "ref_end": 9139,
+          "det_start": 9112,
+          "det_end": 9139
+        }
+      ],
+      "missed_references": [],
+      "unvalidated_detections": [
+        {
+          "det_index": 0
+        },
+        {
+          "det_index": 1
+        },
+        {
+          "det_index": 2
+        },
+        {
+          "det_index": 4
+        },
+        {
+          "det_index": 5
+        },
+        {
+          "det_index": 6
+        },
+        {
+          "det_index": 7
+        }
+      ],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "KY617771.1",
+      "matched_pairs": [
+        {
+          "ref_index": 0,
+          "det_index": 4,
+          "ref_start": 9949,
+          "ref_end": 9976,
+          "det_start": 9949,
+          "det_end": 9976
+        }
+      ],
+      "missed_references": [],
+      "unvalidated_detections": [
+        {
+          "det_index": 0
+        },
+        {
+          "det_index": 1
+        },
+        {
+          "det_index": 2
+        },
+        {
+          "det_index": 3
+        },
+        {
+          "det_index": 5
+        },
+        {
+          "det_index": 6
+        },
+        {
+          "det_index": 7
+        }
+      ],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "KY617771.1",
+      "matched_pairs": [
+        {
+          "ref_index": 0,
+          "det_index": 7,
+          "ref_start": 10714,
+          "ref_end": 10741,
+          "det_start": 10714,
+          "det_end": 10741
+        }
+      ],
+      "missed_references": [],
+      "unvalidated_detections": [
+        {
+          "det_index": 0
+        },
+        {
+          "det_index": 1
+        },
+        {
+          "det_index": 2
+        },
+        {
+          "det_index": 3
+        },
+        {
+          "det_index": 4
+        },
+        {
+          "det_index": 5
+        },
+        {
+          "det_index": 6
+        }
+      ],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "KY617771.1",
+      "matched_pairs": [],
+      "missed_references": [
+        {
+          "plasmid_accession": "KY617771.1",
+          "pdif_start": 11110,
+          "pdif_end": 11137,
+          "pdif_sequence": "ATTTAACATAATGGCGGTTATACGAAGT",
+          "strand": "+",
+          "orientation": "",
+          "source_pmid": "28533235",
+          "source_description": "Blackwell GA, Hall RM. The tet39 Determinant and the msrE-mphE Genes in Acinetobacter Plasmids Are Each Part of Discrete Modules Flanked by Inversely Oriented pdif (XerC-XerD) Sites. Antimicrob Agents Chemother. 2017;61(8):e00780-17. DOI: 10.1128/AAC.00780-17. 8 pdif sites extracted from GenBank annotation of KY617771.1 (pS30-1) as misc_recomb features with /note=\"dif site\".",
+          "curator_notes": "",
+          "curation_date": "2026-05-10"
+        }
+      ],
+      "unvalidated_detections": [
+        {
+          "det_index": 0
+        },
+        {
+          "det_index": 1
+        },
+        {
+          "det_index": 2
+        },
+        {
+          "det_index": 3
+        },
+        {
+          "det_index": 4
+        },
+        {
+          "det_index": 5
+        },
+        {
+          "det_index": 6
+        },
+        {
+          "det_index": 7
+        }
+      ],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "KY617771.1",
+      "matched_pairs": [],
+      "missed_references": [
+        {
+          "plasmid_accession": "KY617771.1",
+          "pdif_start": 15512,
+          "pdif_end": 15539,
+          "pdif_sequence": "ATTTAACATAAAATCTCTTATACGCAAT",
+          "strand": "+",
+          "orientation": "",
+          "source_pmid": "28533235",
+          "source_description": "Blackwell GA, Hall RM. The tet39 Determinant and the msrE-mphE Genes in Acinetobacter Plasmids Are Each Part of Discrete Modules Flanked by Inversely Oriented pdif (XerC-XerD) Sites. Antimicrob Agents Chemother. 2017;61(8):e00780-17. DOI: 10.1128/AAC.00780-17. 8 pdif sites extracted from GenBank annotation of KY617771.1 (pS30-1) as misc_recomb features with /note=\"dif site\".",
+          "curator_notes": "",
+          "curation_date": "2026-05-10"
+        }
+      ],
+      "unvalidated_detections": [
+        {
+          "det_index": 0
+        },
+        {
+          "det_index": 1
+        },
+        {
+          "det_index": 2
+        },
+        {
+          "det_index": 3
+        },
+        {
+          "det_index": 4
+        },
+        {
+          "det_index": 5
+        },
+        {
+          "det_index": 6
+        },
+        {
+          "det_index": 7
+        }
+      ],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "KY984045.1",
+      "matched_pairs": [],
+      "missed_references": [
+        {
+          "plasmid_accession": "KY984045.1",
+          "pdif_start": 2702,
+          "pdif_end": 2729,
+          "pdif_sequence": "ATTTCGCATAAGAGATTTTATGTTAAAG",
+          "strand": "+",
+          "orientation": "",
+          "source_pmid": "29434581",
+          "source_description": "Cameranesi MM, Mor\u00e1n-Barrio J, Limansky AS, Repizo GD, Viale AM. Site-Specific Recombination at XerC/D Sites Mediates the Formation and Resolution of Plasmid Co-integrates Carrying a blaOXA-58- and TnaphA6-Resistance Module in Acinetobacter baumannii. Front Microbiol. 2018 Jan 26;9:66. DOI: 10.3389/fmicb.2018.00066. Table 2 lists 17 XerC/D-like sites on Ab242 plasmids (5 on pAb242_9, 4 on pAb242_12, 8 on pAb242_25). Sequences extracted from GenBank records KY984045.1, KY984046.1, and KY984047.1 at the coordinates reported in the paper (1-based indexing). C\u2192D direction determined by comparison of forward and reverse-complement 28bp sequences against the Ab242 consensus (atTtcgtATAAggtgtaTTATgTtAaat). Orientations for sites 2,4,7,9,14 verified against Giacone et al. 2023 (Front Microbiol 14:1057608).",
+          "curator_notes": "",
+          "curation_date": "2026-05-10"
+        }
+      ],
+      "unvalidated_detections": [],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "KY984045.1",
+      "matched_pairs": [],
+      "missed_references": [
+        {
+          "plasmid_accession": "KY984045.1",
+          "pdif_start": 5057,
+          "pdif_end": 5084,
+          "pdif_sequence": "ATTTCGTATAACGCCCATTATGTTAAAT",
+          "strand": "+",
+          "orientation": "C|D",
+          "source_pmid": "29434581",
+          "source_description": "Cameranesi MM, Mor\u00e1n-Barrio J, Limansky AS, Repizo GD, Viale AM. Site-Specific Recombination at XerC/D Sites Mediates the Formation and Resolution of Plasmid Co-integrates Carrying a blaOXA-58- and TnaphA6-Resistance Module in Acinetobacter baumannii. Front Microbiol. 2018 Jan 26;9:66. DOI: 10.3389/fmicb.2018.00066. Table 2 lists 17 XerC/D-like sites on Ab242 plasmids (5 on pAb242_9, 4 on pAb242_12, 8 on pAb242_25). Sequences extracted from GenBank records KY984045.1, KY984046.1, and KY984047.1 at the coordinates reported in the paper (1-based indexing). C\u2192D direction determined by comparison of forward and reverse-complement 28bp sequences against the Ab242 consensus (atTtcgtATAAggtgtaTTATgTtAaat). Orientations for sites 2,4,7,9,14 verified against Giacone et al. 2023 (Front Microbiol 14:1057608).",
+          "curator_notes": "",
+          "curation_date": "2026-05-10"
+        }
+      ],
+      "unvalidated_detections": [],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "KY984045.1",
+      "matched_pairs": [],
+      "missed_references": [
+        {
+          "plasmid_accession": "KY984045.1",
+          "pdif_start": 5739,
+          "pdif_end": 5766,
+          "pdif_sequence": "AATTAACATAATACACCTTATACGAAGG",
+          "strand": "-",
+          "orientation": "",
+          "source_pmid": "29434581",
+          "source_description": "Cameranesi MM, Mor\u00e1n-Barrio J, Limansky AS, Repizo GD, Viale AM. Site-Specific Recombination at XerC/D Sites Mediates the Formation and Resolution of Plasmid Co-integrates Carrying a blaOXA-58- and TnaphA6-Resistance Module in Acinetobacter baumannii. Front Microbiol. 2018 Jan 26;9:66. DOI: 10.3389/fmicb.2018.00066. Table 2 lists 17 XerC/D-like sites on Ab242 plasmids (5 on pAb242_9, 4 on pAb242_12, 8 on pAb242_25). Sequences extracted from GenBank records KY984045.1, KY984046.1, and KY984047.1 at the coordinates reported in the paper (1-based indexing). C\u2192D direction determined by comparison of forward and reverse-complement 28bp sequences against the Ab242 consensus (atTtcgtATAAggtgtaTTATgTtAaat). Orientations for sites 2,4,7,9,14 verified against Giacone et al. 2023 (Front Microbiol 14:1057608).",
+          "curator_notes": "",
+          "curation_date": "2026-05-10"
+        }
+      ],
+      "unvalidated_detections": [],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "KY984045.1",
+      "matched_pairs": [],
+      "missed_references": [
+        {
+          "plasmid_accession": "KY984045.1",
+          "pdif_start": 6384,
+          "pdif_end": 6411,
+          "pdif_sequence": "ACTTCGCATAATCGCCATTATGTTAAAT",
+          "strand": "+",
+          "orientation": "",
+          "source_pmid": "29434581",
+          "source_description": "Cameranesi MM, Mor\u00e1n-Barrio J, Limansky AS, Repizo GD, Viale AM. Site-Specific Recombination at XerC/D Sites Mediates the Formation and Resolution of Plasmid Co-integrates Carrying a blaOXA-58- and TnaphA6-Resistance Module in Acinetobacter baumannii. Front Microbiol. 2018 Jan 26;9:66. DOI: 10.3389/fmicb.2018.00066. Table 2 lists 17 XerC/D-like sites on Ab242 plasmids (5 on pAb242_9, 4 on pAb242_12, 8 on pAb242_25). Sequences extracted from GenBank records KY984045.1, KY984046.1, and KY984047.1 at the coordinates reported in the paper (1-based indexing). C\u2192D direction determined by comparison of forward and reverse-complement 28bp sequences against the Ab242 consensus (atTtcgtATAAggtgtaTTATgTtAaat). Orientations for sites 2,4,7,9,14 verified against Giacone et al. 2023 (Front Microbiol 14:1057608).",
+          "curator_notes": "",
+          "curation_date": "2026-05-10"
+        }
+      ],
+      "unvalidated_detections": [],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "KY984045.1",
+      "matched_pairs": [],
+      "missed_references": [
+        {
+          "plasmid_accession": "KY984045.1",
+          "pdif_start": 7261,
+          "pdif_end": 7288,
+          "pdif_sequence": "AATTAACATAATACACGTTATACGAAAT",
+          "strand": "-",
+          "orientation": "",
+          "source_pmid": "29434581",
+          "source_description": "Cameranesi MM, Mor\u00e1n-Barrio J, Limansky AS, Repizo GD, Viale AM. Site-Specific Recombination at XerC/D Sites Mediates the Formation and Resolution of Plasmid Co-integrates Carrying a blaOXA-58- and TnaphA6-Resistance Module in Acinetobacter baumannii. Front Microbiol. 2018 Jan 26;9:66. DOI: 10.3389/fmicb.2018.00066. Table 2 lists 17 XerC/D-like sites on Ab242 plasmids (5 on pAb242_9, 4 on pAb242_12, 8 on pAb242_25). Sequences extracted from GenBank records KY984045.1, KY984046.1, and KY984047.1 at the coordinates reported in the paper (1-based indexing). C\u2192D direction determined by comparison of forward and reverse-complement 28bp sequences against the Ab242 consensus (atTtcgtATAAggtgtaTTATgTtAaat). Orientations for sites 2,4,7,9,14 verified against Giacone et al. 2023 (Front Microbiol 14:1057608).",
+          "curator_notes": "",
+          "curation_date": "2026-05-10"
+        }
+      ],
+      "unvalidated_detections": [],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "KY984046.1",
+      "matched_pairs": [],
+      "missed_references": [
+        {
+          "plasmid_accession": "KY984046.1",
+          "pdif_start": 2263,
+          "pdif_end": 2290,
+          "pdif_sequence": "ATTTCGTATAAGGTGTATTATGTTATTT",
+          "strand": "+",
+          "orientation": "C|D",
+          "source_pmid": "29434581",
+          "source_description": "Cameranesi MM, Mor\u00e1n-Barrio J, Limansky AS, Repizo GD, Viale AM. Site-Specific Recombination at XerC/D Sites Mediates the Formation and Resolution of Plasmid Co-integrates Carrying a blaOXA-58- and TnaphA6-Resistance Module in Acinetobacter baumannii. Front Microbiol. 2018 Jan 26;9:66. DOI: 10.3389/fmicb.2018.00066. Table 2 lists 17 XerC/D-like sites on Ab242 plasmids (5 on pAb242_9, 4 on pAb242_12, 8 on pAb242_25). Sequences extracted from GenBank records KY984045.1, KY984046.1, and KY984047.1 at the coordinates reported in the paper (1-based indexing). C\u2192D direction determined by comparison of forward and reverse-complement 28bp sequences against the Ab242 consensus (atTtcgtATAAggtgtaTTATgTtAaat). Orientations for sites 2,4,7,9,14 verified against Giacone et al. 2023 (Front Microbiol 14:1057608).",
+          "curator_notes": "Active sister pair mediating co-integrate formation (with XerC/D_9 and XerC/D_7 respectively, confirmed by Giacone et al. 2023)",
+          "curation_date": "2026-05-10"
+        }
+      ],
+      "unvalidated_detections": [],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "KY984046.1",
+      "matched_pairs": [],
+      "missed_references": [
+        {
+          "plasmid_accession": "KY984046.1",
+          "pdif_start": 2802,
+          "pdif_end": 2829,
+          "pdif_sequence": "ACTTCGTATAAGGTGTATTATGTTAATT",
+          "strand": "+",
+          "orientation": "",
+          "source_pmid": "29434581",
+          "source_description": "Cameranesi MM, Mor\u00e1n-Barrio J, Limansky AS, Repizo GD, Viale AM. Site-Specific Recombination at XerC/D Sites Mediates the Formation and Resolution of Plasmid Co-integrates Carrying a blaOXA-58- and TnaphA6-Resistance Module in Acinetobacter baumannii. Front Microbiol. 2018 Jan 26;9:66. DOI: 10.3389/fmicb.2018.00066. Table 2 lists 17 XerC/D-like sites on Ab242 plasmids (5 on pAb242_9, 4 on pAb242_12, 8 on pAb242_25). Sequences extracted from GenBank records KY984045.1, KY984046.1, and KY984047.1 at the coordinates reported in the paper (1-based indexing). C\u2192D direction determined by comparison of forward and reverse-complement 28bp sequences against the Ab242 consensus (atTtcgtATAAggtgtaTTATgTtAaat). Orientations for sites 2,4,7,9,14 verified against Giacone et al. 2023 (Front Microbiol 14:1057608).",
+          "curator_notes": "",
+          "curation_date": "2026-05-10"
+        }
+      ],
+      "unvalidated_detections": [],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "KY984046.1",
+      "matched_pairs": [],
+      "missed_references": [
+        {
+          "plasmid_accession": "KY984046.1",
+          "pdif_start": 4935,
+          "pdif_end": 4962,
+          "pdif_sequence": "ATTTAACATAATGGGCGTTATACGAAAC",
+          "strand": "-",
+          "orientation": "",
+          "source_pmid": "29434581",
+          "source_description": "Cameranesi MM, Mor\u00e1n-Barrio J, Limansky AS, Repizo GD, Viale AM. Site-Specific Recombination at XerC/D Sites Mediates the Formation and Resolution of Plasmid Co-integrates Carrying a blaOXA-58- and TnaphA6-Resistance Module in Acinetobacter baumannii. Front Microbiol. 2018 Jan 26;9:66. DOI: 10.3389/fmicb.2018.00066. Table 2 lists 17 XerC/D-like sites on Ab242 plasmids (5 on pAb242_9, 4 on pAb242_12, 8 on pAb242_25). Sequences extracted from GenBank records KY984045.1, KY984046.1, and KY984047.1 at the coordinates reported in the paper (1-based indexing). C\u2192D direction determined by comparison of forward and reverse-complement 28bp sequences against the Ab242 consensus (atTtcgtATAAggtgtaTTATgTtAaat). Orientations for sites 2,4,7,9,14 verified against Giacone et al. 2023 (Front Microbiol 14:1057608).",
+          "curator_notes": "",
+          "curation_date": "2026-05-10"
+        }
+      ],
+      "unvalidated_detections": [],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "KY984046.1",
+      "matched_pairs": [],
+      "missed_references": [
+        {
+          "plasmid_accession": "KY984046.1",
+          "pdif_start": 7183,
+          "pdif_end": 7210,
+          "pdif_sequence": "GTTTAACATAAAATCTCTTATGCGAAAT",
+          "strand": "-",
+          "orientation": "",
+          "source_pmid": "29434581",
+          "source_description": "Cameranesi MM, Mor\u00e1n-Barrio J, Limansky AS, Repizo GD, Viale AM. Site-Specific Recombination at XerC/D Sites Mediates the Formation and Resolution of Plasmid Co-integrates Carrying a blaOXA-58- and TnaphA6-Resistance Module in Acinetobacter baumannii. Front Microbiol. 2018 Jan 26;9:66. DOI: 10.3389/fmicb.2018.00066. Table 2 lists 17 XerC/D-like sites on Ab242 plasmids (5 on pAb242_9, 4 on pAb242_12, 8 on pAb242_25). Sequences extracted from GenBank records KY984045.1, KY984046.1, and KY984047.1 at the coordinates reported in the paper (1-based indexing). C\u2192D direction determined by comparison of forward and reverse-complement 28bp sequences against the Ab242 consensus (atTtcgtATAAggtgtaTTATgTtAaat). Orientations for sites 2,4,7,9,14 verified against Giacone et al. 2023 (Front Microbiol 14:1057608).",
+          "curator_notes": "",
+          "curation_date": "2026-05-10"
+        }
+      ],
+      "unvalidated_detections": [],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "KY984047.1",
+      "matched_pairs": [
+        {
+          "ref_index": 0,
+          "det_index": 0,
+          "ref_start": 1312,
+          "ref_end": 1339,
+          "det_start": 1312,
+          "det_end": 1339
+        }
+      ],
+      "missed_references": [],
+      "unvalidated_detections": [
+        {
+          "det_index": 1
+        },
+        {
+          "det_index": 2
+        },
+        {
+          "det_index": 3
+        },
+        {
+          "det_index": 4
+        },
+        {
+          "det_index": 5
+        },
+        {
+          "det_index": 6
+        },
+        {
+          "det_index": 7
+        },
+        {
+          "det_index": 8
+        },
+        {
+          "det_index": 9
+        }
+      ],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "KY984047.1",
+      "matched_pairs": [
+        {
+          "ref_index": 0,
+          "det_index": 1,
+          "ref_start": 1367,
+          "ref_end": 1394,
+          "det_start": 1367,
+          "det_end": 1394
+        }
+      ],
+      "missed_references": [],
+      "unvalidated_detections": [
+        {
+          "det_index": 0
+        },
+        {
+          "det_index": 2
+        },
+        {
+          "det_index": 3
+        },
+        {
+          "det_index": 4
+        },
+        {
+          "det_index": 5
+        },
+        {
+          "det_index": 6
+        },
+        {
+          "det_index": 7
+        },
+        {
+          "det_index": 8
+        },
+        {
+          "det_index": 9
+        }
+      ],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "KY984047.1",
+      "matched_pairs": [
+        {
+          "ref_index": 0,
+          "det_index": 2,
+          "ref_start": 1832,
+          "ref_end": 1859,
+          "det_start": 1832,
+          "det_end": 1859
+        }
+      ],
+      "missed_references": [],
+      "unvalidated_detections": [
+        {
+          "det_index": 0
+        },
+        {
+          "det_index": 1
+        },
+        {
+          "det_index": 3
+        },
+        {
+          "det_index": 4
+        },
+        {
+          "det_index": 5
+        },
+        {
+          "det_index": 6
+        },
+        {
+          "det_index": 7
+        },
+        {
+          "det_index": 8
+        },
+        {
+          "det_index": 9
+        }
+      ],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "KY984047.1",
+      "matched_pairs": [
+        {
+          "ref_index": 0,
+          "det_index": 3,
+          "ref_start": 1936,
+          "ref_end": 1963,
+          "det_start": 1936,
+          "det_end": 1963
+        }
+      ],
+      "missed_references": [],
+      "unvalidated_detections": [
+        {
+          "det_index": 0
+        },
+        {
+          "det_index": 1
+        },
+        {
+          "det_index": 2
+        },
+        {
+          "det_index": 4
+        },
+        {
+          "det_index": 5
+        },
+        {
+          "det_index": 6
+        },
+        {
+          "det_index": 7
+        },
+        {
+          "det_index": 8
+        },
+        {
+          "det_index": 9
+        }
+      ],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "KY984047.1",
+      "matched_pairs": [
+        {
+          "ref_index": 0,
+          "det_index": 5,
+          "ref_start": 6578,
+          "ref_end": 6605,
+          "det_start": 6578,
+          "det_end": 6605
+        }
+      ],
+      "missed_references": [],
+      "unvalidated_detections": [
+        {
+          "det_index": 0
+        },
+        {
+          "det_index": 1
+        },
+        {
+          "det_index": 2
+        },
+        {
+          "det_index": 3
+        },
+        {
+          "det_index": 4
+        },
+        {
+          "det_index": 6
+        },
+        {
+          "det_index": 7
+        },
+        {
+          "det_index": 8
+        },
+        {
+          "det_index": 9
+        }
+      ],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "KY984047.1",
+      "matched_pairs": [
+        {
+          "ref_index": 0,
+          "det_index": 6,
+          "ref_start": 9845,
+          "ref_end": 9872,
+          "det_start": 9845,
+          "det_end": 9872
+        }
+      ],
+      "missed_references": [],
+      "unvalidated_detections": [
+        {
+          "det_index": 0
+        },
+        {
+          "det_index": 1
+        },
+        {
+          "det_index": 2
+        },
+        {
+          "det_index": 3
+        },
+        {
+          "det_index": 4
+        },
+        {
+          "det_index": 5
+        },
+        {
+          "det_index": 7
+        },
+        {
+          "det_index": 8
+        },
+        {
+          "det_index": 9
+        }
+      ],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "KY984047.1",
+      "matched_pairs": [
+        {
+          "ref_index": 0,
+          "det_index": 7,
+          "ref_start": 10925,
+          "ref_end": 10952,
+          "det_start": 10925,
+          "det_end": 10952
+        }
+      ],
+      "missed_references": [],
+      "unvalidated_detections": [
+        {
+          "det_index": 0
+        },
+        {
+          "det_index": 1
+        },
+        {
+          "det_index": 2
+        },
+        {
+          "det_index": 3
+        },
+        {
+          "det_index": 4
+        },
+        {
+          "det_index": 5
+        },
+        {
+          "det_index": 6
+        },
+        {
+          "det_index": 8
+        },
+        {
+          "det_index": 9
+        }
+      ],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "KY984047.1",
+      "matched_pairs": [],
+      "missed_references": [
+        {
+          "plasmid_accession": "KY984047.1",
+          "pdif_start": 11831,
+          "pdif_end": 11858,
+          "pdif_sequence": "AATTCACATAAAATTTCTTATAAGAATT",
+          "strand": "-",
+          "orientation": "",
+          "source_pmid": "29434581",
+          "source_description": "Cameranesi MM, Mor\u00e1n-Barrio J, Limansky AS, Repizo GD, Viale AM. Site-Specific Recombination at XerC/D Sites Mediates the Formation and Resolution of Plasmid Co-integrates Carrying a blaOXA-58- and TnaphA6-Resistance Module in Acinetobacter baumannii. Front Microbiol. 2018 Jan 26;9:66. DOI: 10.3389/fmicb.2018.00066. Table 2 lists 17 XerC/D-like sites on Ab242 plasmids (5 on pAb242_9, 4 on pAb242_12, 8 on pAb242_25). Sequences extracted from GenBank records KY984045.1, KY984046.1, and KY984047.1 at the coordinates reported in the paper (1-based indexing). C\u2192D direction determined by comparison of forward and reverse-complement 28bp sequences against the Ab242 consensus (atTtcgtATAAggtgtaTTATgTtAaat). Orientations for sites 2,4,7,9,14 verified against Giacone et al. 2023 (Front Microbiol 14:1057608).",
+          "curator_notes": "",
+          "curation_date": "2026-05-10"
+        }
+      ],
+      "unvalidated_detections": [
+        {
+          "det_index": 0
+        },
+        {
+          "det_index": 1
+        },
+        {
+          "det_index": 2
+        },
+        {
+          "det_index": 3
+        },
+        {
+          "det_index": 4
+        },
+        {
+          "det_index": 5
+        },
+        {
+          "det_index": 6
+        },
+        {
+          "det_index": 7
+        },
+        {
+          "det_index": 8
+        },
+        {
+          "det_index": 9
+        }
+      ],
+      "failure_categories": {}
+    },
+    {
+      "plasmid_accession": "MF399199.1",
+      "matched_pairs": [],
+      "missed_references": [
+        {
+          "plasmid_accession": "MF399199.1",
+          "pdif_start": 82248,
+          "pdif_end": 82275,
+          "pdif_sequence": "ATTTCGTATAAGAAATTTTATGTTAAAT",
+          "strand": "+",
+          "orientation": "",
+          "source_pmid": "36426893",
+          "source_description": "Shao C, Chen Y, Zhao Y, Wang Y, Song H, He M, Chen W, Xie Z, Qin S, Hua X. PdifFinder: a tool for identifying plasmid-borne dif sites and their cognate recombinases. Brief Bioinform. 2023;24(1):bbac521. DOI: 10.1093/bib/bbac521.",
+          "curator_notes": "Located via exact string match of pdif seed sequence (from redundant.seed.fa) in cached plasmid sequence. This pdif site is present in the pdifFinder seed database as accession MF399199.1.",
+          "curation_date": "2026-05-10"
+        }
+      ],
+      "unvalidated_detections": [
+        {
+          "det_index": 0
+        },
+        {
+          "det_index": 1
+        },
+        {
+          "det_index": 2
+        },
+        {
+          "det_index": 3
+        },
+        {
+          "det_index": 4
+        },
+        {
+          "det_index": 5
+        },
+        {
+          "det_index": 6
+        },
+        {
+          "det_index": 7
+        },
+        {
+          "det_index": 8
+        },
+        {
+          "det_index": 9
+        }
+      ],
+      "failure_categories": {}
+    }
+  ],
+  "failures": [
+    "WRONG_POSITION",
+    "WRONG_POSITION",
+    "WRONG_POSITION",
+    "WRONG_POSITION",
+    "WRONG_POSITION",
+    "WRONG_POSITION",
+    "WRONG_POSITION",
+    "WRONG_POSITION",
+    "WRONG_POSITION",
+    "WRONG_POSITION",
+    "WRONG_POSITION",
+    "WRONG_POSITION",
+    "WRONG_POSITION",
+    "WRONG_POSITION",
+    "WRONG_POSITION",
+    "WRONG_POSITION",
+    "WRONG_POSITION",
+    "WRONG_POSITION",
+    "WRONG_POSITION",
+    "WRONG_POSITION",
+    "WRONG_POSITION",
+    "WRONG_POSITION"
+  ],
+  "metrics": {
+    "detection_rate": 0.4883720930232558,
+    "precision": 0.09905660377358491,
+    "position_median_error": 0.0,
+    "position_mean_error": 0.0,
+    "position_max_error": 0.0,
+    "fpr_per_kb": -1.0,
+    "per_plasmid_breakdown": [
+      {
+        "plasmid_accession": "CP012955.1",
+        "reference_count": 3,
+        "matched_count": 0,
+        "missed_count": 3,
+        "unvalidated_count": 0,
+        "detection_rate": 0.0,
+        "failure_categories": {}
+      },
+      {
+        "plasmid_accession": "CP012956.1",
+        "reference_count": 3,
+        "matched_count": 2,
+        "missed_count": 1,
+        "unvalidated_count": 4,
+        "detection_rate": 0.6666666666666666,
+        "failure_categories": {}
+      },
+      {
+        "plasmid_accession": "CP024419.1",
+        "reference_count": 2,
+        "matched_count": 2,
+        "missed_count": 0,
+        "unvalidated_count": 14,
+        "detection_rate": 1.0,
+        "failure_categories": {}
+      },
+      {
+        "plasmid_accession": "CP041590.1",
+        "reference_count": 3,
+        "matched_count": 3,
+        "missed_count": 0,
+        "unvalidated_count": 15,
+        "detection_rate": 1.0,
+        "failure_categories": {}
+      },
+      {
+        "plasmid_accession": "CP045108.1",
+        "reference_count": 1,
+        "matched_count": 0,
+        "missed_count": 1,
+        "unvalidated_count": 0,
+        "detection_rate": 0.0,
+        "failure_categories": {}
+      },
+      {
+        "plasmid_accession": "CP045109.1",
+        "reference_count": 2,
+        "matched_count": 0,
+        "missed_count": 2,
+        "unvalidated_count": 0,
+        "detection_rate": 0.0,
+        "failure_categories": {}
+      },
+      {
+        "plasmid_accession": "KR055667.1",
+        "reference_count": 3,
+        "matched_count": 1,
+        "missed_count": 2,
+        "unvalidated_count": 17,
+        "detection_rate": 0.3333333333333333,
+        "failure_categories": {}
+      },
+      {
+        "plasmid_accession": "KY617771.1",
+        "reference_count": 8,
+        "matched_count": 6,
+        "missed_count": 2,
+        "unvalidated_count": 58,
+        "detection_rate": 0.75,
+        "failure_categories": {}
+      },
+      {
+        "plasmid_accession": "KY984045.1",
+        "reference_count": 5,
+        "matched_count": 0,
+        "missed_count": 5,
+        "unvalidated_count": 0,
+        "detection_rate": 0.0,
+        "failure_categories": {}
+      },
+      {
+        "plasmid_accession": "KY984046.1",
+        "reference_count": 4,
+        "matched_count": 0,
+        "missed_count": 4,
+        "unvalidated_count": 0,
+        "detection_rate": 0.0,
+        "failure_categories": {}
+      },
+      {
+        "plasmid_accession": "KY984047.1",
+        "reference_count": 8,
+        "matched_count": 7,
+        "missed_count": 1,
+        "unvalidated_count": 73,
+        "detection_rate": 0.875,
+        "failure_categories": {}
+      },
+      {
+        "plasmid_accession": "MF399199.1",
+        "reference_count": 1,
+        "matched_count": 0,
+        "missed_count": 1,
+        "unvalidated_count": 10,
+        "detection_rate": 0.0,
+        "failure_categories": {}
+      }
+    ],
+    "failure_category_summary": {},
+    "total_reference_sites": 43,
+    "total_matched_sites": 21,
+    "total_missed_sites": 22,
+    "total_unvalidated": 191
+  },
+  "output_dir": "tests/benchmark_data/results/20260511_084430"
+}

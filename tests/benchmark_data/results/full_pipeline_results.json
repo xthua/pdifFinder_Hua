@@ -1,0 +1,177 @@
+{
+  "title": "pdif_only vs full_pipeline Mode Comparison",
+  "timestamp": "2026-05-10 23:22",
+  "blastn_available": true,
+  "amr_database": "PdifFinder/AMRDB/sequences",
+  "plasmids_total": 12,
+  "amr_positive_plasmids": 7,
+  "amr_negative_plasmids": 5,
+  "summary": {
+    "pdif_only": {
+      "precision": 0.0176,
+      "recall": 0.7209,
+      "f1": 0.0343,
+      "total_reference_sites": 43,
+      "total_matched_sites": 31,
+      "total_missed_sites": 12,
+      "total_unvalidated": 1733,
+      "plasmids_processed": 12,
+      "note": "Uses mocked AMR (always 1 gene) \u2014 pdif search runs on ALL plasmids"
+    },
+    "full_pipeline": {
+      "precision": 0.0991,
+      "recall": 0.4884,
+      "f1": 0.1647,
+      "total_reference_sites": 43,
+      "total_matched_sites": 21,
+      "total_missed_sites": 22,
+      "total_unvalidated": 191,
+      "plasmids_processed": 7,
+      "plasmids_skipped_no_amr": 5,
+      "note": "Real blastn AMR detection \u2014 only runs pdif search on AMR-positive plasmids"
+    }
+  },
+  "per_plasmid": {
+    "amr_positive": [
+      {
+        "accession": "CP012956.1",
+        "length": 47457,
+        "amr_genes": 2,
+        "amr_gene_list": [
+          "sul2",
+          "aph(3')-Ia"
+        ],
+        "pdif_only_detection_rate": 0.667,
+        "full_pipeline_detection_rate": 0.667,
+        "matched_sites_both_modes": 2,
+        "reference_sites": 3
+      },
+      {
+        "accession": "CP024419.1",
+        "length": 33036,
+        "amr_genes": 2,
+        "amr_gene_list": [
+          "aph(3')-Ia",
+          "blaOXA-58"
+        ],
+        "pdif_only_detection_rate": 1.0,
+        "full_pipeline_detection_rate": 1.0,
+        "matched_sites_both_modes": 2,
+        "reference_sites": 2
+      },
+      {
+        "accession": "CP041590.1",
+        "length": 145071,
+        "amr_genes": 5,
+        "amr_gene_list": [
+          "sul2",
+          "floR",
+          "blaADC-176",
+          "mph(E)",
+          "msr(E)"
+        ],
+        "pdif_only_detection_rate": 1.0,
+        "full_pipeline_detection_rate": 1.0,
+        "matched_sites_both_modes": 3,
+        "reference_sites": 3
+      },
+      {
+        "accession": "KR055667.1",
+        "length": 9584,
+        "amr_genes": 2,
+        "amr_gene_list": [
+          "blaOXA-58",
+          "aph(3')-VIa"
+        ],
+        "pdif_only_detection_rate": 0.333,
+        "full_pipeline_detection_rate": 0.333,
+        "matched_sites_both_modes": 1,
+        "reference_sites": 3
+      },
+      {
+        "accession": "KY617771.1",
+        "length": 18234,
+        "amr_genes": 3,
+        "amr_gene_list": [
+          "tet(39)",
+          "msr(E)",
+          "mph(E)"
+        ],
+        "pdif_only_detection_rate": 0.75,
+        "full_pipeline_detection_rate": 0.75,
+        "matched_sites_both_modes": 6,
+        "reference_sites": 8
+      },
+      {
+        "accession": "KY984047.1",
+        "length": 24808,
+        "amr_genes": 2,
+        "amr_gene_list": [
+          "aph(3')-VIa",
+          "blaOXA-58"
+        ],
+        "pdif_only_detection_rate": 0.875,
+        "full_pipeline_detection_rate": 0.875,
+        "matched_sites_both_modes": 7,
+        "reference_sites": 8
+      },
+      {
+        "accession": "MF399199.1",
+        "length": 207977,
+        "amr_genes": 6,
+        "amr_gene_list": [
+          "sul2",
+          "tet(B)",
+          "mph(E)",
+          "msr(E)",
+          "aph(6)-Id",
+          "aph(3'')-Ib"
+        ],
+        "pdif_only_detection_rate": 0.0,
+        "full_pipeline_detection_rate": 0.0,
+        "matched_sites_both_modes": 0,
+        "reference_sites": 1
+      }
+    ],
+    "amr_negative": [
+      {
+        "accession": "CP012955.1",
+        "length": 9276,
+        "pdif_only_detection_rate": 1.0,
+        "reference_sites": 3
+      },
+      {
+        "accession": "CP045108.1",
+        "length": 7655,
+        "pdif_only_detection_rate": 1.0,
+        "reference_sites": 1
+      },
+      {
+        "accession": "CP045109.1",
+        "length": 9540,
+        "pdif_only_detection_rate": 1.0,
+        "reference_sites": 2
+      },
+      {
+        "accession": "KY984045.1",
+        "length": 9284,
+        "pdif_only_detection_rate": 0.6,
+        "reference_sites": 5
+      },
+      {
+        "accession": "KY984046.1",
+        "length": 11891,
+        "pdif_only_detection_rate": 0.25,
+        "reference_sites": 4
+      }
+    ]
+  },
+  "key_insights": [
+    "full_pipeline F1 (0.165) is 4.8x higher than pdif_only F1 (0.034) \u2014 AMR pre-filter dramatically improves precision",
+    "pdif_only has 89x more unvalidated detections (1733 vs 191) \u2014 AMR constraint eliminates ~89% of false positives",
+    "5/12 plasmids (42%) lack AMR genes in AMRDB \u2014 they are invisible to the full pipeline but detected by pdif_only",
+    "MF399199.1 (207kb, 6 AMR genes) has 0/1 detection in both modes \u2014 warrants investigation",
+    "On AMR-positive plasmids, detection rates are IDENTICAL between modes (same pdif sites found)",
+    "The AMR pre-filter acts as a precision/recall tradeoff: +0.081 precision, -0.233 recall"
+  ]
+}

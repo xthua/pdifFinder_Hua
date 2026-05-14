@@ -1,0 +1,80 @@
+LOCUS       NZ_CP060732          4103762 bp    DNA     circular CON 26-DEC-2025
+DEFINITION  Acinetobacter baumannii strain abA1 chromosome, complete genome.
+ACCESSION   NZ_CP060732
+VERSION     NZ_CP060732.1
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN15778733
+            Assembly: GCF_015732435.1
+KEYWORDS    RefSeq.
+SOURCE      Acinetobacter baumannii
+  ORGANISM  Acinetobacter baumannii
+            Bacteria; Pseudomonadati; Pseudomonadota; Gammaproteobacteria;
+            Moraxellales; Moraxellaceae; Acinetobacter; Acinetobacter
+            calcoaceticus/baumannii complex.
+REFERENCE   1  (bases 1 to 4103762)
+  AUTHORS   Li,H. and Wang,H.
+  TITLE     Evolution mechanism of Acinetobacter baumannii
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 4103762)
+  AUTHORS   Li,H. and Wang,H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-AUG-2020) Clinical Laboratory, Peking University
+            People's Hospital, No. 11 Xizhimen South Street, Beijing 100044,
+            China
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to
+            CP060732.1.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method        :: SPAdes v. 3.13.0
+            Genome Representation  :: Full
+            Expected Final Version :: No
+            Genome Coverage        :: 130x
+            Sequencing Technology  :: Illumina NextSeq; PacBio
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Name                   :: GCF_015732435.1-RS_2025_12_26
+            Annotation Date                   :: 12/26/2025 10:32:43
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP)
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 6.10
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA
+            Genes (total)                     :: 3,984
+            CDSs (total)                      :: 3,889
+            Genes (coding)                    :: 3,804
+            CDSs (with protein)               :: 3,804
+            Genes (RNA)                       :: 95
+            rRNAs                             :: 6, 6, 6 (5S, 16S, 23S)
+            complete rRNAs                    :: 6, 6, 6 (5S, 16S, 23S)
+            tRNAs                             :: 73
+            ncRNAs                            :: 4
+            Pseudo Genes (total)              :: 85
+            CDSs (without protein)            :: 85
+            Pseudo Genes (ambiguous residues) :: 0 of 85
+            Pseudo Genes (frameshifted)       :: 28 of 85
+            Pseudo Genes (incomplete)         :: 46 of 85
+            Pseudo Genes (internal stop)      :: 15 of 85
+            Pseudo Genes (multiple problems)  :: 4 of 85
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..4103762
+                     /organism="Acinetobacter baumannii"
+                     /mol_type="genomic DNA"
+                     /strain="abA1"
+                     /isolation_source="bronchial"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:470"
+                     /geo_loc_name="China:Beijing"
+                     /lat_lon="39.9 N 116.05 E"
+                     /collection_date="2018-04-23"
+                     /collected_by="Henan Li"
+CONTIG      join(CP060732.1:1..4103762)
+//
+

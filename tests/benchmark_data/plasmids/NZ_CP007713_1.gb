@@ -1,0 +1,262 @@
+LOCUS       NZ_CP007713             8006 bp    DNA     circular CON 22-APR-2025
+DEFINITION  Acinetobacter baumannii LAC-4 plasmid pABLAC1, complete sequence.
+ACCESSION   NZ_CP007713
+VERSION     NZ_CP007713.1
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN02709859
+            Assembly: GCF_000786735.1
+KEYWORDS    RefSeq.
+SOURCE      Acinetobacter baumannii LAC-4
+  ORGANISM  Acinetobacter baumannii LAC-4
+            Bacteria; Pseudomonadati; Pseudomonadota; Gammaproteobacteria;
+            Moraxellales; Moraxellaceae; Acinetobacter; Acinetobacter
+            calcoaceticus/baumannii complex.
+REFERENCE   1  (bases 1 to 8006)
+  AUTHORS   Ou,H.Y., Kuang,S.N., He,X., Molgora,B.M., Ewing,P.J., Deng,Z.,
+            Osby,M., Chen,W. and Xu,H.H.
+  TITLE     Complete genome sequence of hypervirulent and outbreak-associated
+            Acinetobacter baumannii strain LAC-4: epidemiology, resistance
+            genetic determinants and potential virulence factors
+  JOURNAL   Sci Rep 5, 8643 (2015)
+   PUBMED   25728466
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 8006)
+  AUTHORS   Xu,H., Chen,W. and Ou,H.-Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-FEB-2015) Department of Biological Sciences,
+            California State University, Los Angeles, 5151 State University Dr,
+            Los Angeles, CA 90032, USA
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to
+            CP007713.1.
+            Source bacteria/DNA available from Dr. H. Howard Xu, Department of
+            Biological Sciences, California State University
+            (hxu3@calstatela.edu).
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method       :: GS De Novo Assembler v. unknown
+            Genome Coverage       :: 43.5x; 255.6x; 408x
+            Sequencing Technology :: Roche 454 FLX+; Illumina Hiseq2000;
+                                     Illumina Miseq
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Name                   :: GCF_000786735.1-RS_2025_04_22
+            Annotation Date                   :: 04/22/2025 09:14:29
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP)
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 6.10
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA
+            Genes (total)                     :: 3,839
+            CDSs (total)                      :: 3,745
+            Genes (coding)                    :: 3,595
+            CDSs (with protein)               :: 3,595
+            Genes (RNA)                       :: 94
+            rRNAs                             :: 6, 6, 6 (5S, 16S, 23S)
+            complete rRNAs                    :: 6, 6, 6 (5S, 16S, 23S)
+            tRNAs                             :: 72
+            ncRNAs                            :: 4
+            Pseudo Genes (total)              :: 150
+            CDSs (without protein)            :: 150
+            Pseudo Genes (ambiguous residues) :: 0 of 150
+            Pseudo Genes (frameshifted)       :: 55 of 150
+            Pseudo Genes (incomplete)         :: 90 of 150
+            Pseudo Genes (internal stop)      :: 18 of 150
+            Pseudo Genes (multiple problems)  :: 11 of 150
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..8006
+                     /organism="Acinetobacter baumannii LAC-4"
+                     /mol_type="genomic DNA"
+                     /strain="LAC-4"
+                     /isolation_source="unavailable"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:1455315"
+                     /plasmid="pABLAC1"
+                     /geo_loc_name="USA: Los Angeles County, California"
+                     /lat_lon="34.0500 N 118.2500 W"
+                     /collection_date="1997-01-02"
+                     /collected_by="Public Health Laboratory"
+     gene            complement(40..258)
+                     /locus_tag="RR41_RS20255"
+                     /old_locus_tag="ABLAC_p100010"
+     CDS             complement(40..258)
+                     /locus_tag="RR41_RS20255"
+                     /old_locus_tag="ABLAC_p100010"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_001005328.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_001005328.1"
+                     /translation="MNEQKLIFLRFYKPENKYFFPCKTKHQSYVTLANFLIQNPAHAG
+                     IFLSHTTHLKMITLKPLLDMVFIGFFII"
+     gene            946..1869
+                     /gene="repM"
+                     /locus_tag="RR41_RS19040"
+                     /old_locus_tag="ABLAC_p100020"
+     CDS             946..1869
+                     /gene="repM"
+                     /locus_tag="RR41_RS19040"
+                     /old_locus_tag="ABLAC_p100020"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_004282204.1"
+                     /GO_function="GO:0003887 - DNA-directed DNA polymerase
+                     activity [Evidence IEA]"
+                     /GO_process="GO:0006270 - DNA replication initiation
+                     [Evidence IEA]"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="replication initiation protein RepM"
+                     /protein_id="WP_000845851.1"
+                     /translation="MKTELIVKDNALINASYNLDLVEQRLILLAIVEARESGKGINAN
+                     DPLTVHAESYINQFGVHRNTAYQALKDACDDLFARQFSYQSLSEKGNIINHKSRWVSE
+                     VAYIDNEAVVRLIFAPAIVPLITRLEEQFTKYEIQQISNLTSAYAVRLYEILIAWRST
+                     GKTPLITLSDFRQKIGVLDTEYKRMYDFKKYVLDIALKQVNEHTDITVKVEQHKTGRS
+                     ITGFSFSFKQKKSVTKSAKSIGVSEDITITLTDAQRYSFASKLSELPEMGKLSQGTES
+                     YEQFAVRIADMLKQPEKLKELTPLLRKVGFQ"
+     gene            1937..2482
+                     /locus_tag="RR41_RS19045"
+                     /old_locus_tag="ABLAC_p100030"
+     CDS             1937..2482
+                     /locus_tag="RR41_RS19045"
+                     /old_locus_tag="ABLAC_p100030"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_004786457.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="plasmid replication DNA-binding protein"
+                     /protein_id="WP_000736775.1"
+                     /translation="MKKLSVSELAKLYGYSRQAIYAHINKGNLSKGSDGLIDFAEAIR
+                     VFGEPQKKDTNVNQSQSINSQNLTEVDLLKRQVDILEKQLNQALFRENQSLERESFYQ
+                     DQIEAMQRLLEAPKANMTTFTDQEQSQANVAQVQPEPNIDDPKHDGLTTPENKRIPVP
+                     EHVEPEPKKRGFWSRFFLPYG"
+     gene            2820..3137
+                     /locus_tag="RR41_RS19050"
+                     /old_locus_tag="ABLAC_p100040"
+     CDS             2820..3137
+                     /locus_tag="RR41_RS19050"
+                     /old_locus_tag="ABLAC_p100040"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_005065053.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_000900860.1"
+                     /translation="MLGKNHHFLKKFSISDAAIAYKKPRSTILKYIKSGDFELDYNKL
+                     IEYSQLVRKFGELTYPIQDEREQQIKKLKDEVMHLKKQLNFFKYTSISNKNRLLISHK
+                     HSI"
+     gene            3665..4021
+                     /locus_tag="RR41_RS19055"
+                     /old_locus_tag="ABLAC_p100050"
+     CDS             3665..4021
+                     /locus_tag="RR41_RS19055"
+                     /old_locus_tag="ABLAC_p100050"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_005194067.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="type II toxin-antitoxin system RelE/ParE family
+                     toxin"
+                     /protein_id="WP_000269904.1"
+                     /translation="MWTVITTDLFNEWLEQQDEATQEKVLAALVVLQQQGPSLGRPLV
+                     DTVYDSKFTNMKELRVQHRGKPLRAFFAFDPLRQAIVLCIGDKSNKKRFYTEMLAIAD
+                     EQYALHLSTLGDQSNG"
+     gene            4014..4316
+                     /locus_tag="RR41_RS19060"
+                     /old_locus_tag="ABLAC_p100060"
+     CDS             4014..4316
+                     /locus_tag="RR41_RS19060"
+                     /old_locus_tag="ABLAC_p100060"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_001140617.1"
+                     /GO_function="GO:0003677 - DNA binding [Evidence IEA]"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="helix-turn-helix domain-containing protein"
+                     /protein_id="WP_001129974.1"
+                     /translation="MAKSLQELLASRSPESQARIQKMADELLLESQLHLIREELEISQ
+                     KELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV"
+     gene            4309..4518
+                     /locus_tag="RR41_RS19065"
+                     /old_locus_tag="ABLAC_p100070"
+     CDS             4309..4518
+                     /locus_tag="RR41_RS19065"
+                     /old_locus_tag="ABLAC_p100070"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_018680077.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_000069475.1"
+                     /translation="MSNNKPLKNSTKLLVNLDKFIFLVNAADSLEEIEIIRDLCCEYF
+                     SHCKRPSYYIDIFDNAYWLKYYEIA"
+     gene            4646..7318
+                     /locus_tag="RR41_RS19070"
+                     /old_locus_tag="ABLAC_p100080"
+     CDS             4646..7318
+                     /locus_tag="RR41_RS19070"
+                     /old_locus_tag="ABLAC_p100080"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ATP-binding protein"
+                     /protein_id="WP_148307306.1"
+                     /translation="MNILQRKSSMVLYAFEQSIGDFVLNYKDLNIGSRLIEDITEREI
+                     SKGRSFDPNQIKDVVEATYLGELFQIAIDLTSNDSSHDLVKYLYSLFHDFEIHLVRNA
+                     ISHPNRQFLDFFWYRLAAVATDPVIDILGLDKVKKAFISANEGILDDPPDDWLNKVVW
+                     EIPNNLPSTFEHAVTGLIGRNKERKQLETYMSQPRVSTVALVAPGGVGKTALALDLLH
+                     YIVHRPSAVNRLDGVVFVTLKTEKLTAQGIQQLTAIQTIAEVKNKIVESINDIFDEDL
+                     KNFEDVASLYDQKRILLCIDNLETVLREEQILFDDFNNTLPGGWKVLITSRITVENTK
+                     TLSLHPLDQKSGEILARKYQESRGISTLENHDYEKISKACFFNPLAIRLTIDLINLGR
+                     DIPTSISEAQKNIAEFSYNNLIEALKPTSIQILEAIFVENVSTRASLCHVLEKDLDEI
+                     SDSVGELSRTSLIVKASQKDIETYSLNDSIKDLLLLDPKNLEVRNKVQNKLLEQKNQV
+                     REIDFHQEKRQYPIWHRDNIPLDTPEGLKILVKNVNMAVRRKGETSTLSELIRKLRDA
+                     ENIYKTYAIYYKSLAKLLDKLSDSHGQKDALLKGLAIDDTNPNILYMLARYYADQGDY
+                     EASTKQYQKLIELGWIQDNEENIEFSRTIYNGYFLNLLYSKEYQRILDETKKWKEDEN
+                     FSPLLGVYRATAWKRTIELYGAEESDKIESAINSSLAIFDEVFRKYGYSVEACKQATK
+                     VFEEIIFYANNPLKSDEKLKIFLEKTKKNITEISNTYLDYDWTNLYKKLSSIQISDNP
+                     FYNLNRSGYKSPSQMYADGSKEGDFIFVKIETIRNNYLFSSDKNQTQYFVHSNQYRGD
+                     VNWYKLKEGELLKVHPLPPDSSQSAIKVKAAFSC"
+     gene            complement(7392..7583)
+                     /locus_tag="RR41_RS19075"
+                     /old_locus_tag="ABLAC_p100090"
+     CDS             complement(7392..7583)
+                     /locus_tag="RR41_RS19075"
+                     /old_locus_tag="ABLAC_p100090"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_004706315.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_000102616.1"
+                     /translation="MSTELVNSANIISFPKPCAFCESTEHVQLFAGLMLCRSCQENIK
+                     ITNPDLFATNDQIQQKAQD"
+CONTIG      join(CP007713.1:1..8006)
+//
+

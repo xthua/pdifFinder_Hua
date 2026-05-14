@@ -1,0 +1,289 @@
+LOCUS       NZ_KM051986            10967 bp    DNA     linear   CON 10-MAR-2025
+DEFINITION  Acinetobacter baumannii strain D72 plasmid pD72-1 clone GC2; global
+            clone 2, complete sequence.
+ACCESSION   NZ_KM051986
+VERSION     NZ_KM051986.1
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN14226464
+KEYWORDS    RefSeq.
+SOURCE      Acinetobacter baumannii
+  ORGANISM  Acinetobacter baumannii
+            Bacteria; Pseudomonadati; Pseudomonadota; Gammaproteobacteria;
+            Moraxellales; Moraxellaceae; Acinetobacter; Acinetobacter
+            calcoaceticus/baumannii complex.
+REFERENCE   1  (bases 1 to 10967)
+  AUTHORS   Nigro,S.J. and Hall,R.M.
+  TITLE     Amikacin resistance plasmids in extensively antibiotic-resistant
+            GC2 Acinetobacter baumannii from two Australian hospitals
+  JOURNAL   J Antimicrob Chemother 69 (12), 3435-3437 (2014)
+   PUBMED   25103493
+REFERENCE   2  (bases 1 to 10967)
+  AUTHORS   Nigro,S.J., Holt,K.E., Pickard,D. and Hall,R.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-JUN-2014) School of Molecular Bioscience, University
+            of Sydney, Molecular Bioscience Building G08, Sydney, NSW 2006,
+            Australia
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to
+            KM051986.1.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: Velvet v. 1.2.03; Sequencher v. 5.1
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider          :: NCBI RefSeq
+            Annotation Name              :: GCF_009963525.1-RS_2025_03_10
+            Annotation Date              :: 03/10/2025 00:56:09
+            Annotation Pipeline          :: NCBI Prokaryotic Genome Annotation
+                                            Pipeline (PGAP)
+            Annotation Method            :: Best-placed reference protein set;
+                                            GeneMarkS-2+
+            Annotation Software revision :: 6.9
+            Features Annotated           :: Gene; CDS; rRNA; tRNA; ncRNA
+            Genes (total)                :: 12
+            CDSs (total)                 :: 12
+            Genes (coding)               :: 12
+            CDSs (with protein)          :: 12
+            Genes (RNA)                  :: 0
+            tRNAs                        :: 0
+            ncRNAs                       :: 0
+            Pseudo Genes (total)         :: 0
+            CDSs (without protein)       :: 0
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..10967
+                     /organism="Acinetobacter baumannii"
+                     /mol_type="genomic DNA"
+                     /strain="D72"
+                     /db_xref="taxon:470"
+                     /clone="GC2; global clone 2"
+                     /plasmid="pD72-1"
+                     /geo_loc_name="Australia"
+                     /collection_date="2010"
+     gene            144..1094
+                     /gene="repM"
+                     /locus_tag="HPF12_RS00005"
+     CDS             144..1094
+                     /gene="repM"
+                     /locus_tag="HPF12_RS00005"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_004786597.1"
+                     /GO_function="GO:0003887 - DNA-directed DNA polymerase
+                     activity [Evidence IEA]"
+                     /GO_process="GO:0006270 - DNA replication initiation
+                     [Evidence IEA]"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="replication initiation protein RepM"
+                     /protein_id="WP_001208778.1"
+                     /translation="MRELVVKDNALINASYNLDLVEQRLILLAIVEARESGKGINAND
+                     PLEVHAEGYINQFGVHRNTAYQALKDACNDLFARQFSYQKINERGNIENYRSRWVSEI
+                     GYVDNEAVVKLIFAPAIVPLITRLEEHFTKYELQQVSNLSSAYAVRLYELLIAWRSTG
+                     STPVIELSDFRQRIGVLDTEYKRMERFKTSVLELAIKQINEHTDITVKYEQHKRGRSI
+                     SGFSFTFKQKKKDNPPIERDPNTLDLFTKMTDAQRHMFANKLSELPEMGRYSQGTESY
+                     PQFAVRIAEMLQDPDRIKELYPYLKKVGYMPSNKKDTVNG"
+     gene            1087..1662
+                     /locus_tag="HPF12_RS00010"
+     CDS             1087..1662
+                     /locus_tag="HPF12_RS00010"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_005102333.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="plasmid replication DNA-binding protein"
+                     /protein_id="WP_001096619.1"
+                     /translation="MAKLSLSEVSKKFHVDRSTIYRAVRNGRLSRSSDGQFDLAEVIR
+                     CFGEPEQTSQKIESSRQEGDESTKKLIAHLENEVKKYQEREERLMQQIDRMQTLIELK
+                     SVAPATAAPHQDATACDTKMPQHATTQQDTDNKKNNELNIAENVAVPQQETTAYHTQT
+                     LQHATLQSVAVPQHKKRGLFGRVLNAVFDND"
+     gene            1682..1825
+                     /locus_tag="HPF12_RS00015"
+     CDS             1682..1825
+                     /locus_tag="HPF12_RS00015"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_004786602.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_001125246.1"
+                     /translation="MPKLKDIALGIIVAPLLIPIMLIASYQDKKALKKELDECQKEKD
+                     QAS"
+     gene            complement(2014..2532)
+                     /locus_tag="HPF12_RS00020"
+     CDS             complement(2014..2532)
+                     /locus_tag="HPF12_RS00020"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_000447193.1"
+                     /GO_function="GO:0005515 - protein binding [Evidence IEA]"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tetratricopeptide repeat protein"
+                     /protein_id="WP_000447193.1"
+                     /translation="METFAEPVFSNDLLAKAENGDTSAQLELAEIYLYGHGVDSDENQ
+                     AEVWALKSAENGNVAAMFWLADGYVTYARLMEDDDKNDSLEHFQKAFKWFQKASENGH
+                     SESMVELADLYTRADSGIEVNINKAFELREKAAKLGNKKAMRSLSVMYRDGIGIPKNT
+                     DLAQSWWDKSEN"
+     gene            2905..3192
+                     /locus_tag="HPF12_RS00025"
+     CDS             2905..3192
+                     /locus_tag="HPF12_RS00025"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_019383542.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="BrnT family toxin"
+                     /protein_id="WP_000438826.1"
+                     /translation="MEQYFEWDEAKNRKNQKKHDISFETASLVFEDPLRISIQDRHTN
+                     GEERWQTIGRVKGVLMLLVAHTIFDEDDCEIIRIISARQVTKAERNKYEHG"
+     gene            3179..3493
+                     /locus_tag="HPF12_RS00030"
+     CDS             3179..3493
+                     /locus_tag="HPF12_RS00030"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_006582675.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="BrnA antitoxin family protein"
+                     /protein_id="WP_001983304.1"
+                     /translation="MSMVRYSHKELNEKFGEKQDAEIQRLLAKGTVPDDQLDLSDIPE
+                     ITDWSNAVRQNQFYRPVKQQTSIRLDADVLAWFKAQGKGYQTRMNEILRDAMLKELKN
+                     HQ"
+     gene            3621..6032
+                     /gene="znuD2"
+                     /locus_tag="HPF12_RS00035"
+     CDS             3621..6032
+                     /gene="znuD2"
+                     /locus_tag="HPF12_RS00035"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_000932945.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="TonB-dependent receptor ZnuD2"
+                     /protein_id="WP_000932953.1"
+                     /translation="MLNKSKLFLALITLGASKILLAAEGPVTTLNTIVLTAQSDELGS
+                     ELLGKSLNVSNQFIDTSKLKQRSTTLGDALGTELGIHSNQYGGGASTPIIRGQEGKRI
+                     KVLQNNADVLDMSNMSPDHAVTVEPSLAKSIEIIRGASTLLYSSNSAAGVVNVIDYKI
+                     PTQMPQDGLEGNTTLRFNTGSNEKLTTAGVTVGLSPHVALRAEGLYRNAGNYKTPHYQ
+                     SSSYNSLEDLENQNSIYKNLKYLPESWAESRVGTLGLSWIDDNTYLGVSYTHRHDEYG
+                     LPAHSHLYEGCGASAIGIDSRISGLKNYLLYYPQLMDEQDINYINPRPDCHQHNHIHE
+                     TNFSHNAPYIDLNTRRYDVRGEFTQPFTGIDKIRTSLSYIDYFHNELEGDKITNFFKN
+                     TGKVGRIELSHQPLGELTGILGLQYLEQDNSALSPVHSQEGHTTYLDNQQLLNRNVTK
+                     NFSVFGLEKYNWNDFTFELGARIEKQKVSMDYDIEKIKDSMKPWPNKYNSPYVEKNNK
+                     IRAQNLKSILEAVQPNKETAFSYAGTVHWRFAPNYILSLTGTHQERLPNAQEMYTHGM
+                     HLATNSFEIGNRFLRKEKSNNLEISLAYKDDLLDYQISTYYYDFDNYIYLQTLNEVLG
+                     TTKVRDQHTLRINHYSQSAANFYGLEGNIGYQFNSVYHGSLFGDYVKGRLTNLPDAVI
+                     AYDIWNREPTLAPQKDRYTPRLPPARLGTRLKADFDESLKGEIEYYRVFKQDNISKFE
+                     QVTSGYNMLNMTLAYKNKLSHTEYDLFFKANNLLDQKVYAHETFLPYIPQIGRNFSLG
+                     LNLNF"
+     gene            6337..6798
+                     /locus_tag="HPF12_RS00040"
+     CDS             6337..6798
+                     /locus_tag="HPF12_RS00040"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_004781077.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DIP1984 family protein"
+                     /protein_id="WP_000761346.1"
+                     /translation="MKLAEALLLRSDQQKKIISLKQRINANVLVQDGDQPSEDPNELL
+                     KQVFSLIQEFQKLSYAIHETNALTKLNDGRSLLALLTLRDEFVEQHKTLTAAISNTSR
+                     ESDRYSTREIKWHKVIPVSSLQKQADDISLKLRDLNVLIQSTNWKIDLIEA"
+     gene            complement(7234..8259)
+                     /locus_tag="HPF12_RS00045"
+     CDS             complement(7234..8259)
+                     /locus_tag="HPF12_RS00045"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_001988464.1"
+                     /GO_function="GO:0004803 - transposase activity [Evidence
+                     IEA]"
+                     /GO_process="GO:0006313 - DNA transposition [Evidence
+                     IEA]"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="IS30-like element ISAba125 family transposase"
+                     /protein_id="WP_001988464.1"
+                     /translation="MEYIKLSYHHLNFEDRTALMLESRKEGFSARKFAELIKRHPSTI
+                     YRELKRNSINDVYQAQYASDNTFARRRRGHRKLKIDSILWKFIVEAIRCLWSPQQIAK
+                     RLKTFPDLDQTMNVSHTTIYSTIRALPKGELKKDLLSCLRHENKKRKANGEPKKDSIL
+                     QDIKTIHERPAEVQERKIPGHWEADLIKGKDNKSSIATLIERNTRLCILATLPDAKAE
+                     SVRKALTEALKYLPAELRKTLTYDRGREMSEHKILEEDLGIDVYFCDPHSPWQKGTCE
+                     NMNGLIRQYLPKGIDLNQADQHYLNQVAMSLNTRPRKALDWLTPLEKFAQLVDYHMAF
+                     ETVAPHV"
+     gene            complement(8304..8636)
+                     /locus_tag="HPF12_RS00050"
+     CDS             complement(8304..8636)
+                     /locus_tag="HPF12_RS00050"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_000390243.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_000390243.1"
+                     /translation="MEDSTLNELIRNTELFFEHHWNVDLLGKPPEWSPVHFNFGKIPN
+                     YDKQGVYAFIKGDLVTYIGVGTSRGAGRYRGNGLSARVMKYCRWNEDKTEYIAIDPRL
+                     KDAGSMAE"
+     gene            complement(8654..8920)
+                     /locus_tag="HPF12_RS00055"
+     CDS             complement(8654..8920)
+                     /locus_tag="HPF12_RS00055"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_005268842.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_050441450.1"
+                     /translation="MSVTETLDSKIKAQEEKLKQLKAQRQAALARERTKEKEQARKDD
+                     TRRKILIGSCMLKITEDDEQARAKLIAQMDKYLTDERDRKLFNL"
+     gene            9130..10566
+                     /gene="mobQ"
+                     /locus_tag="HPF12_RS00060"
+     CDS             9130..10566
+                     /gene="mobQ"
+                     /locus_tag="HPF12_RS00060"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_005248576.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="MobQ family relaxase"
+                     /protein_id="WP_001029315.1"
+                     /translation="MAIYHFSVKTVARSAGRSATAAIAYRAGEKIYCEREGREHDYSR
+                     KTGVEYKEIYLPEGAPEHLKNREKLWNEVEQRETRKNSTVAREFEIAFPSELNQEQRL
+                     AMLEELCASIVERHQVAVDACIHAPHTGSGSDERNYHAHILMSTRKLTPEGFTEKTRE
+                     LDQKHSGEIDHWREHFADICNVHLNLAGSTARVDHRSYKDQENGLEATLHEGPKVTEL
+                     RRRGIETEISRSNDEIKQRNQAQLQYDKNMDVLIAENEIKLSTLKTEQQIQIKNSAKT
+                     PPIDEKSLFEEKQRGTLGKVLKREISAKDANLDLDFMQRNLKQAEINLTKHHKHQNEF
+                     NQQLAQEIVKSGLKQSHDKLQSLVDQHNELTQNKPLLFGKKAWEAQRDEIYQEHKKLK
+                     GQHEHQKKHGVKDLLENEKFKEHAWKKYQKQHPEKAKQYQTLYQSYKIVKKCVDEIKA
+                     EQQMKIRQEQQLKAQQHAPKMKSRGMSR"
+CONTIG      join(KM051986.1:1..10967)
+//
+

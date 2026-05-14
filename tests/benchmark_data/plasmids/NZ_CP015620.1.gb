@@ -1,0 +1,304 @@
+LOCUS       NZ_CP015620            10085 bp    DNA     circular CON 25-DEC-2025
+DEFINITION  Acinetobacter schindleri strain ACE plasmid p5AsACE, complete
+            sequence.
+ACCESSION   NZ_CP015620
+VERSION     NZ_CP015620.1
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN04956557
+            Assembly: GCF_001971565.1
+KEYWORDS    RefSeq.
+SOURCE      Acinetobacter schindleri
+  ORGANISM  Acinetobacter schindleri
+            Bacteria; Pseudomonadati; Pseudomonadota; Gammaproteobacteria;
+            Moraxellales; Moraxellaceae; Acinetobacter.
+REFERENCE   1  (bases 1 to 10085)
+  AUTHORS   Sigala,J.C., Suarez,B.P., Lara,A., Le Borgne,S., Bustos,P.,
+            Santamaria,R.I., Gonzalez,V. and Martinez,A.
+  TITLE     Genomic and physiological characterization of an Acinetobacter
+            schindleri strain isolated from the laboratory that catabolizes
+            acetate fast and efficiently
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 10085)
+  AUTHORS   Sigala,J.C., Suarez,B.P., Lara,A., Le Borgne,S., Bustos,P.,
+            Santamaria,R.I., Gonzalez,V. and Martinez,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (11-MAY-2016) Departamento de Procesos y Tecnologia,
+            Universidad Autonoma Metropolitana, Av. Vasco de Quiroga 4871, Col.
+            Santa Fe. Del. Cuajimalpa, Cd. de Mexico, D.F. 05300, Mexico
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to
+            CP015620.1.
+            Bacteria available from Juan Carlos Sigala
+            (jsigala@correo.cua.uam.mx).
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method       :: Velvet v. 1.1.06. Sspace-Basic v. 2.0,
+                                     Consed v. 23
+            Genome Coverage       :: 1000x
+            Sequencing Technology :: Illumina miSeq
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Name                   :: GCF_001971565.1-RS_2025_12_25
+            Annotation Date                   :: 12/25/2025 09:54:07
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP)
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 6.10
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA
+            Genes (total)                     :: 3,167
+            CDSs (total)                      :: 3,058
+            Genes (coding)                    :: 2,977
+            CDSs (with protein)               :: 2,977
+            Genes (RNA)                       :: 109
+            rRNAs                             :: 7, 7, 7 (5S, 16S, 23S)
+            complete rRNAs                    :: 7, 7, 7 (5S, 16S, 23S)
+            tRNAs                             :: 84
+            ncRNAs                            :: 4
+            Pseudo Genes (total)              :: 81
+            CDSs (without protein)            :: 81
+            Pseudo Genes (ambiguous residues) :: 0 of 81
+            Pseudo Genes (frameshifted)       :: 40 of 81
+            Pseudo Genes (incomplete)         :: 39 of 81
+            Pseudo Genes (internal stop)      :: 29 of 81
+            Pseudo Genes (multiple problems)  :: 23 of 81
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..10085
+                     /organism="Acinetobacter schindleri"
+                     /mol_type="genomic DNA"
+                     /strain="ACE"
+                     /db_xref="taxon:108981"
+                     /plasmid="p5AsACE"
+                     /geo_loc_name="Mexico: Cuernavaca Morelos"
+                     /collection_date="2013"
+                     /collected_by="Juan Carlos Sigala and Alfredo Martinez"
+     gene            79..606
+                     /locus_tag="AsACE_RS15870"
+                     /old_locus_tag="AsACE_p500001"
+     CDS             79..606
+                     /locus_tag="AsACE_RS15870"
+                     /old_locus_tag="AsACE_p500001"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_008307689.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="plasmid replication DNA-binding protein"
+                     /protein_id="WP_076755258.1"
+                     /translation="MKSLTVLELSKLYNINRQTIYNNIKKGILSKNSDNKIDLAEAIR
+                     VFGEPSKKLDVKESVKVDSPNSTEVLLLRQQIDMLKNQLDDAKERESFYQNQIETMQR
+                     LLEAPKPKIQAPSEPELPKSAPIVEMKEEVIIVPPKKEDGLTTAENKRIPVPEHVESE
+                     PKKRGFLSRFFLPYG"
+     gene            complement(887..1237)
+                     /locus_tag="AsACE_RS15875"
+                     /old_locus_tag="AsACE_p500002"
+     CDS             complement(887..1237)
+                     /locus_tag="AsACE_RS15875"
+                     /old_locus_tag="AsACE_p500002"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_004644745.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DUF3147 family protein"
+                     /protein_id="WP_004644745.1"
+                     /translation="MVWLIAKYALTAGMVILISEVAKRSDRLGGLIAALPIVTILVLI
+                     WMKLENQDPQKISNHAWYTFWYVVPTLPMFLAFPILYQRYGFWLSLAICYVMTILLFL
+                     AWAAILHHFGIDLL"
+     gene            1428..2354
+                     /locus_tag="AsACE_RS15880"
+                     /old_locus_tag="AsACE_p500003"
+     CDS             1428..2354
+                     /locus_tag="AsACE_RS15880"
+                     /old_locus_tag="AsACE_p500003"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_004649056.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="chromate resistance protein ChrB
+                     domain-containing protein"
+                     /protein_id="WP_076755260.1"
+                     /translation="MKISLLISSLPSQSTTARMRIWRSLKSNGAATLRDGVYLLPEAH
+                     SEKFESVVHDHLNEHGHAYIFQTEPPAHLDLAQLFDRTGEYEELRTEISQIQNTLEEN
+                     KKKEHLKQIRKLRKNLNSLIEIDFFPNTHQSKTLNELTRLEQVIARLGEYDEPNNFEQ
+                     QLKVLCKQDFQNKIWATRKRPWVDRLASAWIIQKFVDPQAKFIWLEHPNDCPKDTLGF
+                     DFDDAQFTHINHLVTFEVLIHSFELQNPALNKIAEIVHFLDVGGNEPAEALGIEKILQ
+                     GLRSTITDDDQLLHLSNHIFDGLYADFQRNLT"
+     gene            2351..3700
+                     /gene="chrA"
+                     /locus_tag="AsACE_RS15885"
+                     /old_locus_tag="AsACE_p500004"
+     CDS             2351..3700
+                     /gene="chrA"
+                     /locus_tag="AsACE_RS15885"
+                     /old_locus_tag="AsACE_p500004"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_001060713.1"
+                     /GO_function="GO:0015109 - chromate transmembrane
+                     transporter activity [Evidence IEA]"
+                     /GO_process="GO:0015703 - chromate transport [Evidence
+                     IEA]"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="chromate efflux transporter"
+                     /protein_id="WP_004644748.1"
+                     /translation="MNNKPSLIDETEIESISFWQAFKFWLKLGFISFGGPAGQIAVMH
+                     QELVEEKKWISEQRFMHALNYCMLLPGPEAQQLATYIGWLMHKTKGGIVAGVLFVLPS
+                     LFILIGLSWVYVKYGDVPIIAGLFYGIKPAVAAIVFHATYRIGSRSLKNKFLWAIAVI
+                     AFLAIFIFNIPFPLIVLCAAISGYLVGKKYPDLFKLNAHQSSQKSYGRAIIDDDTPTP
+                     EHAVFKWSHLIKITVISALLWAIPLISLTAVLGWSHSYTQLAWFFTKAALLTFGGAYA
+                     VLPYVYQGAVGFYHWLTPTQMIDGLALGESTPGPLIMVVAFVGFLAAYNHSLLGAEHQ
+                     FIAGALGAIIVTWFTFIFSFFFILAGAPVIESTHNQIKFTAPLTAITAAVVGVILNLA
+                     LFLCYHVLWPQGFEGNFDYISAIIAILAVVALFKFNQSVLRVIIGSALVGLTIKILL"
+     gene            4480..5256
+                     /locus_tag="AsACE_RS15895"
+                     /old_locus_tag="AsACE_p500005"
+     CDS             4480..5256
+                     /locus_tag="AsACE_RS15895"
+                     /old_locus_tag="AsACE_p500005"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tetratricopeptide repeat protein"
+                     /protein_id="WP_076755262.1"
+                     /translation="MISPQTIDKSIFDAMFSNVRKTSSVFKIQSWKRDAEKVRSIDIC
+                     KYKALLGTIAAYENKYDEAINIFKSILLLTKDCGYQAMIHSNIANVLGHAGKYLEAID
+                     SYWKAFELSNDPSYFESFFNLCKIYYINDQRLTNMKSLDDNKKKFYEQELLSLNETRQ
+                     EIIENTNLSIDLYRDVLKVAFSVFFTHCNNQVNRFIEVNDSQISTILFNTDLDLETVM
+                     LLNDGMNDKFLDLLDSYEYEELIKYPIIFTAENFKSNELG"
+     gene            5259..5636
+                     /locus_tag="AsACE_RS15900"
+                     /old_locus_tag="AsACE_p500006"
+     CDS             5259..5636
+                     /locus_tag="AsACE_RS15900"
+                     /old_locus_tag="AsACE_p500006"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_000377207.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_076755265.1"
+                     /translation="MDSIEFLNFAQKIISITPISEIDYRQIISRSYYCAFHKLNEKSN
+                     SLGIPVNAYKGGTHASLRQTLIELRPANKQLKAIAYRLASFHQLRIIADYKLEDKVTE
+                     ISAKESIENCKKILDQINLVTSL"
+     gene            5897..6094
+                     /locus_tag="AsACE_RS16620"
+                     /old_locus_tag="AsACE_p500007"
+     CDS             5897..6094
+                     /locus_tag="AsACE_RS16620"
+                     /old_locus_tag="AsACE_p500007"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_005265040.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_076755267.1"
+                     /translation="MFNLNIFNKISTEVLTYKNALELNSENQLIIKYKISSSDDYKKA
+                     IVLVLKERGYSRLEIGQLLES"
+     gene            complement(6489..6680)
+                     /locus_tag="AsACE_RS15910"
+                     /old_locus_tag="AsACE_p500008"
+     CDS             complement(6489..6680)
+                     /locus_tag="AsACE_RS15910"
+                     /old_locus_tag="AsACE_p500008"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_004282089.1"
+                     /GO_component="GO:0016020 - membrane [Evidence IEA]"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="YqaE/Pmp3 family membrane protein"
+                     /protein_id="WP_032073103.1"
+                     /translation="MRLLIALIFPWLLFFTIGRPFAGIICLVLQITVLGWIPAAIWAV
+                     YALSQYKTDQKIKRAIRSS"
+     gene            complement(6677..6991)
+                     /locus_tag="AsACE_RS15915"
+                     /old_locus_tag="AsACE_p500009"
+     CDS             complement(6677..6991)
+                     /locus_tag="AsACE_RS15915"
+                     /old_locus_tag="AsACE_p500009"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_005098300.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="mobilization protein"
+                     /protein_id="WP_157759228.1"
+                     /translation="MSVTETLDSKIKAQEEKLKQLKAQRQAALARERAKEKEQARKDD
+                     TRRKILIGSCMLKITEEDEQARAKLIAQMDKYLTDERDRKLFDLPIFNYSSVEQINRN
+                     VK"
+     gene            7201..8634
+                     /gene="mobQ"
+                     /locus_tag="AsACE_RS15920"
+                     /old_locus_tag="AsACE_p500010"
+     CDS             7201..8634
+                     /gene="mobQ"
+                     /locus_tag="AsACE_RS15920"
+                     /old_locus_tag="AsACE_p500010"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_005248576.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="MobQ family relaxase"
+                     /protein_id="WP_076755271.1"
+                     /translation="MAIYHFSVKTVARSAGRSATAAIAYRAGEKIYCEREGREHDYSR
+                     KTGVEYKEIYLPEGAPEHLKNREKLWNEVEQRETRKNSTVAREFEIAFPSELNQEQRL
+                     AMLEDLCSSIVDRHQVAVDACIHAPHTGSGSDERNYHAHILMSTRKLTPEGFTEKTRE
+                     LDQKYSGEIEHWREQFADICNMHLDMAGFTARVDHRSYKDQDNGLEATLHEGPKVTEL
+                     RRKGIETEISRSNDEIKQRNQAQLQYGKNMDMLIAENEIKLSKLKKEQQIQIKHSART
+                     PPIDEKAVFEEKQRESLAKVLQGEISAKDANLDLGFMQSSLEKATNTLNKLQKHQNEF
+                     AQNLAEDIIRTELKKSRDQLQSLVEQHAELSKKKPLLFGKKAWEEQREDIYRKHQHLK
+                     SQHEDKKQHGVKNLLGKDEFRTYAWKQYQKHHPAKAEQYQKLYSSYRVIKKHIDEIKA
+                     EQQLKLRQEQRLKQQQVPKMKSRGMSR"
+     gene            9156..10085
+                     /gene="repM"
+                     /locus_tag="AsACE_RS15930"
+                     /old_locus_tag="AsACE_p500012"
+     CDS             9156..10085
+                     /gene="repM"
+                     /locus_tag="AsACE_RS15930"
+                     /old_locus_tag="AsACE_p500012"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_000131200.1"
+                     /GO_function="GO:0003887 - DNA-directed DNA polymerase
+                     activity [Evidence IEA]"
+                     /GO_process="GO:0006270 - DNA replication initiation
+                     [Evidence IEA]"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="replication initiation protein RepM"
+                     /protein_id="WP_076755276.1"
+                     /translation="MTDLVVKSNKLVQALQTLTLSETRLLQLAIVDARETGQGLSTDE
+                     PLELNALRYAKAFNVSPDAAYLALIEAEDSLFKRQFTITNEDGTLTKSRWIQDANYRK
+                     GEGRILVTLTRVVIEHVTKIDGFEQYFTSYHLKKTADFKSVYAVRLYELLMQWKSVGK
+                     TPVYELNKFRSQLGIGVNEYTRMEAFKRRVLDIAVDQINEFSDITVKYEQHKKGRSIS
+                     GFSFSFKPKKANIRSIETNRDPNTTDLFSRMTDKQRHLFATKLSELPEMGKYSQGTES
+                     YPQFAIRIAEMLQDSEKFQELFPYLQKVGYQAA"
+CONTIG      join(CP015620.1:1..10085)
+//
+

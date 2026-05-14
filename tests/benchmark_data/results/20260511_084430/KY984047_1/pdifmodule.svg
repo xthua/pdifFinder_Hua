@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' class='svglite' width='504' height='120' viewBox='0 0 504 120'>
+<defs>
+                <style type='text/css'><![CDATA[
+                    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+                      fill: none;
+                      stroke: #000000;
+                      stroke-linecap: round;
+                      stroke-linejoin: round;
+                      stroke-miterlimit: 10.00;
+                    }
+                    .svglite text {
+                      white-space: pre;
+                    }
+                ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+<clipPath id='cpMC4wMHw1MDQuMDB8MC4wMHw1MDQuMDA='>
+<rect x='0.00' y='0.00' width='120' height='120' />
+</clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw1MDQuMDB8MC4wMHw1MDQuMDA=)'>
+<rect x='0.00' y='-0.000000000000057' width='120' height='120' style='stroke-width: 1.07; stroke: #FFFFFF; fill: #FFFFFF;' />
+</g>
+<defs>
+<clipPath id='HF5wc47Ce2zOKlQ1dtJRxykuLhWaq3fngbT'>
+<rect x='50.23' y='5.48' width='400.00' height='43.66' />
+</clipPath>
+</defs>
+<g clip-path='url(#HF5wc47Ce2zOKlQ1dtJRxykuLhWaq3fngbT)'>
+<polyline points='66.23,27.31 429.23,27.31 ' style='stroke-width: 2.13; stroke: #BEBEBE; stroke-linecap: butt;' />
+<text x='66.23' y='27.31' text-anchor='middle' style='font-size: 6.00px; font-family: "DejaVu Sans";' lengthAdjust='spacingAndGlyphs'>C|D</text>
+<text x='429' y='27.31' text-anchor='middle' style='font-size: 6.00px; font-family: "DejaVu Sans";' lengthAdjust='spacingAndGlyphs'>D|C</text>
+<text x='66.23' y='37.31' text-anchor='middle' style='font-size: 6.00px; font-family: "DejaVu Sans";' lengthAdjust='spacingAndGlyphs'>1936</text>
+<text x='429' y='37.31' text-anchor='middle' style='font-size: 6.00px; font-family: "DejaVu Sans";' lengthAdjust='spacingAndGlyphs'>6083</text>
+<text x='247.5' y='40.31' text-anchor='middle' style='font-size: 6.00px; font-weight:bold; font-family: "DejaVu Sans";' lengthAdjust='spacingAndGlyphs'>pdif69-aph(3')-VIa-pdif333</text>
+<polygon points='245.44287367405977,23.06 245.44287367405977,31.56 199.9949469623915,31.56 199.9949469623915,32.98 177.2709836065574,27.31 199.9949469623915,21.64 199.9949469623915,23.06 ' style='stroke-width: 0.64; fill: #66B3FF;' />
+<text x='211.35692864030858' y='20.31' text-anchor='middle' style='font-size: 6.00px; font-family: "DejaVu Sans";' lengthAdjust='spacingAndGlyphs'>aph(3')-VIa</text>
+</g>
+<text x='35' y='27.31' text-anchor='middle' style='font-size: 6.00px; font-weight:bold; font-family: "DejaVu Sans";' lengthAdjust='spacingAndGlyphs'>KY984047.1</text>
+<g clip-path = 'url(#cpMC4wMHw1MDQuMDB8MC4wMHw1MDQuMDA=)' >
+</g><defs>
+<clipPath id='HgAP9YVbNSvcodRLnIKx32tEC8rWFkiaTGU'>
+<rect x='50.23' y='67.48' width='400.00' height='43.66' />
+</clipPath>
+</defs>
+<g clip-path='url(#HgAP9YVbNSvcodRLnIKx32tEC8rWFkiaTGU)'>
+<polyline points='66.23,87.31 429.23,87.31 ' style='stroke-width: 2.13; stroke: #BEBEBE; stroke-linecap: butt;' />
+<text x='66.23' y='87.31' text-anchor='middle' style='font-size: 6.00px; font-family: "DejaVu Sans";' lengthAdjust='spacingAndGlyphs'>C|D</text>
+<text x='429' y='87.31' text-anchor='middle' style='font-size: 6.00px; font-family: "DejaVu Sans";' lengthAdjust='spacingAndGlyphs'>C|D</text>
+<text x='66.23' y='97.31' text-anchor='middle' style='font-size: 6.00px; font-family: "DejaVu Sans";' lengthAdjust='spacingAndGlyphs'>6578</text>
+<text x='429' y='97.31' text-anchor='middle' style='font-size: 6.00px; font-family: "DejaVu Sans";' lengthAdjust='spacingAndGlyphs'>9872</text>
+<text x='247.5' y='100.31' text-anchor='middle' style='font-size: 6.00px; font-weight:bold; font-family: "DejaVu Sans";' lengthAdjust='spacingAndGlyphs'>pdif24-blaOXA-58-pdif295</text>
+<polygon points='254.02210925644914,83.06 254.02210925644914,91.56 192.18174506828527,91.56 192.18174506828527,92.98 161.26156297420334,87.31 192.18174506828527,81.64 192.18174506828527,83.06 ' style='stroke-width: 0.64; fill: #fce166;' />
+<text x='207.64183611532624' y='80.31' text-anchor='middle' style='font-size: 6.00px; font-family: "DejaVu Sans";' lengthAdjust='spacingAndGlyphs'>blaOXA-58</text>
+</g>
+<text x='35' y='87.31' text-anchor='middle' style='font-size: 6.00px; font-weight:bold; font-family: "DejaVu Sans";' lengthAdjust='spacingAndGlyphs'>KY984047.1</text>
+<g clip-path = 'url(#cpMC4wMHw1MDQuMDB8MC4wMHw1MDQuMDA=)' >
+</g>
+</svg>

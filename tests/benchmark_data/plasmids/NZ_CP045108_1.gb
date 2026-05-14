@@ -1,0 +1,378 @@
+LOCUS       NZ_CP045108             7655 bp    DNA     circular CON 05-APR-2026
+DEFINITION  Acinetobacter baumannii strain ATCC 19606 plasmid p1ATCC19606,
+            complete sequence.
+ACCESSION   NZ_CP045108
+VERSION     NZ_CP045108.1
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN12389466
+            Assembly: GCF_009035845.1
+KEYWORDS    RefSeq.
+SOURCE      Acinetobacter baumannii
+  ORGANISM  Acinetobacter baumannii
+            Bacteria; Pseudomonadati; Pseudomonadota; Gammaproteobacteria;
+            Moraxellales; Moraxellaceae; Acinetobacter; Acinetobacter
+            calcoaceticus/baumannii complex.
+REFERENCE   1  (bases 1 to 7655)
+  AUTHORS   Hamidian,M., Blasco,L., Tillman,L.N., To,J., Tomas,M. and
+            Myers,G.S.A.
+  TITLE     Analysis of Complete Genome Sequence of Acinetobacterbaumannii
+            Strain ATCC 19606 Reveals Novel Mobile Genetic Elements and Novel
+            Prophage
+  JOURNAL   Microorganisms 8 (12), 1851 (2020)
+   PUBMED   33255319
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 7655)
+  AUTHORS   Tillman,L.N., To,J. and Hamidian,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-OCT-2019) ithree Institute, University of Technology
+            Sydney, 15 Broadway, Ultimo, NSW 2007, Australia
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to
+            CP045108.1.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method        :: Hybrid assembly v. July-31
+            Assembly Name          :: ATCC19606-complete-genome
+            Genome Representation  :: Full
+            Expected Final Version :: Yes
+            Genome Coverage        :: 100.0x
+            Sequencing Technology  :: Illumina MiSeq; Oxford Nanopore MiniION
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Name                   :: GCF_009035845.1-RS_2026_03_31
+            Annotation Date                   :: 03/31/2026 06:49:17
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP)
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 6.10
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA
+            Genes (total)                     :: 3,832
+            CDSs (total)                      :: 3,736
+            Genes (coding)                    :: 3,682
+            CDSs (with protein)               :: 3,682
+            Genes (RNA)                       :: 96
+            rRNAs                             :: 6, 6, 6 (5S, 16S, 23S)
+            complete rRNAs                    :: 6, 6, 6 (5S, 16S, 23S)
+            tRNAs                             :: 74
+            ncRNAs                            :: 4
+            Pseudo Genes (total)              :: 54
+            CDSs (without protein)            :: 54
+            Pseudo Genes (ambiguous residues) :: 0 of 54
+            Pseudo Genes (frameshifted)       :: 24 of 54
+            Pseudo Genes (incomplete)         :: 24 of 54
+            Pseudo Genes (internal stop)      :: 11 of 54
+            Pseudo Genes (multiple problems)  :: 5 of 54
+            CRISPR Arrays                     :: 1
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..7655
+                     /organism="Acinetobacter baumannii"
+                     /mol_type="genomic DNA"
+                     /strain="ATCC 19606"
+                     /isolation_source="urine"
+                     /host="Homo sapiens"
+                     /culture_collection="ATCC:19606"
+                     /type_material="type strain of Acinetobacter baumannii"
+                     /db_xref="taxon:470"
+                     /plasmid="p1ATCC19606"
+                     /geo_loc_name="USA:Georgia, Atlanta"
+                     /lat_lon="33.7490 N 84.3880 W"
+                     /collection_date="1948"
+     gene            144..1094
+                     /gene="repM"
+                     /locus_tag="FQU82_RS00005"
+                     /old_locus_tag="FQU82_p100001"
+                     /db_xref="GeneID:92891903"
+     CDS             144..1094
+                     /gene="repM"
+                     /locus_tag="FQU82_RS00005"
+                     /old_locus_tag="FQU82_p100001"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_004786597.1"
+                     /GO_function="GO:0003887 - DNA-directed DNA polymerase
+                     activity [Evidence IEA]"
+                     /GO_process="GO:0006270 - DNA replication initiation
+                     [Evidence IEA]"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="replication initiation protein RepM"
+                     /protein_id="WP_001208779.1"
+                     /db_xref="GeneID:92891903"
+                     /translation="MRELVVKDNALINASYNLDLVEQRLILLAIVEARESGKGINAND
+                     PLTVHAESYINQFGVHRNTAYQALKDACNDLFARQFSYQKINERGNIENYRSRWVSEI
+                     GYVDNEAVVKLIFAPAIVPLITRLEEHFTKYELQQVSNLSSAYAVRLYELLIAWRSTG
+                     STPIIELSDFRQRIGVLDTEYKRMERFKTSVLELAIKQINEHTDITVKYEQHKRGRSI
+                     SGFSFNFKQKKKDSTSIERDPNTLKLSSKMTDAQRHMFANKLSELPEMGRYSQGTESY
+                     PQFAVRIAEMLQDPEKIKELSPYLKKVGYMPSNKKDTVNG"
+     gene            1087..1662
+                     /locus_tag="FQU82_RS00010"
+                     /old_locus_tag="FQU82_p100002"
+                     /db_xref="GeneID:92891904"
+     CDS             1087..1662
+                     /locus_tag="FQU82_RS00010"
+                     /old_locus_tag="FQU82_p100002"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_005102333.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="plasmid replication DNA-binding protein"
+                     /protein_id="WP_001096618.1"
+                     /db_xref="GeneID:92891904"
+                     /translation="MAKLSLSEVSKKFHVDRSTIYRAVRNGRLSRSSDGQFDLAEVIR
+                     CFGEPEQTSQKIESSKQEGDESTKKLIAHLENEVKKYQEREERLMQQIDRMQTLIELK
+                     SVAPATAAPHQDATACDTKMPQYATTQQDTDNKKNNELNIAENVAVPQQETTAYHTQT
+                     LQYATLPSVAVPQHKKRGLFGRVLNAVFDND"
+     gene            1682..1825
+                     /locus_tag="FQU82_RS00015"
+                     /old_locus_tag="FQU82_p100003"
+                     /db_xref="GeneID:92891905"
+     CDS             1682..1825
+                     /locus_tag="FQU82_RS00015"
+                     /old_locus_tag="FQU82_p100003"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_004786602.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_001125246.1"
+                     /db_xref="GeneID:92891905"
+                     /translation="MPKLKDIALGIIVAPLLIPIMLIASYQDKKALKKELDECQKEKD
+                     QAS"
+     gene            complement(2016..>2138)
+                     /locus_tag="FQU82_RS19165"
+                     /pseudo
+                     /db_xref="GeneID:92895712"
+     CDS             complement(2016..>2138)
+                     /locus_tag="FQU82_RS19165"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_004733157.1"
+                     /note="incomplete; partial in the middle of a contig;
+                     missing N-terminus; Derived by automated computational
+                     analysis using gene prediction method: Protein Homology."
+                     /pseudo
+                     /codon_start=1
+                     /transl_table=11
+                     /product="cysteine hydrolase"
+                     /db_xref="GeneID:92895712"
+     gene            2269..2604
+                     /locus_tag="FQU82_RS19170"
+                     /old_locus_tag="FQU82_p100004"
+                     /db_xref="GeneID:92895713"
+     CDS             2269..2604
+                     /locus_tag="FQU82_RS19170"
+                     /old_locus_tag="FQU82_p100004"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_001061698.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_001061698.1"
+                     /db_xref="GeneID:92895713"
+                     /translation="MNNLQIVIAQALHSYEFEHMEQSISKSISDTILEILVNDGPFEK
+                     IDCYLYSKKDSKKILKSSIHYVIAVLERAKYRVQRAQQDNLSPLYICLYVIKKIEGFI
+                     EYLNTKFQL"
+     gene            complement(3099..3371)
+                     /gene="nadS"
+                     /locus_tag="FQU82_RS00020"
+                     /old_locus_tag="FQU82_p100005"
+                     /db_xref="GeneID:92891906"
+     CDS             complement(3099..3371)
+                     /gene="nadS"
+                     /locus_tag="FQU82_RS00020"
+                     /old_locus_tag="FQU82_p100005"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_000369784.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="NadS family protein"
+                     /protein_id="WP_000369782.1"
+                     /db_xref="GeneID:92891906"
+                     /translation="MDNNLFDDLVASIKEAGAIKRNEIKASRVTELELPDIKEVREKT
+                     GLTQAEFAARLHISARTLQNWEQGRRYPTGPAATLIRILDAHPGLI"
+     gene            complement(3364..3684)
+                     /locus_tag="FQU82_RS00025"
+                     /old_locus_tag="FQU82_p100006"
+                     /db_xref="GeneID:92891907"
+     CDS             complement(3364..3684)
+                     /locus_tag="FQU82_RS00025"
+                     /old_locus_tag="FQU82_p100006"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_000897307.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="type II toxin-antitoxin system RelE/ParE family
+                     toxin"
+                     /protein_id="WP_000897309.1"
+                     /db_xref="GeneID:92891907"
+                     /translation="MLFIETSIFTKQIKELVSDEEYRQLQQDLLVQPDKGDLIKNGGG
+                     IRKVRCAQGNKGKSGGIRVIYYWVTEDDQIFFLVAYPKSVKDNLTDKETSILRQLVKE
+                     QFHG"
+     gene            complement(3871..4068)
+                     /locus_tag="FQU82_RS00030"
+                     /old_locus_tag="FQU82_p100007"
+                     /db_xref="GeneID:92891908"
+     CDS             complement(3871..4068)
+                     /locus_tag="FQU82_RS00030"
+                     /old_locus_tag="FQU82_p100007"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_005237334.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_000476222.1"
+                     /db_xref="GeneID:92891908"
+                     /translation="MFKQTLSVKDQFGVKHAIQATVDHEFANTQSHLNIKHITVDGED
+                     IRPSFEMLFQSTLSGKIFKII"
+     gene            complement(4135..4362)
+                     /locus_tag="FQU82_RS00035"
+                     /old_locus_tag="FQU82_p100008"
+                     /db_xref="GeneID:92891909"
+     CDS             complement(4135..4362)
+                     /locus_tag="FQU82_RS00035"
+                     /old_locus_tag="FQU82_p100008"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_005166620.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_000921865.1"
+                     /db_xref="GeneID:92891909"
+                     /translation="MLKVNDLIAKSKNGTEIIVSLIPLHKMQNTRQGLKQIEVGKRVL
+                     LESGIEVDLNLDGRTFYTSLNQLFKLNHKVA"
+     gene            complement(4460..4675)
+                     /locus_tag="FQU82_RS00040"
+                     /old_locus_tag="FQU82_p100009"
+                     /db_xref="GeneID:92891910"
+     CDS             complement(4460..4675)
+                     /locus_tag="FQU82_RS00040"
+                     /old_locus_tag="FQU82_p100009"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_004693381.1"
+                     /GO_function="GO:0003676 - nucleic acid binding [Evidence
+                     IEA]"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="cold-shock protein"
+                     /protein_id="WP_000071892.1"
+                     /db_xref="GeneID:92891910"
+                     /translation="MSNSNVVKGTVKWFNETKGFGFIQQESGPDVFAHFSEIASSGFK
+                     TLFEGQQVEFSVAQGQKGPNAVNIVAI"
+     gene            complement(5002..5514)
+                     /locus_tag="FQU82_RS00045"
+                     /old_locus_tag="FQU82_p100010"
+                     /db_xref="GeneID:92891911"
+     CDS             complement(5002..5514)
+                     /locus_tag="FQU82_RS00045"
+                     /old_locus_tag="FQU82_p100010"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_000064854.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_000064854.1"
+                     /db_xref="GeneID:92891911"
+                     /translation="MSNGTNYFKYIGLEFIKFLIPISITFLTACFFSKLFSSKELFEI
+                     YVSAKINAHLTNEFFSILGAITILLGILFMIKSLSGFNVLDKFLTLILEEIPKNITIF
+                     GGAITGSIYALSWYSYSYDIVLKQTPMQIFFLGTFFAITFFIYAVALQYLIDQKKIKD
+                     SQQQVNSNNG"
+     gene            complement(5609..5968)
+                     /locus_tag="FQU82_RS00050"
+                     /old_locus_tag="FQU82_p100011"
+                     /db_xref="GeneID:92891912"
+     CDS             complement(5609..5968)
+                     /locus_tag="FQU82_RS00050"
+                     /old_locus_tag="FQU82_p100011"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_000360920.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="SEL1-like repeat protein"
+                     /protein_id="WP_000360920.1"
+                     /db_xref="GeneID:92891912"
+                     /translation="MDKQRVFFCGNYLIEKREKSQIKKNAKAGDVKSMLDLARYYYAN
+                     KKIKKTIKYADLAALRQGSYTQYEVGIFYFQLEIHYKAVFWLTIAAKNGDLDAIEDIK
+                     SIYNINLNFSNNFKDAA"
+     gene            complement(6077..6217)
+                     /locus_tag="FQU82_RS00055"
+                     /old_locus_tag="FQU82_p100012"
+                     /db_xref="GeneID:92891913"
+     CDS             complement(6077..6217)
+                     /locus_tag="FQU82_RS00055"
+                     /old_locus_tag="FQU82_p100012"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_001282484.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_001985218.1"
+                     /db_xref="GeneID:92891913"
+                     /translation="MSDNIIQLSKPCTLCENRQNVQLFAGLMLCESCQENIRLTNPDM
+                     FS"
+     gene            complement(6217..6588)
+                     /locus_tag="FQU82_RS00060"
+                     /old_locus_tag="FQU82_p100013"
+                     /db_xref="GeneID:92891914"
+     CDS             complement(6217..6588)
+                     /locus_tag="FQU82_RS00060"
+                     /old_locus_tag="FQU82_p100013"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_000504218.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_000504219.1"
+                     /db_xref="GeneID:92891914"
+                     /translation="MGEKVKTYAVRLDPQVAEFYDQLANSEGIRTSKLFSKILTNDFQ
+                     SIAVKQQADRIEDLVNRLEKRIDDFEEDNNFSEKYYEDFSGLYFMMLWTLMKNGASKD
+                     EVRMMQAKGYSYADDNYKRVK"
+     gene            complement(6895..7113)
+                     /locus_tag="FQU82_RS19330"
+                     /db_xref="GeneID:99805020"
+     CDS             complement(6895..7113)
+                     /locus_tag="FQU82_RS19330"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_002031357.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_074162264.1"
+                     /db_xref="GeneID:99805020"
+                     /translation="MNGQKIDFLRFFKQGNKYFFPCKTKHRPYVTLANFPIQDPAHAG
+                     IFLSHTTHLTMTTFKPLWCKGLGNYFVC"
+CONTIG      join(CP045108.1:1..7655)
+//
+

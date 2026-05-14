@@ -1,0 +1,49 @@
+LOCUS       CM131258           611755209 bp    DNA     linear   CON 19-NOV-2025
+DEFINITION  Aegilops geniculata isolate TA2899 chromosome 2U, whole genome
+            shotgun sequence.
+ACCESSION   CM131258 JBQUYH010000000
+VERSION     CM131258.1
+DBLINK      BioProject: PRJNA1257951
+            BioSample: SAMN48921477
+KEYWORDS    WGS.
+SOURCE      Aegilops geniculata
+  ORGANISM  Aegilops geniculata
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; Liliopsida; Poales; Poaceae; BOP
+            clade; Pooideae; Triticodae; Triticeae; Triticinae; Aegilops.
+REFERENCE   1  (bases 1 to 611755209)
+  AUTHORS   Yunusbaev,U., Campos,G.R., Sathishraj,R., Liakh,E., Raupp,J.W.,
+            Zimin,A.V., Akhunova,A., Koo,D.H. and Akhunov,E.
+  TITLE     The Evolution and Origin of Allotetraploid Aegilops geniculata
+            Revealed by the Homoeolog-Resolved Genome Assembly
+  JOURNAL   Plant Biotechnol J (2025) In press
+   PUBMED   41211871
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 611755209)
+  AUTHORS   Akhunov,E.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-JUN-2025) Plant Pathology, Kansas State University,
+            1712 Claflin Road, 4024 Throckmorton PSC, Manhattan, KS 66506, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Date          :: DEC-2024
+            Assembly Method        :: Hifiasm v. 0.19.5
+            Assembly Name          :: Aegilops_geniculata_ksu_v1.3
+            Genome Representation  :: Full
+            Expected Final Version :: Yes
+            Genome Coverage        :: 30.0x
+            Sequencing Technology  :: PacBio Sequel
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..611755209
+                     /organism="Aegilops geniculata"
+                     /mol_type="genomic DNA"
+                     /isolate="TA2899"
+                     /db_xref="taxon:130459"
+                     /chromosome="2U"
+                     /tissue_type="leaf"
+                     /dev_stage="Tillering"
+                     /geo_loc_name="Israel"
+                     /collection_date="2022-12"
+CONTIG      join(JBQUYH010000004.1:1..611755209)
+//
+

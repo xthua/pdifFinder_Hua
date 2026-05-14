@@ -1,0 +1,135 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://pdiffinder.example.com/schemas/benchmark_result.json",
+  "title": "BenchmarkResult",
+  "description": "Schema for pdifFinder literature benchmark results (BenchmarkResult dataclass).",
+
+  "definitions": {
+    "matched_pair": {
+      "type": "object",
+      "required": ["ref_index", "det_index", "ref_start", "ref_end", "det_start", "det_end"],
+      "additionalProperties": false,
+      "properties": {
+        "ref_index":    { "type": "integer", "minimum": 0 },
+        "det_index":    { "type": "integer", "minimum": 0 },
+        "ref_start":    { "type": "integer", "minimum": 0 },
+        "ref_end":      { "type": "integer", "minimum": 0 },
+        "det_start":    { "type": "integer", "minimum": 0 },
+        "det_end":      { "type": "integer", "minimum": 0 }
+      }
+    },
+    "unvalidated_detection": {
+      "type": "object",
+      "required": ["det_index"],
+      "additionalProperties": false,
+      "properties": {
+        "det_index": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "reference_entry": {
+      "type": "object",
+      "required": [
+        "plasmid_accession", "pdif_start", "pdif_end", "pdif_sequence",
+        "strand", "orientation", "source_pmid", "source_description",
+        "curator_notes", "curation_date"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "plasmid_accession": { "type": "string" },
+        "pdif_start":        { "type": "integer", "minimum": 0 },
+        "pdif_end":          { "type": "integer", "minimum": 0 },
+        "pdif_sequence":     { "type": "string" },
+        "strand":            { "type": "string" },
+        "orientation":       { "type": "string" },
+        "source_pmid":       { "type": "string" },
+        "source_description": { "type": "string" },
+        "curator_notes":     { "type": "string" },
+        "curation_date":     { "type": "string" }
+      }
+    },
+    "comparison_result": {
+      "type": "object",
+      "required": ["plasmid_accession", "matched_pairs", "missed_references", "unvalidated_detections", "failure_categories"],
+      "additionalProperties": false,
+      "properties": {
+        "plasmid_accession":   { "type": "string" },
+        "matched_pairs":       { "type": "array", "items": { "$ref": "#/definitions/matched_pair" } },
+        "missed_references":   { "type": "array", "items": { "$ref": "#/definitions/reference_entry" } },
+        "unvalidated_detections": { "type": "array", "items": { "$ref": "#/definitions/unvalidated_detection" } },
+        "failure_categories":  { "type": "object", "additionalProperties": { "type": "integer", "minimum": 0 } }
+      }
+    },
+    "per_plasmid_entry": {
+      "type": "object",
+      "required": ["plasmid_accession", "reference_count", "matched_count", "missed_count", "unvalidated_count", "detection_rate", "failure_categories"],
+      "additionalProperties": false,
+      "properties": {
+        "plasmid_accession":  { "type": "string" },
+        "reference_count":    { "type": "integer", "minimum": 0 },
+        "matched_count":      { "type": "integer", "minimum": 0 },
+        "missed_count":       { "type": "integer", "minimum": 0 },
+        "unvalidated_count":  { "type": "integer", "minimum": 0 },
+        "detection_rate":     { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+        "failure_categories": { "type": "object", "additionalProperties": { "type": "integer", "minimum": 0 } }
+      }
+    },
+    "metrics": {
+      "type": "object",
+      "required": [
+        "detection_rate", "precision", "position_median_error",
+        "position_mean_error", "position_max_error", "fpr_per_kb",
+        "per_plasmid_breakdown", "failure_category_summary",
+        "total_reference_sites", "total_matched_sites",
+        "total_missed_sites", "total_unvalidated"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "detection_rate":           { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+        "precision":                { "type": "number", "minimum": 0.0, "maximum": 1.0 },
+        "position_median_error":    { "type": "number", "minimum": -1.0 },
+        "position_mean_error":      { "type": "number", "minimum": -1.0 },
+        "position_max_error":       { "type": "number", "minimum": -1.0 },
+        "fpr_per_kb":               { "type": "number", "minimum": -1.0 },
+        "per_plasmid_breakdown":    { "type": "array", "items": { "$ref": "#/definitions/per_plasmid_entry" } },
+        "failure_category_summary": { "type": "object", "additionalProperties": { "type": "integer", "minimum": 0 } },
+        "total_reference_sites":    { "type": "integer", "minimum": 0 },
+        "total_matched_sites":      { "type": "integer", "minimum": 0 },
+        "total_missed_sites":       { "type": "integer", "minimum": 0 },
+        "total_unvalidated":        { "type": "integer", "minimum": 0 }
+      }
+    }
+  },
+
+  "type": "object",
+  "required": ["mode", "timestamp", "plasmid_filter", "comparisons", "failures", "metrics", "output_dir"],
+  "additionalProperties": false,
+  "properties": {
+    "mode": {
+      "type": "string",
+      "enum": ["pdif_only", "full_pipeline"]
+    },
+    "timestamp": {
+      "type": "string"
+    },
+    "plasmid_filter": {
+      "anyOf": [
+        { "type": "string" },
+        { "type": "null" }
+      ]
+    },
+    "comparisons": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/comparison_result" }
+    },
+    "failures": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "metrics": {
+      "$ref": "#/definitions/metrics"
+    },
+    "output_dir": {
+      "type": "string"
+    }
+  }
+}

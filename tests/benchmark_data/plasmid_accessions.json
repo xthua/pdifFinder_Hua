@@ -1,0 +1,165 @@
+{
+  "accessions": [
+    {
+      "id": "KY984047.1",
+      "pdif_count": 6,
+      "pdif_sequences": [
+        "ACTGCGCATAAGAGATTTTATGTTAAAT",
+        "ATTTCGCATAAGGTGTATTATGTTAATT",
+        "ACTTAACATAATGGTTGTTATACACAAT",
+        "ATTTCGTATAACAGCCATTATGTTAAAT",
+        "GTTTCGTATAACAGCCATTATCTTAAAT",
+        "AATTCACATAAAATTTCTTATAAGAATT"
+      ],
+      "valid": true
+    },
+    {
+      "id": "CP045108.1",
+      "pdif_count": 1,
+      "pdif_sequences": [
+        "CTTTAACATAAAATCTCTTATGAGAATT"
+      ],
+      "valid": true
+    },
+    {
+      "id": "KY984046.1",
+      "pdif_count": 4,
+      "pdif_sequences": [
+        "ATTTCGTATAAGGTGTATTATGTTATTT",
+        "ACTTCGTATAAGGTGTATTATGTTAATT",
+        "ATTTAACATAATGGGCGTTATACGAAAC",
+        "GTTTAACATAAAATCTCTTATGCGAAAT"
+      ],
+      "valid": true
+    },
+    {
+      "id": "KY984045.1",
+      "pdif_count": 4,
+      "pdif_sequences": [
+        "ATTTCGCATAAGAGATTTTATGTTAAAG",
+        "ATTTCGTATAACGCCCATTATGTTAAAT",
+        "AATTAACATAATACACCTTATACGAAGG",
+        "ACTTCGCATAATCGCCATTATGTTAAAT"
+      ],
+      "valid": true
+    },
+    {
+      "id": "KR055667.1",
+      "pdif_count": 2,
+      "pdif_sequences": [
+        "ATTACGTATAAGGTGTATTATGTTAATT",
+        "GTATAAGGTGTATTATGTTAATTTTAGA"
+      ],
+      "valid": true
+    },
+    {
+      "id": "MF399199.1",
+      "pdif_count": 1,
+      "pdif_sequences": [
+        "ATTTCGTATAAGAAATTTTATGTTAAAT"
+      ],
+      "valid": true
+    },
+    {
+      "id": "CP024419.1",
+      "pdif_count": 2,
+      "pdif_sequences": [
+        "GTTTCGTATAACAGCCATTATGTTAAAT",
+        "ATTTAACATAAAATCTCTTATTCGAAAT"
+      ],
+      "valid": true
+    },
+    {
+      "id": "CP045109.1",
+      "pdif_count": 2,
+      "pdif_sequences": [
+        "ATTTCATATAACGCCCATTATGTTAAAT",
+        "AAATAACATAATACACCTTATGCGAAAT"
+      ],
+      "valid": true
+    },
+    {
+      "id": "KY617771.1",
+      "pdif_count": 6,
+      "pdif_sequences": [
+        "ATTTAACATAATGGCTGTTATGCGAAAC",
+        "ATTTAACATAAAATTTCTTATGTGAAGT",
+        "AGTTCGTATAATACGTATCATATTAATT",
+        "ATTTCGTATAACGTGTATTATGTTAATT",
+        "ATTTAACATAATGGCGGTTATACGAAGT",
+        "ATTTAACATAAAATCTCTTATACGCAAT"
+      ],
+      "valid": true
+    },
+    {
+      "id": "CP012956.1",
+      "pdif_count": 3,
+      "pdif_sequences": [
+        "AAATAACATAATACATCTTATGCGAAGT",
+        "ACTTCGTATAACCGCCATTATGTTAAAT",
+        "AATTAACATAATAAACGTTATATGAACT"
+      ],
+      "valid": true
+    },
+    {
+      "id": "CP012955.1",
+      "pdif_count": 3,
+      "pdif_sequences": [
+        "ATTTAACATAATGGATATTATACGAAGT",
+        "ATTTAACATAAGGGCTGTTATACGAAAT",
+        "ATTTAACATAAAAACTCTTATACGAAGC"
+      ],
+      "valid": true
+    },
+    {
+      "id": "CP041590.1",
+      "pdif_count": 3,
+      "pdif_sequences": [
+        "ACTTCACATAAGAAATTTTATGTTAAAT",
+        "GTTTCGCATAACCGCCATTATGTTAAGT",
+        "AATTAACATAATGGGCGTTATACGAAAT"
+      ],
+      "valid": true
+    },
+    {
+      "id": "pAB1H8",
+      "pdif_count": 1,
+      "pdif_sequences": [
+        "ATTTAACATAATAGAGCTTATGCGAAAT"
+      ],
+      "valid": false
+    },
+    {
+      "id": "TE_01Z_000_contig11",
+      "pdif_count": 1,
+      "pdif_sequences": [
+        "ATTTAACATAATAGAGCTTATACGAAAT"
+      ],
+      "valid": false
+    },
+    {
+      "id": "TE_IN_B_contig_8",
+      "pdif_count": 1,
+      "pdif_sequences": [
+        "AATTCGTATAACGCGTATTATGTTAATT"
+      ],
+      "valid": false
+    },
+    {
+      "id": "pDETAB2",
+      "pdif_count": 1,
+      "pdif_sequences": [
+        "AGTTGTAATAACCTGCTGTAGGTTAATT"
+      ],
+      "valid": false
+    }
+  ],
+  "total": 16,
+  "valid_ncbi": 12,
+  "non_standard": 4,
+  "_metadata": {
+    "source": "redundant.seed.fa",
+    "total_entries": 41,
+    "description": "Plasmid accessions extracted from PdifFinder benchmark seed data"
+  }
+}

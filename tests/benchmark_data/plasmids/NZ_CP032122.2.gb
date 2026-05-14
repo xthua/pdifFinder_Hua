@@ -1,0 +1,261 @@
+LOCUS       NZ_CP032122             8816 bp    DNA     circular CON 14-MAR-2025
+DEFINITION  Acinetobacter lwoffii strain ED45-23 plasmid pALWED2.7, complete
+            sequence.
+ACCESSION   NZ_CP032122
+VERSION     NZ_CP032122.2
+DBLINK      BioProject: PRJNA224116
+            BioSample: SAMN05251103
+KEYWORDS    RefSeq.
+SOURCE      Acinetobacter lwoffii
+  ORGANISM  Acinetobacter lwoffii
+            Bacteria; Pseudomonadati; Pseudomonadota; Gammaproteobacteria;
+            Moraxellales; Moraxellaceae; Acinetobacter.
+REFERENCE   1  (bases 1 to 8816)
+  AUTHORS   Mindlin,S., Petrenko,A., Kurakov,A., Beletsky,A., Mardanov,A. and
+            Petrova,M.
+  TITLE     Resistance of ancient and modern Acinetobacter lwoffii strains to
+            heavy metals and arsenic revealed by genome analysis
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 8816)
+  AUTHORS   Beletsky,A., Kurakov,A., Petrova,M. and Mardanov,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-SEP-2021) Lab of molecular cloning, Institute of
+            Bioengineering, Research Center of Biotechnology of RAS, Prosp.
+            60-let Oktyabrya, bld 7-1, Moscow 117312, Russia
+  REMARK    Sequence update by submitter
+REFERENCE   3  (bases 1 to 8816)
+  AUTHORS   Beletsky,A., Kurakov,A., Petrova,M. and Mardanov,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-SEP-2018) Lab of molecular cloning, Institute of
+            Bioengineering, Research Center of Biotechnology of RAS, Prosp.
+            60-let Oktyabrya, bld 7-1, Moscow 117312, Russia
+COMMENT     REFSEQ INFORMATION: The reference sequence is identical to
+            CP032122.2.
+            
+            On Dec 10, 2021 this sequence version replaced NZ_CP032122.1.
+            Bacteria and source DNA available from Dr. Petrova M.A.
+            The annotation was added by the NCBI Prokaryotic Genome Annotation
+            Pipeline (PGAP). Information about PGAP can be found here:
+            https://www.ncbi.nlm.nih.gov/genome/annotation_prok/
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method        :: Newbler v. 3.0
+            Expected Final Version :: yes
+            Genome Coverage        :: 30.0x
+            Sequencing Technology  :: 454
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider               :: NCBI RefSeq
+            Annotation Name                   :: GCF_003586425.2-RS_2025_03_14
+            Annotation Date                   :: 03/14/2025 02:06:44
+            Annotation Pipeline               :: NCBI Prokaryotic Genome
+                                                 Annotation Pipeline (PGAP)
+            Annotation Method                 :: Best-placed reference protein
+                                                 set; GeneMarkS-2+
+            Annotation Software revision      :: 6.9
+            Features Annotated                :: Gene; CDS; rRNA; tRNA; ncRNA
+            Genes (total)                     :: 135
+            CDSs (total)                      :: 135
+            Genes (coding)                    :: 132
+            CDSs (with protein)               :: 132
+            Genes (RNA)                       :: 0
+            tRNAs                             :: 0
+            ncRNAs                            :: 0
+            Pseudo Genes (total)              :: 3
+            CDSs (without protein)            :: 3
+            Pseudo Genes (ambiguous residues) :: 0 of 3
+            Pseudo Genes (frameshifted)       :: 1 of 3
+            Pseudo Genes (incomplete)         :: 2 of 3
+            Pseudo Genes (internal stop)      :: 0 of 3
+            ##Genome-Annotation-Data-END##
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..8816
+                     /organism="Acinetobacter lwoffii"
+                     /mol_type="genomic DNA"
+                     /strain="ED45-23"
+                     /isolation_source="permafrost, Kolyma lowland"
+                     /db_xref="taxon:28090"
+                     /plasmid="pALWED2.7"
+                     /geo_loc_name="Russia"
+     gene            complement(join(8675..8816,1..383))
+                     /locus_tag="ABPAL_RS00540"
+     CDS             complement(join(8675..8816,1..383))
+                     /locus_tag="ABPAL_RS00540"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_008307689.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="plasmid replication DNA-binding protein"
+                     /protein_id="WP_039090898.1"
+                     /translation="MKSLTVLELSKLYNINRQTIYNNIKKGILSKNSDNKIDLAEAIR
+                     VFGEPSKKLDVKESVKIDSPNSAEVLLLRQQIDMLKNQLDDAKERESFYQNQIETMQR
+                     LLEAPKPKIQDPSELELPQSAPIVEMKEEVIVVPPKDDGLTTPENKRIPVPEHVEPEP
+                     KKRGFLSRFFLPYG"
+     gene            complement(462..1391)
+                     /gene="repM"
+                     /locus_tag="ABPAL_RS00545"
+     CDS             complement(462..1391)
+                     /gene="repM"
+                     /locus_tag="ABPAL_RS00545"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_000131200.1"
+                     /GO_function="GO:0003887 - DNA-directed DNA polymerase
+                     activity [Evidence IEA]"
+                     /GO_process="GO:0006270 - DNA replication initiation
+                     [Evidence IEA]"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="replication initiation protein RepM"
+                     /protein_id="WP_159373056.1"
+                     /translation="MTDLVVKSNKLVQALQTLTLSETRLLQLAIVDARETGQGLSTDE
+                     PLELNALRYAKAFNVSPDAAYLALIEAEDSLFKRQFTITNEDGTLTKSRWIQDANYRK
+                     GEGRILVTLTRVVIEHVTKIDGFEQYFTSYHLKKTADFKSVYAVRLYELLMQWKSVGK
+                     TPVYELNKFRSQLGIGVNEYTRMEAFKRRVLDIAVDQINEFSDITVKYEQHKKGRSIS
+                     GFSFSFKPKKVTIRSIETNRDPNTTDLFSRMTDKQRHLFATKLSELPEMGKYSQSTES
+                     YPQFAIRIAEMLQDSEKFQELFPYLQKVGYQSA"
+     gene            complement(1603..1836)
+                     /locus_tag="ABPAL_RS00550"
+     CDS             complement(1603..1836)
+                     /locus_tag="ABPAL_RS00550"
+                     /inference="COORDINATES: ab initio
+                     prediction:GeneMarkS-2+"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: GeneMarkS-2+."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_159373055.1"
+                     /translation="MGANFPSLIPKPSVASKKTHERSEFRAAFDLALAFSQIHENMNQ
+                     KLPRRIERKRDSIEFEQSENQGQFFMKYAFNYF"
+     gene            complement(1938..3374)
+                     /gene="mobQ"
+                     /locus_tag="ABPAL_RS00555"
+     CDS             complement(1938..3374)
+                     /gene="mobQ"
+                     /locus_tag="ABPAL_RS00555"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_005248576.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="MobQ family relaxase"
+                     /protein_id="WP_231517338.1"
+                     /translation="MAIYHFSVKTVARSAGRSATAAIAYRAGEKIYCEREGREHDYSR
+                     KTGVEYKEIYLPEGAPEHLKNREKLWNEVEQRETRKNSTVAREFEIAFPSELNQEQRL
+                     AMLEELCASIVERHQVAVDACIHAPHTGSGSDERNYHAHILMSTRKLTPEGFTEKTRE
+                     LDQKHSGEIEHWREHFADICNMHLDMAGSTARVDHRSYKDQENGLEATLHEGPKVTEL
+                     RRRGIETEISRSNDEIKERNQAQLQYGKNMDLLIAENEIKLSTLKIEQQIQIKNSAKT
+                     PPIDEKALFEEKQRETLGKVLKREISAKDANLDLDFMQQHLEKAEKTLSKHHKHQNEF
+                     NQQLAQEIVKSGLKQSHDKLQSLVDQHNELTQNKPLLFGKKAWEAQRDEIYQEHKKLK
+                     GQHEHQKKHGVKDLLENDKFKEHAWKQYQQQHPAKAKQYQTLYPSYQVIKKCVDEIKA
+                     EQQMKLRQEQQLKAQQHVPKMKSRGMSR"
+     gene            3584..3865
+                     /locus_tag="ABPAL_RS00560"
+     CDS             3584..3865
+                     /locus_tag="ABPAL_RS00560"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_005098300.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_005098300.1"
+                     /translation="MSVTETLDSKIKAQEEKLKQLKAQRQAALARERAKEKEQLRKDD
+                     TRRKILIGSCMLKITEDDEQARAKLIAQMDKYLTDERDRKLFDLSAVNY"
+     gene            3895..4086
+                     /locus_tag="ABPAL_RS00565"
+     CDS             3895..4086
+                     /locus_tag="ABPAL_RS00565"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_004282089.1"
+                     /GO_component="GO:0016020 - membrane [Evidence IEA]"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="YqaE/Pmp3 family membrane protein"
+                     /protein_id="WP_004728112.1"
+                     /translation="MRLLIALIFPWLLFFTIGRPFAGIICLLLQITVLGWIPAAIWAV
+                     YALSQYKTDQKIKRTIRSS"
+     gene            4558..5736
+                     /locus_tag="ABPAL_RS00570"
+     CDS             4558..5736
+                     /locus_tag="ABPAL_RS00570"
+                     /inference="COORDINATES: protein motif:HMM:NF014691.6"
+                     /GO_function="GO:0005524 - ATP binding [Evidence IEA];
+                     GO:0000287 - magnesium ion binding [Evidence IEA];
+                     GO:0042803 - protein homodimerization activity [Evidence
+                     IEA]"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Fic family protein"
+                     /protein_id="WP_159373053.1"
+                     /translation="MDITPIASTYSPELEEKLFEIIRLDAQLDSTVPSTIRDAIEGLL
+                     RVVNSYYSNKIEGNPTKPSELLHLNDESIEYKSKGLLEIKRHIEVQVKLNLQHSNVEE
+                     VTSQDFIKKIHEAFYEQCEPSELQILDSDGITTHQIEPGCYRLTNVRVGPHTPPSPEK
+                     ISAYMSWFSNAYKVKYLPGMSKYWAMAASHHRLAWIHPFLDGNGRVSRLFTDCFMRAI
+                     GLKSYGLWSMSRGFARSSEQYYKYLDIADRQRQGSMDGRGILSDDGLTQFTEYFIDVA
+                     LDQMTYFSSLLEPYKLEERINVYFQLRFNEALFDHKTKKPLKKLPLEAKDIYKTLLHS
+                     GPHSRKELQDKFQISEKKLREIVQVMVKDHLIFAPPKHKLQVRLSPHAVEVLFPYLFQ
+                     "
+     gene            complement(5785..6369)
+                     /locus_tag="ABPAL_RS00575"
+     CDS             complement(5785..6369)
+                     /locus_tag="ABPAL_RS00575"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_009671123.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_159373052.1"
+                     /translation="MQNTPLKQAKAELESARSSIEAMENSKSFEEFERNWRFFLGCLE
+                     KVWAKTERACQDKRNEFQPWQGQFSRLRKKDMLLRYLKQARDADTHSIQEITEIYPGH
+                     TSYKSAHKGSHYIKKMVISNGSLSHYEGDPMIQETVMPHPIAIKVQNNGEWYNPPSKH
+                     LESPIENHHPVTLALLGFKFYSDFIDQVEIKFFS"
+     gene            complement(6583..7263)
+                     /locus_tag="ABPAL_RS00580"
+     CDS             complement(6583..7263)
+                     /locus_tag="ABPAL_RS00580"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_017816334.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DUF3761 domain-containing protein"
+                     /protein_id="WP_216087778.1"
+                     /translation="MIDINKKTLKKIISICILTIFNVGCVSLESPSVSLKTQDKKITS
+                     ETVFLEEKDSINQLLQKVPEPLEVKIVGYVNKDILQMFSSPNRSVVVNHVTRGARVLI
+                     FDTSGNLANISADIEYPYWVDLAGICFTENCWKQENTPTVKSSVNTRKTSPGLIAQPK
+                     PSTQNKRISSNQGKGYANVDGKYVPSPRKANKQPSNATAKCRDGTWSFSLNRRGTCSG
+                     HGGVANWL"
+     gene            complement(7939..8256)
+                     /locus_tag="ABPAL_RS00585"
+     CDS             complement(7939..8256)
+                     /locus_tag="ABPAL_RS00585"
+                     /inference="COORDINATES: similar to AA
+                     sequence:RefSeq:WP_005065053.1"
+                     /note="Derived by automated computational analysis using
+                     gene prediction method: Protein Homology."
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="WP_005264852.1"
+                     /translation="MISQHHHFLKKLSISDAAIAYRKPRSTILKYIKSGDFELDYNNL
+                     IEYSQLVKKFGEINSPIRDERDQQIKKLKDEVMHLKKQLNFFKYTSISNKHRLLISHK
+                     DSI"
+CONTIG      join(CP032122.2:1..8816)
+//
+

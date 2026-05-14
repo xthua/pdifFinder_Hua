@@ -1,0 +1,381 @@
+LOCUS       PP526176               10025 bp    DNA     circular BCT 17-JUN-2025
+DEFINITION  Acinetobacter baumannii strain MSHR_A204 plasmid pMSHR_A204,
+            complete sequence.
+ACCESSION   PP526176
+VERSION     PP526176.1
+KEYWORDS    .
+SOURCE      Acinetobacter baumannii
+  ORGANISM  Acinetobacter baumannii
+            Bacteria; Pseudomonadati; Pseudomonadota; Gammaproteobacteria;
+            Moraxellales; Moraxellaceae; Acinetobacter; Acinetobacter
+            calcoaceticus/baumannii complex.
+REFERENCE   1  (bases 1 to 10025)
+  AUTHORS   Xiao,L., Ambrose,S.J. and Hall,R.M.
+  TITLE     Acinetobacter baumannii plasmid pMSHR_A204-1
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 10025)
+  AUTHORS   Xiao,L., Ambrose,S.J. and Hall,R.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-MAR-2024) School of Life and Environmental Sciences,
+            The University of Sydney, Cnr Butlin Cres and Maze Ave, Sydney, NSW
+            2006, Australia
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: SPAdes v. 3.13.0
+            Assembly Name         :: MSHR_A204
+            Coverage              :: 70
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..10025
+                     /organism="Acinetobacter baumannii"
+                     /mol_type="genomic DNA"
+                     /strain="MSHR_A204"
+                     /isolation_source="Blood"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:470"
+                     /plasmid="pMSHR_A204"
+                     /geo_loc_name="Australia"
+                     /collection_date="23-Dec-2011"
+     CDS             complement(6..221)
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="XAO51210.1"
+                     /translation="MYNPRLLLMSTELVNSANIISFPKPCAFCESTEHVQLFAGLMLC
+                     RSCQENIKITNPDLFATNDQIQQKAQD"
+     repeat_region   1421..1442
+                     /note="iteron 1"
+                     /rpt_type=direct
+     repeat_region   1443..1464
+                     /note="iteron 2"
+                     /rpt_type=direct
+     repeat_region   1465..1486
+                     /note="iteron 3"
+                     /rpt_type=direct
+     repeat_region   1487..1508
+                     /note="iteron 4"
+                     /rpt_type=direct
+     gene            1565..2488
+                     /gene="repA"
+                     /note="R3-T5 repA"
+     CDS             1565..2488
+                     /gene="repA"
+                     /note="replication initiation protein Rep_3 family"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="RepA"
+                     /protein_id="XAO51211.1"
+                     /translation="MKTELIVKDNALINASYNLDLVEQRLILLAIVEARESGKGINAN
+                     DPLTVHAESYINQFGVHRNTAYQALKDACDDLFARQFSYQSLSEKGNIINHKSRWVSE
+                     VAYIDNEAVVRLIFAPAIVPLITRLEEQFTKYEIQQISNLTSAYAVRLYEILIAWRST
+                     GKTPLITLSDFRQKIGVLDTEYKRMYDFKKYVLDIALKQVNEHTDITVKVEQHKTGRS
+                     ITGFSFSFKQKKSVTKSAKSIGVSEDITITLTDAQRYSFASKLSELPEMGKLSQGTES
+                     YEQFAVRIADMLKQPEKLKELTPLLRKVGFQ"
+     CDS             2556..3101
+                     /note="orfX"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="XAO51212.1"
+                     /translation="MKKLSVSELAKLYGYSRQAIYAHINKGNLSKGSDGLIDFAEAIR
+                     VFGEPQKKDTNVNQSQSINSQNLTEVDLLKRQVDILEKQLNQALFRENQSLERESFYQ
+                     DQIEAMQRLLEAPKANMTTFTDQEQSQANVAQVQPEPNIDDPKHDGLTTPENKRIPVP
+                     EHVEPEPKKRGFWSRFFLPYG"
+     misc_recomb     3240..3267
+                     /note="pdif recombination site; XerC/XerD binding site"
+     gene            complement(3318..4439)
+                     /gene="tet39"
+                     /note="confers resistance to tetracycline"
+     CDS             complement(3318..4439)
+                     /gene="tet39"
+                     /note="tetracycline efflux protein; confers resistance to
+                     tetracycline"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Tet39"
+                     /protein_id="XAO51213.1"
+                     /translation="MPILPELLRSLAGAEAGGVHYGALLAVYALMQFIFAPILGALSD
+                     RFGRRPVLIISIAGATADYLLMAAAPSLLWLYIGRIFAGITGANMAVATAYVSDITPA
+                     HERAKRFGLLGAVFGIGFIAGPVIGGVLGEWNLHAPFFAAAFMNGINLIMTAVLLKES
+                     KHSNKMTEKVQEQSILKKLSYLITQPNMAPLLGIFLIITLVSQVPATLWVIYGQDRYG
+                     WSIFIAGVSLASYGICHSIAQAFAIAPMVKRFGEKNTLLCGIACDAIGLLLLSIAVEE
+                     WVPFALLPLFALGGVAVPALQAMMSRGISDERQGELQGLLSSFNSLGAIIGPVLVTSL
+                     YFMTQASAPGMVWALAAILYVITLPLLLKYRLNKYSGVP"
+     gene            4493..5212
+                     /gene="tetR"
+     CDS             4493..5212
+                     /gene="tetR"
+                     /note="repressor"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="TetR"
+                     /protein_id="XAO51214.1"
+                     /translation="MISSQMPSLAMIELIFSHTLPISDRFMSKKDIAPQRLTREIVLR
+                     TALDMLNEEGIDSITTRKLAQRLGIKSPTLYWHFKNKSLLMEAMAETIINEHHLVSLP
+                     IDGMTWQDWLLANSVSFRRALLAYRDGARLHARTSPSQGHFNTIEAQVALLSHAGFSP
+                     VEAVALLMTLGRFIVGWVLEEQQEEIRSDPPFEADPTIYPLMLQGVNTLQNMNADDIF
+                     ENGIRMVIIGAERQLDIKMQT"
+     misc_recomb     5269..5296
+                     /note="pdif recombination site; XerD/XerC binding site"
+     gene            5495..5791
+                     /gene="abkB"
+     CDS             5495..5791
+                     /gene="abkB"
+                     /note="toxin; protein motif Pfam04365"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="AbkB"
+                     /protein_id="XAO51215.1"
+                     /translation="MFFMEQYFEWDEAKNRKNQKKHDVSFETASLVFEDPLRISIQDR
+                     HTDGEERWQTIGKVKGVLMLLVAHTIFDEDDCEIIRIISARQVTKTERNKYEHG"
+     gene            5778..6092
+                     /gene="abkA"
+     CDS             5778..6092
+                     /gene="abkA"
+                     /note="antitoxin; protein motif Pfam14384"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="AbkA"
+                     /protein_id="XAO51216.1"
+                     /translation="MSMVRYSRKELNEKFGEKQDAEIQRLLAKGTVPDDQLDLSDIPE
+                     ITDWNNAVRHNQFYRPVKQQTSIRLDADVLAWFKAQGKGYQTRMNEILRDAMLKELKN
+                     HQ"
+     misc_recomb     6120..6147
+                     /note="pdif recombination site; XerC/XerD binding site"
+     CDS             complement(6142..6459)
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="XAO51217.1"
+                     /translation="MLGKNHHFLKKFSISDAAIAYKKPRSTILKYIKSGDFELDYNKL
+                     IEYSQLVRKFGELTYPIQDEREQQIKKLKDEVMHLKKQLNFFKYTSISNKNRLLISHK
+                     HSI"
+     misc_recomb     6631..6658
+                     /note="pdif recombination site; XerD/XerC binding site"
+     gene            7164..7520
+                     /gene="higB2"
+     CDS             7164..7520
+                     /gene="higB2"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Toxin HigB"
+                     /protein_id="XAO51218.1"
+                     /translation="MWTVITTDLFNEWLEQQDEATQEKVLAALVVLQQQGPSLGRPLV
+                     DTVYDSKFTNMKELRVQHRGKPLRAFFAFDPLRQAIVLCIGDKSNKKRFYTEMLAIAD
+                     EQYALHLSTLGDQSNG"
+     gene            7513..7815
+                     /gene="higA2"
+     CDS             7513..7815
+                     /gene="higA2"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Antitoxin HigA"
+                     /protein_id="XAO51219.1"
+                     /translation="MAKSLQELLASRSPESQARIQKMADELLLESQLHLIREELEISQ
+                     KELAATLGIKQPSLSAIENRGHDLKISTMKKYVEAMGGKLRIDVELPTGKHIGFNV"
+     CDS             7808..8017
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="XAO51220.1"
+                     /translation="MSNNKPLKNSTKLLVNLDKFIFLVNAADSLEEIEIIRDLCCEYF
+                     SHCKRPSYYIDIFDNAYWLKYYEIA"
+     misc_recomb     8026..8053
+                     /note="inactivated pdif recombination site; XerC/XerD
+                     binding site"
+     gene            8168..8710
+                     /gene="sel1"
+     CDS             8168..8710
+                     /gene="sel1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Sel1 repeat family protein"
+                     /protein_id="XAO51221.1"
+                     /translation="MALGVCLSMETFAEPVFSNDLLAKAESGDTSAQLELAEIYLYGH
+                     GVDSDENQAEIWAIKSAENGNVAAMFWLADGYVTYARLIEDDDKNDSLEHFQKAFKWF
+                     QKASENGHSESMVELADLYTRADSGIEVNIKKALELREKAAKLGNKKAMRSLSAMYRD
+                     GIGIPKNTDLAQSWWDKSEN"
+     CDS             8749..9261
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="XAO51222.1"
+                     /translation="MNSVHEIIEKIHNEWEIEPKKAIQRGRECPFPLQCSLNLKSKIY
+                     PQIPQVLLPKVLEDFYTVSNGADLFKDQEYGQWGLKLYSIEEVIFASKIYKSNRNNDA
+                     LQSDLIIGEFYGDSDLLLVRCDPNSDDYGSIFVVLPIDQRQDWYIVANTFQEFISKFY
+                     ETQGDKFWEP"
+     misc_recomb     9346..9373
+                     /note="pdif recombination site; XerC/XerD binding site"
+     misc_recomb     9998..10025
+                     /note="pdif recombination site; XerD/XerC binding site"
+ORIGIN      
+        1 ccaggttaat cctgggcttt ttgttgaatc tgatcattgg tagcaaacag atcaggattg
+       61 gtaattttga tgttttcctg acaactcctg caaagcatca gcccagcaaa aagttgtaca
+      121 tgttccgttg attcacagaa ggcacatggc ttaggaaaag agatgatatt ggctgaattg
+      181 actaattctg ttgacataag aagtaacctt ggattgtaca tatttatttt taataaattt
+      241 caatacttta tacctaattt agccactaaa atttgtacat tattgtataa tccatgtgta
+      301 catattattt tttataattt tcattcactt agacccaaaa tagtatttat ttttgtacaa
+      361 caccatgtac agaacaataa tcatataaat caaattttta gcataaaaaa gtccattaat
+      421 tttgtacaca attctgaaac ttaaaaatct aaactttcat caattttttt cataatttca
+      481 ataaattaac cttaatttta agatatattc tgaaatttgg tttgaaagtt gtttttacat
+      541 tatatttcaa tactttaaat caaaaaattg gatttttttg aaaaactcaa tgaaagttta
+      601 ttttttattt aaaaacaact agttatatta gtttttatcc atttttttga aacagtttct
+      661 atatgataaa aaaacctata aaaaccatat ctagcaaagg tttgagggtt atcatcttta
+      721 gatgcgtggt gtgtgacaaa aaaatcccgg catgtgccgg attctggatt agaaaattgg
+      781 ctaaagtgac gtaggactgg tgcttggttt tacatggaaa aaagtattta ttttctggtt
+      841 tataaaaacg taaaaagatc agtttttgtt cattcatcca ggttaaaaat ttcaacctaa
+      901 aactttaatt atgaaaagct tcacagaaag cattcaaatg cgatttaaga gcctttatct
+      961 aaaaaacata gatcttatag cgaaaaacag aaaacagctc aaaaaacgca aaagagagtg
+     1021 aagtaaagag atgttttgac tttagatagc tgcatagagc gagtgtctac gagcgaacta
+     1081 tcaaaatttg cgtctagact ctctgaaaaa catttttttg ccctctttag cctaagaaag
+     1141 cttaattttc atgcagaaat ttgctcctgg accgagcgta gcgagaaaaa aagctcatga
+     1201 gcgaagcgaa ttccgagttg cttttgcttt ttcttaaagt cacgcaagta ttaaccaaaa
+     1261 aattgccccg acgaactgag cgaaagcgaa gttcaataga gtttgagcga agcgaaaacc
+     1321 aagggcaatt tttcatgacc tgagctttta aatattttta aatcttttaa atgcttttag
+     1381 acatgctgaa agcctttatt tataaaattc ttagagacta taaaacgagg tttaccttgc
+     1441 attaaaacga ggtttacctt gcattaaaac gaggtttacc ttgcattaaa acgaggttta
+     1501 ccttgcatta agcgagttta tgatatagcc tcgtcttatt gaattaaaaa tataaccttt
+     1561 tcatatgaaa acagaactaa tagttaaaga taatgcatta attaatgcca gttataacct
+     1621 tgatctagtc gagcaacggt taattcttct agctatcgtt gaagcaaggg aatcgggtaa
+     1681 gggaataaat gctaatgatc cattaacagt tcatgctgaa agctacatca atcaatttgg
+     1741 tgtacatcga aacacggctt atcaggcatt aaaagatgct tgtgatgatc tatttgcaag
+     1801 acaattcagt tatcaaagtc ttagtgaaaa aggcaacatt attaatcaca agtcaagatg
+     1861 ggtgagtgaa gtcgcttata ttgataatga agcggttgtt agacttattt ttgctcccgc
+     1921 tatcgtgcct ttaattacaa gactagaaga acaatttaca aagtatgaaa tacaacaaat
+     1981 aagcaattta acaagtgctt atgccgttcg gttatatgag atattgattg catggcgtag
+     2041 tacaggaaaa acgcctctta taactttgtc tgatttcaga caaaaaatag gtgtactcga
+     2101 tactgaatac aaacgaatgt atgactttaa aaaatatgtc ttagacattg cattaaagca
+     2161 agtaaatgaa cataccgaca ttactgttaa agttgaacag cataagactg gtagatcaat
+     2221 tacaggtttt tcatttagct ttaaacaaaa aaaatcagtg acgaagtcag ctaaaagtat
+     2281 aggtgtaagc gaagatataa cgatcacttt aacagatgca caacgctatt catttgcgag
+     2341 taaattgtca gagcttccag aaatgggaaa actttcacaa ggcaccgaaa gctatgaaca
+     2401 atttgctgta cggattgcag atatgctaaa acagccggag aaattaaaag aacttactcc
+     2461 attacttcga aaagttggct ttcaataaat gatgtcaatt gacattgtaa agttgacagt
+     2521 caagtattaa cacaaattga aaactggttt acataatgaa aaaactgtca gtttcagagt
+     2581 tggctaagct ttacggatat tcacgacaag ccatatatgc ccatataaac aaaggaaatt
+     2641 tatctaaagg atctgatgga ttaattgact tcgcagaagc cataagagtt tttggggaac
+     2701 cacaaaagaa agatactaat gtcaatcaaa gtcaatcaat taacagtcaa aacttgacag
+     2761 aagttgacct attaaaacgt caagttgaca tactggaaaa acagttaaat caagcactgt
+     2821 ttagagaaaa tcaatcacta gaacgtgaat cgttttatca agatcagatc gaggccatgc
+     2881 agcgcttact agaagcacca aaagccaata tgactacgtt taccgatcaa gaacagtcgc
+     2941 aagcgaatgt agctcaagta cagccagaac ctaatattga tgatcctaaa catgacggat
+     3001 tgactactcc agagaataag cgcattcctg ttccagagca tgttgaacca gagcctaaaa
+     3061 agcgtggctt ctggagtcgt ttttttcttc catatggtta acttaggcta aataaaaccg
+     3121 tggaacattg ctcaataaat aagcgtggaa cgtgaaaaat cataaaaaaa acccaccttg
+     3181 gggaagatgg gctataaact agaaactaca gcattgattt ctaaggaaaa ttataacaca
+     3241 tttcgtataa cgtgtattat gttaatttta gataaactat agaatccatt agtttttaaa
+     3301 ccaataaatt aaatatttta tggaactcca gaatatttat tcaggcgata cttaagcaat
+     3361 aagggtaggg tgattacata aagtattgca gctaatgccc ataccattcc aggagctgat
+     3421 gcctgagtca taaaatagag gctagtaact aatacaggac caattatagc ccccagacta
+     3481 ttaaaactgc ttaatagccc ttgtaattca ccttgtcttt catcactaat acctctggac
+     3541 atcattgctt gcaaagcagg aacggctact ccaccaaggg caaacaatgg taacaacgca
+     3601 aaaggcaccc attcttcaac agcaatagat aaaagaagta aaccaattgc atcgcaagct
+     3661 attccacata acaacgtatt tttctctcca aacctcttta ccataggggc gatagcaaaa
+     3721 gcctgtgcaa tagaatggca tattccataa ctagcaaggg aaacacctgc aataaatata
+     3781 ctccagccat aacgatcctg cccatagata acccataaag ttgcggggac ttgtgaaacc
+     3841 aatgtgataa ttaaaaagat accaagcaat ggagccatat taggttgagt gatcaaatag
+     3901 gataatttct ttaatattga ttgctcctga accttctcag tcattttatt gctgtgtttt
+     3961 gattctttta ataagactgc tgtcattatt aaattaatcc cattcataaa agcagcagca
+     4021 aagaacggtg catgtaagtt ccattcaccc aaaactccac ctattaccgg acccgctata
+     4081 aacccaatac caaagacagc tccaaggaga ccaaaccttt ttgcacgctc atgggctgga
+     4141 gtaatatctg aaacataagc tgttgcaaca gccatgttgg cacctgtaat tcccgcaaaa
+     4201 atacgaccaa tatatagcca caatagagaa ggagcagcag ccattaggag ataatcagcc
+     4261 gttgcaccag caattgaaat aattaataca ggtcgacgtc caaatcggtc actcaacgct
+     4321 ccaaggatag gtgcaaaaat gaactgcatc agagcataca cagctaataa agcaccatag
+     4381 tgaacaccgc ctgcttcagc tccagccaat gaccgtaata attcaggcaa gatcggcata
+     4441 attaaaccaa tcccaacagc atccagaaat atagtgatta aaatcacgct caatgatttc
+     4501 ttcacaaatg ccttctctag caatgataga attaatattc tctcacacac tccctatcag
+     4561 tgatagattt atgagtaaaa aagatattgc acctcaacgt ctgacacgtg aaatagtcct
+     4621 gcgtaccgca ttggatatgt tgaatgaaga aggcatagat tcaataacca cacgcaagct
+     4681 agctcaacga ttgggtatta aatctccaac tctatattgg catttcaaga ataaatcctt
+     4741 gttaatggaa gcaatggcgg aaaccattat aaatgaacac catttagttt ctttacccat
+     4801 cgatgggatg acatggcaag attggttgct cgctaattct gtaagctttc gtcgagcact
+     4861 actagcttac cgtgatggtg ctcgtctaca tgcaagaact agccccagtc aaggacattt
+     4921 caacacgatt gaggcccaag ttgcgctgtt atctcatgct gggttttctc ctgttgaagc
+     4981 agttgcatta cttatgacat taggaaggtt tattgttggg tgggtccttg aggagcagca
+     5041 agaagaaata agatcagacc caccattcga agccgatcca actatatatc cactcatgct
+     5101 ccaaggagtg aataccttac aaaatatgaa tgcggatgac atttttgaaa atgggattcg
+     5161 tatggtgatt atcggtgctg aaagacaact tgatattaaa atgcaaactt aactctatac
+     5221 tgctttaagc aactgttcta tttagtaata aagcttttat ccttaattat ttaacataat
+     5281 agcgcttata cgaaacgcat cctaaaatag ctatatattt caaaaagtta tgctataaaa
+     5341 aattgggacg caaaacctaa aaaaccgact tggaaacaag tcggcttttt tatgaacatt
+     5401 tttgatagtt cttgccaata aatctgacta aaaattacgc ttttcagctt gagtgataca
+     5461 attttgtgat acattattgt atatacaaat ttgaatgttt tttatggaac agtatttcga
+     5521 atgggatgag gcaaagaatc gaaagaatca gaaaaagcac gatgtctctt tcgaaacagc
+     5581 aagccttgtt tttgaagatc cattacggat ctcaatccaa gacagacata ccgatggtga
+     5641 agaacgttgg caaaccatcg gaaaagtaaa aggcgtacta atgttattgg tggctcacac
+     5701 catttttgat gaagatgact gtgaaatcat acgaatcatt agtgcaaggc aagtcaccaa
+     5761 aacggagcga aacaaatatg agcatggtta gatactcacg caaagagctg aatgagaaat
+     5821 ttggtgagaa gcaagatgct gaaattcaac gcttgcttgc taaaggcact gttcctgatg
+     5881 atcagctaga tctatcagat attcctgaaa ttacagactg gaacaatgcg gtacgccata
+     5941 atcagttcta ccgtccagtg aagcaacaga cttccattcg tttagatgct gatgtgcttg
+     6001 cttggttcaa agcacaaggg aaaggttatc aaacacgtat gaatgaaatc ttacgggatg
+     6061 ctatgctaaa agaattaaaa aatcatcaat aaaaatggga gcttaggctc ccatttttag
+     6121 attcgtataa cgcacattat gttaaatgga atgtttatga gaaattaata gtctattttt
+     6181 gtttgagatt gaagtatatt taaaaaagtt aagttgtttt tttaaatgca taacttcatc
+     6241 ttttagtttt ttgatttgtt gctctctttc gtcctgtata gggtaagtaa gttcaccaaa
+     6301 ttttctaact aactgactgt attcaatcaa tttattgtag tcaagttcga aatctccgct
+     6361 ttttatatat ttaagtatag tcgagcgagg ttttttatac gctatagcag catcactgat
+     6421 cgaaaatttt tttaaaaaat gatgattttt acctagcata ctatttcact taaggcatta
+     6481 ttaatttcgt atatatatgt taataaaatt aacacataca agatataaat ctttaatcat
+     6541 tattggttaa taatcgaacg tttactttac acatgcccta ctctgataat ttttctatta
+     6601 ttaaatcaat atgcttttaa aaatttatat tattaacata atacacgtta tccgaaatgg
+     6661 ccctttaagt ttactttaag atcaacaact tacattgagt taaacccctg gaacgatctc
+     6721 gttcaaccga tttagaaata aatcggtttt tttatgttca attctgatac ttcttgccaa
+     6781 taaaattggt taaaaaatga tcaaaaatac caatttcata gagtttgtaa gcctttttta
+     6841 cccaaaagaa tccacaattt atgcggataa ccattgggat aaattttgat tattttttgt
+     6901 acgttttggc ttacagcgtt tcacgaaatt gtctgtatct atcccccgat gaagctctta
+     6961 tgatcgatct atatggacag gatgttcaat gacttaaaac aacaataata atcagtcagg
+     7021 caccatgacc atcaggtagt cagccctacc tatgcgctcc ataccgaaaa atcccgacat
+     7081 gacgtcggga ttttttattg ccatttgcaa agtcattcaa tcagatttaa tatatagact
+     7141 gtaatctata ttgtgattgt aatatgtgga cagtcattac aacggatctg tttaatgaat
+     7201 ggcttgaaca gcaagatgaa gcaacacaag agaaagtctt agctgcattg gttgttctac
+     7261 aacagcaagg gcctagttta ggtcgtcctt tagtagatac cgtctacgat tctaaattta
+     7321 ccaatatgaa ggaactacgt gttcagcatc gtggtaaacc gttaagggca ttttttgcat
+     7381 tcgatcccct aagacaagcg attgtgctgt gtattggtga taagagtaat aaaaagcgtt
+     7441 tttatacaga gatgctagca attgcagatg agcaatacgc acttcatctc tcaactttag
+     7501 gagatcaatc taatggctaa gagcttacaa gaattattgg ctagtcgctc tccagagagt
+     7561 caagctcgta ttcaaaaaat ggctgatgaa ttacttttag aaagtcagct tcaccttatc
+     7621 cgagaagagt tagaaatttc ccagaaagaa ctagctgcaa cccttggaat taaacagccg
+     7681 tcattatcag caatcgaaaa tcgtggtcat gatcttaaaa tttcaacgat gaaaaagtat
+     7741 gttgaagcaa tgggtggaaa acttcgtatt gatgtagagc ttccaacagg aaaacacata
+     7801 gggttcaatg tctaataata aacctttgaa aaatagtact aaattacttg ttaacttaga
+     7861 caaatttata tttttagtca atgctgccga tagcctagaa gaaattgaaa ttattagaga
+     7921 tttatgctgt gaatattttt cacattgtaa gaggccaagc tattacattg atatttttga
+     7981 caatgcttat tggttaaaat attacgaaat agcttaatcc ttctagattc gcataagagt
+     8041 ttctatgtta aataggacta aaaatatact ctaattttag agttttcttt taggtatgat
+     8101 gtaaaaacat acaagcctaa gagtttaatt taaaggttaa gaattgaata aattagtaaa
+     8161 tatttttatg gctttaggag tttgcctttc aatggaaaca tttgcagaac ctgttttttc
+     8221 taatgattta ttagcgaaag cagaaagtgg agatacttct gcccagttag aattagctga
+     8281 gatttatcta tatggtcatg gtgttgattc agatgaaaat caagctgaaa tttgggctat
+     8341 taaatcagct gaaaatggaa atgtagcagc aatgttttgg ttagctgatg gatatgttac
+     8401 ctatgctaga ttaatagagg atgatgacaa aaacgattct ttagaacatt tccaaaaagc
+     8461 ttttaagtgg tttcagaaag cttcagaaaa tggtcattct gaatcaatgg ttgagttagc
+     8521 tgacctatat actcgcgcag atagcggaat agaagttaat attaagaaag ctttagaact
+     8581 tcgtgaaaag gctgcaaagt taggtaataa gaaagcaatg cgaagtcttt ccgctatgta
+     8641 tcgtgatggt ataggcattc ctaaaaatac tgatttagct caaagttggt gggataagtc
+     8701 tgaaaattaa ttttagtaaa agttaaggat tttttaagag tctaataaat gaatagtgtt
+     8761 catgaaatta tagaaaaaat acataatgaa tgggagattg aacctaagaa agctattcag
+     8821 agaggtaggg aatgtccctt tcctttgcag tgttcattaa acctaaaaag caaaatttac
+     8881 ccacaaatac cccaagtact tttaccaaaa gtattagagg atttttatac agtatctaat
+     8941 ggtgcagatc tatttaaaga tcaagaatac ggacaatggg gcttaaaatt atattctatt
+     9001 gaggaagtaa tttttgcttc aaaaatttat aaaagtaatc gtaataatga cgctcttcaa
+     9061 agtgacttaa ttattggaga attctatgga gattcagact tattgttagt tcgatgtgat
+     9121 cctaatagtg atgattacgg ctctattttt gttgtcttac ctatagatca aagacaagat
+     9181 tggtacattg ttgctaatac ttttcaagaa ttcattagta aattttatga aactcagggt
+     9241 gataaattct gggaacctta aaattatatg gccgatataa gctctattta acttatgttc
+     9301 acctaaaatt tatttaatta tcacaaaaat agtatcattt tttgaatttc atataacgca
+     9361 cattatgtta aatggattaa aatggagtca tttatctgaa aggattttta agatattcct
+     9421 tcaccataga aataattaat agtataccaa tcaaaactag aactgctata agaatccaga
+     9481 acatacaaac cacaaatatt aaacattaat aatacaataa taatattttt ctgagcatta
+     9541 agtaactcat atttagacta ttttgcaagt ttaggctttt gttaagtttt aattaacagt
+     9601 aaattttttc taattggtat agaatttaga agtagcaagc tatttaattg tttcttatgg
+     9661 aaaaaaagta aagaatctct atctgagaaa agatgagcac aaatttattt tgcaatcaat
+     9721 attcatttgt agggctaagt atcaaaagtg gacgaatgaa gagatcaatg aagtgataga
+     9781 gaaaactata tatgaagata aaattagggt gtatgagatt ttattgagct tggcaaaaaa
+     9841 attctcgatc agatgtcttg ccttatagga ggcatcccag tagtgggcta tattttgcag
+     9901 cagaacaagc tgacaaaaaa atgtatgaga ataagcaaaa aattaaatca gctttaaaat
+     9961 tagttgcaga agctatttaa attttatatt aactaaaaat taacataata caccttatac
+    10021 gaagc
+//
+
